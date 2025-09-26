@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Coding — Mindscape Mission Control</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="assets/css/site.css"></head><body>
+<div class="wallpaper"></div>
+<header><div class="row"><div class="logo">💻 Coding</div><span class="badge" id="pathBadge">Path: Java</span></div>
+<nav>
+<a href="/">Dashboard</a>
+<a href="/coding.html">Coding</a>
+<a href="/modeling.html">3d Modeling</a>
+<a href="/sidequest-blockbench.html">Side Quest</a>
+<a href="/tutorials.html">Tutorials</a>
+<a href="/bedrock-vs-java.html">Bedrock vs Java</a>
+<a href="/library/">Assets</a>
+<a href="/notebook.html">Notebook</a>
+<a href="/ai.html">AI Tools</a>
+</nav></header>
+<main><section class="grid">
+<div class="card"><h3>Open & Go — Shortcuts</h3><table><tr><th>What</th><th>Action</th></tr>
+<tr><td>Run Dev Client</td><td><code>C:\Dev\Minecraft_SharkGun_Mod\1_run_dev_client.bat</code></td></tr>
+<tr><td>New Item Script</td><td><code>C:\Dev\Minecraft_SharkGun_Mod\2_new_item.ps1</code></td></tr>
+<tr><td>Build Release</td><td><code>C:\Dev\Minecraft_SharkGun_Mod\3_build_release.bat</code></td></tr>
+<tr><td>Fix Issues</td><td><code>C:\Dev\Minecraft_SharkGun_Mod\4_fix_common_issues.bat</code></td></tr>
+</table><small class="muted">Right-click each → Create shortcut → Pin to taskbar.</small></div>
+<div class="card"><h3>Today’s Mission</h3><ol><li>Run Dev Client.</li><li>Create an item: <b>2_new_item.ps1</b> → <code>shark_gun</code>, “Shark Gun”.</li><li>Replace the placeholder PNG with your art.</li><li>Test with <code>/give @p sharkgun:shark_gun</code>.</li></ol><label><input type="checkbox" data-quest-id="code-1"> Completed (+5 XP)</label></div>
+<div class="card"><h3>Common fixes</h3><ul><li><b>Build stuck</b> → run <code>4_fix_common_issues.bat</code>.</li><li><b>Mojang DNS</b> → set DNS to 1.1.1.1 / 8.8.8.8; <code>gradlew --refresh-dependencies</code>.</li><li><b>Weird characters in code</b> → save Java files as UTF-8 (no BOM).</li></ul></div>
+</section></main><div class="toast" id="toast"></div><script src="/assets/js/site.js"></script></body></html>

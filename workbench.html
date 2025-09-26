@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Workbench — Notes & AI</title>
+    <meta name="page-wallpaper" content="/public/wallpapers/IMG_0889.JPG">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/kid.css">
+</head>
+<body>
+<div class="wallpaper"></div>
+
+<header>
+    <div class="row"><div class="logo">Workbench</div><span class="badge">Notes + Brainstorm</span></div>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/coding.html">Coding</a>
+        <a href="/modeling.html">3D Modeling</a>
+        <a href="/tutorials.html">Tutorials</a>
+        <a href="/library/">Assets</a>
+        <a class="active" href="/workbench.html">Workbench</a>
+    </nav>
+</header>
+
+<main class="grid">
+    <section class="card" style="grid-column:span 12">
+        <h2>Ideas, todos, snippets</h2>
+        <textarea id="notepad" rows="12" style="width:100%"></textarea>
+        <small class="muted">Autosaves to this browser.</small>
+    </section>
+
+    <section class="card">
+        <h3>AI Brainstorm (optional)</h3>
+        <input id="geminiKey" type="text" placeholder="Gemini API key (optional)">
+        <button id="askAI" class="btn small">Save Key</button>
+        <p class="muted">No key? That’s fine—use the tutorials for prompts and ideas.</p>
+    </section>
+</main>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

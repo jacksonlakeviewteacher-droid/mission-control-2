@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Java Path — Mindscape</title>
+
+    <!-- Set any wallpaper you like here -->
+    <meta name="page-wallpaper" content="/public/wallpapers/weapons_workshop_minecraft.png">
+
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/kid.css">
+</head>
+<body>
+<div class="wallpaper"></div>
+
+<header>
+    <div class="row">
+        <div class="logo">🧪 Java Path</div>
+        <span class="badge">Forge + IntelliJ</span>
+    </div>
+    <nav>
+        <a href="/">Choose Path</a>
+        <a href="/library/">Assets</a>
+        <a href="/notebook.html">Notebook</a>
+        <a href="/ai.html">AI Tools</a>
+    </nav>
+</header>
+
+<main>
+    <section class="card callout" style="text-align:center">
+        <h2>Pick your portal</h2>
+
+        <!-- RADIAL MENU -->
+        <div class="radial-portal" id="javaRadial" data-radius="230">
+            <!-- center badge (use any round image) -->
+            <img class="center-badge" src="/public/wallpapers/bc_welcome_to_the_mindscape_wallpaper.webp" alt="Mindscape core">
+
+            <!-- nodes (icons) -->
+            <a class="node" href="/coding.html"      data-label="Coding"       data-icon="/public/gui/UI_Different_Free_Wenrexa1 (Unzipped Files)/PNG/CellBig_02.png"></a>
+            <a class="node" href="/modeling.html"    data-label="3D Modeling"  data-icon="/public/gui/UI_Different_Free_Wenrexa1 (Unzipped Files)/PNG/Btn_V03.png"></a>
+            <a class="node" href="/tutorials.html"   data-label="Tutorials"    data-icon="/public/gui/UI_Different_Free_Wenrexa1 (Unzipped Files)/PNG/Window03_Btn.png"></a>
+            <a class="node" href="/library/"         data-label="Assets"       data-icon="/public/gui/UI_Different_Free_Wenrexa1 (Unzipped Files)/PNG/Btn_V18.png"></a>
+            <a class="node" href="/notebook.html"    data-label="Notebook"     data-icon="/public/gui/UI_Different_Free_Wenrexa1 (Unzipped Files)/PNG/Window03_Btn.png"></a>
+            <a class="node" href="/ai.html"          data-label="AI Helper"    data-icon="/public/gui/UI_Different_Free_Wenrexa1 (Unzipped Files)/PNG/CellBig_02.png"></a>
+        </div>
+
+        <p class="muted small" style="margin-top:10px">
+            Tip: icons are just PNGs with transparency — swap them by changing each node’s <code>data-icon</code>.
+        </p>
+    </section>
+
+    <section class="card tip">
+        <b>Quick Start</b>
+        <ol>
+            <li>Open IntelliJ → <code>C:\Dev\Minecraft_SharkGun_Mod</code></li>
+            <li>Run <b>runClient</b> (or your helper .bat)</li>
+            <li>Grab textures/sounds from the <a href="/library/">Asset Library</a></li>
+        </ol>
+    </section>
+</main>
+
+<!-- Bill overlay (click for quip / optional voice) -->
+<div class="sprite-layer">
+    <img class="sprite bill sprite-quip" src="/public/sprites/sprite_bill_bill_cipher_handshake.png" alt="Bill">
+    <div class="bubble" id="billBubble" hidden></div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js"></script>
+</body>
+</html>
+

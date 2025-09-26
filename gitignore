@@ -1,0 +1,24 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Node / web builds
+node_modules/
+dist/
+build/
+
+# Java / Gradle
+.gradle/
+out/
+build/
+
+# Project-specific
+public/staging/
+*.tmp
+*.log
+# Ignore large archives
+*.rar
+*.zip
+*.7z

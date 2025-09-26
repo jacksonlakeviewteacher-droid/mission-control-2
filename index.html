@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Mindscape — Choose Your Path</title>
+    <meta name="page-wallpaper" content="/public/wallpapers/weapons_workshop_minecraft.png">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/kid.css">
+</head>
+<body>
+<div class="wallpaper"></div>
+<header>
+    <div class="row">
+        <div class="logo">🌀 Mindscape Mission Control</div>
+    </div>
+    <nav>
+        <a href="/" class="active">Choose Path</a>
+        <a href="/library/">Assets</a>
+        <a href="/notebook.html">Notebook</a>
+        <a href="/ai.html">AI Tools</a>
+    </nav>
+</header>
+
+<main>
+    <section class="card callout">
+        <h2>Two ways to build a Shark Gun</h2>
+        <div class="grid">
+            <article class="card portal-card">
+                <h3>Java Mod (Forge)</h3>
+                <ul>
+                    <li>Most power + flexibility</li>
+                    <li>Write Java code (IntelliJ)</li>
+                    <li>PC only</li>
+                </ul>
+                <a class="portal-link" href="/path/java.html" data-icon="/public/gui/UI_Different_Free_Wenrexa1 (Unzipped Files)/PNG/Window03_Btn.png">Enter Java Portal</a>
+            </article>
+            <article class="card portal-card">
+                <h3>Bedrock Add-on</h3>
+                <ul>
+                    <li>Fast start (JSON files)</li>
+                    <li>Works on PC/mobile/console</li>
+                    <li>Less deep changes</li>
+                </ul>
+                <a class="portal-link secondary" href="/path/bedrock.html" data-icon="/public/gui/UI_Different_Free_Wenrexa1 (Unzipped Files)/PNG/Btn_V18.png">Enter Bedrock Portal</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Optional: small explainer -->
+    <section class="card">
+        <h3>What’s the difference?</h3>
+        <div class="grid">
+            <div class="card"><b>Java</b><p>Code new behaviors, items, entities with full control (Forge). You’ll use IntelliJ + Gradle.</p></div>
+            <div class="card"><b>Bedrock</b><p>Tweak via JSON add-ons and resources. Quick to start and cross-platform.</p></div>
+        </div>
+    </section>
+</main>
+
+<!-- Bill sprite overlay -->
+<div class="sprite-layer">
+    <img class="sprite bill sprite-quip" src="/public/sprites/sprite_bc_space.png" alt="Bill" title="Click me">
+    <div class="bubble" id="billBubble" hidden></div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js"></script>
+</body>
+</html>
+
+

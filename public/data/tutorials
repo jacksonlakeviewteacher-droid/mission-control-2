@@ -1,0 +1,127 @@
+{
+  "Java Modding (Forge/NeoForge)": [
+    {
+      "title": "Forge 1.21: Getting Started (official docs)",
+      "url": "https://docs.minecraftforge.net/en/1.21.x/gettingstarted/",
+      "why": "Official checklist (JDK 21, Gradle, runClient/build).",
+      "tags": ["Forge", "1.21", "setup"]
+    },
+    {
+      "title": "Forge Docs: Dev Guide (concepts & runs)",
+      "url": "https://docs.minecraftforge.net/en/1.21.x/forgedev/",
+      "why": "How runs work, what the MDK provides, what to test.",
+      "tags": ["Forge", "concepts"]
+    },
+    {
+      "title": "NeoForge 1.21 Setup (official)",
+      "url": "https://docs.neoforged.net/docs/1.21.1/gettingstarted/",
+      "why": "If a template you grab is NeoForge, follow this.",
+      "tags": ["NeoForge", "1.21", "setup"]
+    },
+    {
+      "title": "McJty: Forge 1.20 Fundamentals (series hub)",
+      "url": "https://www.mcjty.eu/docs/1.20/ep1",
+      "why": "Very clear pacing for the basics; still relevant to 1.21.",
+      "tags": ["Forge", "blocks", "items"]
+    }
+  ],
+
+  "Blockbench (models for items/mobs)": [
+    {
+      "title": "Blockbench Quickstart (official)",
+      "url": "https://www.blockbench.net/quickstart",
+      "why": "Fast orientation to the UI and exporting.",
+      "tags": ["Blockbench", "beginner"]
+    },
+    {
+      "title": "Bedrock Modeling & Animation (official guide)",
+      "url": "https://www.blockbench.net/wiki/guides/animations/bedrock-modeling-guide",
+      "why": "Explains Bedrock-style rigs/animations for later.",
+      "tags": ["Blockbench", "Bedrock", "animation"]
+    }
+  ],
+
+  "Pixel Art / Texturing (Aseprite)": [
+    {
+      "title": "Aseprite: Drawing Basics (official manual)",
+      "url": "https://www.aseprite.org/docs/drawing/",
+      "why": "Brushes, layers, palette—the essentials.",
+      "tags": ["Aseprite", "basics"]
+    },
+    {
+      "title": "Aseprite: Timeline & Animation (official)",
+      "url": "https://www.aseprite.org/docs/timeline/",
+      "why": "For simple glow/idle loops on items.",
+      "tags": ["Aseprite", "animation"]
+    },
+    {
+      "title": "Aseprite: Community starter thread",
+      "url": "https://community.aseprite.org/t/new-to-aseprite-its-not-just-you/1515",
+      "why": "Good roundup of beginner resources.",
+      "tags": ["Aseprite", "help"]
+    }
+  ],
+
+  "Sound / SFX (Audacity)": [
+    {
+      "title": "Audacity: Reference Manual",
+      "url": "https://manual.audacityteam.org/",
+      "why": "Up-to-date help, menu by menu.",
+      "tags": ["Audacity", "manual"]
+    },
+    {
+      "title": "Audacity: Tour Guide",
+      "url": "https://manual.audacityteam.org/man/audacity_tour_guide.html",
+      "why": "10-minute click-through of core tools.",
+      "tags": ["Audacity", "tour"]
+    },
+    {
+      "title": "Audacity: Quick Help / Getting Started",
+      "url": "https://manual.audacityteam.org/man/help_menu.html",
+      "why": "Fast path to record, edit, and export to WAV/MP3.",
+      "tags": ["Audacity", "quickstart"]
+    }
+  ],
+
+  "Bedrock Add-ons (optional path)": [
+    {
+      "title": "Minecraft Creator Learning Portal",
+      "url": "https://www.minecraft.net/en-us/creator/",
+      "why": "Official hub with add-on guides and Entity Wizard intro.",
+      "tags": ["Bedrock", "official"]
+    },
+    {
+      "title": "Bedrock Wiki: Project Setup",
+      "url": "https://wiki.bedrock.dev/guide/project-setup",
+      "why": "Where the com.mojang folders live, RP/BP manifests.",
+      "tags": ["Bedrock", "setup"]
+    },
+    {
+      "title": "Add-Ons Explained (Bedrock Wiki)",
+      "url": "https://wiki.bedrock.dev/guide/addons",
+      "why": "RP vs BP in plain English, what JSON drives.",
+      "tags": ["Bedrock", "concepts"]
+    },
+    {
+      "title": "Blockbench Entity Wizard (Microsoft Docs)",
+      "url": "https://github.com/MicrosoftDocs/minecraft-creator/blob/main/creator/Documents/MinecraftEntityWizard.md",
+      "why": "Step-by-step to make a mob preset and export.",
+      "tags": ["Bedrock", "Blockbench"]
+    }
+  ],
+
+  "Inspiration (clean / creative)": [
+    {
+      "title": "Hermitcraft-style Redstone & Builds (MumboJumbo)",
+      "url": "https://www.youtube.com/@ThatMumboJumbo",
+      "why": "Ingenious builds and presentation; good ‘why’ thinking.",
+      "tags": ["inspiration", "builds"]
+    },
+    {
+      "title": "Classic Minecraft Vibes (CaptainSparklez)",
+      "url": "https://www.youtube.com/@CaptainSparklez",
+      "why": "Iconic Minecraft content; fun, safe vibe.",
+      "tags": ["inspiration", "classic"]
+    }
+  ]
+}

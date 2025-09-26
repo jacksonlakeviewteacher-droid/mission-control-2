@@ -1,0 +1,24 @@
+{
+  "quips": [
+    {
+      "id": "q1",
+      "text": "Bill: Nice checkbox flick\u2014progress is a pyramid scheme and you're at the top."
+    },
+    {
+      "id": "q2",
+      "text": "Bill: Shark idea? Bite-sized tasks, chomp through one at a time."
+    },
+    {
+      "id": "q3",
+      "text": "Bill: Texture looks crispy. Did you season it with pixels?"
+    },
+    {
+      "id": "q4",
+      "text": "Bill: If it compiles, we ride. If it crashes, we learn."
+    },
+    {
+      "id": "q5",
+      "text": "Bill: Export early, export often. Future-you says thanks."
+    }
+  ]
+}

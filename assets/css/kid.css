@@ -1,0 +1,125 @@
+/* ========= Mindscape — Theme/Overrides (kid.css) ========= */
+
+/* Slight neon glow on headings */
+h1,h2,h3{ text-shadow:0 0 24px rgba(157,123,255,.18) }
+
+/* Stronger card edges for contrast */
+.card{ backdrop-filter:saturate(120%) blur(4px) }
+
+/* ------- Portals (big icon tiles) ------- */
+.portal-card{ text-align:center }
+.portal-link{
+  --icon-url:none;
+  display:inline-block;
+  text-decoration:none; color:#f2f6ff;
+  background:radial-gradient(120% 120% at 50% -10%, rgba(157,123,255,.25), rgba(20,27,47,.6) 40%);
+  border:1px solid rgba(146,164,255,.28);
+  border-radius:18px; padding:14px 16px; min-width:240px;
+  box-shadow:0 12px 28px rgba(0,0,0,.35), inset 0 0 0 1px rgba(255,255,255,.06);
+  transition:transform .12s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.portal-link.secondary{ background:radial-gradient(120% 120% at 50% -10%, rgba(138,245,255,.18), rgba(20,27,47,.6) 40%); }
+.portal-link.big{ font-size:1.05rem; padding:18px 20px; border-radius:20px; min-width:260px }
+.portal-link:hover{ transform:translateY(-2px); border-color:rgba(255,255,255,.38); box-shadow:0 18px 36px rgba(0,0,0,.45) }
+
+.portal-link::before{
+  content:""; display:block; width:96px; height:96px; margin:0 auto 10px auto;
+  background-image:var(--icon-url); background-size:contain; background-position:center; background-repeat:no-repeat;
+  opacity:.95; filter:drop-shadow(0 8px 18px rgba(0,0,0,.55));
+}
+
+/* ------- Sprite layer & Bill speech bubble ------- */
+.sprite-layer{ position:fixed; inset:0; pointer-events:none; z-index:60 }
+.sprite{
+  position:absolute; right:24px; top:24px; width:88px;
+  pointer-events:auto; cursor:pointer;
+  filter:drop-shadow(0 8px 18px rgba(0,0,0,.55));
+  user-select:none;
+}
+.bubble{
+  position:absolute; right:120px; top:22px; max-width:360px;
+  background:#0e1533; color:#e6f7ff;
+  border:1px solid rgba(124,255,255,.3);
+  border-radius:14px; padding:10px 12px;
+  box-shadow:0 16px 36px rgba(0,0,0,.45);
+}
+.bubble[hidden]{ display:none }
+
+/* Little arrow pointing to the sprite */
+.bubble::after{
+  content:""; position:absolute; right:-10px; top:18px;
+  border:10px solid transparent; border-left-color:#0e1533;
+  filter:drop-shadow(-2px 2px 0 rgba(124,255,255,.18));
+}
+
+/* ------- Asset tiles polish ------- */
+.asset{ backdrop-filter:saturate(120%) }
+.asset img{ aspect-ratio: 16 / 10 }
+
+/* ------- Toast emphasis ------- */
+.toast{ border-color:rgba(138,245,255,.35) }
+
+/* ------- Focus Mode (body.kid) ------- */
+/* Tone down noise & edges for “deep work” */
+body.kid .wallpaper::after{ background:linear-gradient(180deg, rgba(7,10,20,.78), rgba(7,10,20,.78)) }
+body.kid .card{ background:rgba(16,22,39,.82) }
+body.kid .portal-link{ transform:none !important; box-shadow:var(--shadow-sm) }
+body.kid nav a{ opacity:.85 }
+
+/* --------- Helpers for tight sections --------- */
+section.card h2, h2{ margin:6px 0 10px }
+.small{ font-size:.9rem }
+
+/* --------- Mini badges and labels --------- */
+.badge{ background:rgba(138,245,255,.12); border-color:rgba(138,245,255,.35); color:#e9fdff }
+
+/* --------- Progress ring accent --------- */
+.progress{ background:
+  conic-gradient(var(--primary) var(--p), rgba(42,47,69,.6) 0),
+  radial-gradient(circle at 50% 50%, rgba(20,27,47,1) 56%, transparent 57%);
+}
+
+/* --------- Reduce default link underline noise --------- */
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+/* ----- Radial portal layout ----- */
+.radial-portal{
+  position:relative;
+  width:min(700px, 92vw); height:min(700px, 92vw);
+  margin:10px auto 0; isolation:isolate;
+}
+.radial-portal .center-badge{
+  position:absolute; left:50%; top:50%;
+  width:40%; max-width:260px; aspect-ratio:1/1; border-radius:50%;
+  transform:translate(-50%,-50%);
+  object-fit:cover; border:1px solid rgba(255,255,255,.18);
+  box-shadow:0 18px 36px rgba(0,0,0,.45);
+}
+.radial-portal .node{
+  position:absolute; left:50%; top:50%; transform:translate(-50%,-50%);
+  width:96px; height:96px; border-radius:50%;
+  display:grid; place-items:center; text-decoration:none; color:#eaf2ff;
+  background:radial-gradient(120% 120% at 50% -10%, rgba(138,245,255,.18), rgba(20,27,47,.65) 45%);
+  border:1px solid rgba(146,164,255,.28);
+  box-shadow:0 12px 24px rgba(0,0,0,.45), inset 0 0 0 1px rgba(255,255,255,.06);
+  transition:transform .12s ease, box-shadow .2s ease;
+}
+.radial-portal .node::before{
+  content:""; width:68px; height:68px; border-radius:50%;
+  background:var(--icon-url) center/contain no-repeat;
+  filter:drop-shadow(0 8px 18px rgba(0,0,0,.55));
+}
+.radial-portal .node::after{
+  content:attr(data-label);
+  position:absolute; top:102%; left:50%; transform:translateX(-50%);
+  font-size:.9rem; white-space:nowrap; color:#dfe7ff; text-shadow:0 2px 10px rgba(0,0,0,.6);
+}
+.radial-portal .node:hover{ transform:translate(-50%,-50%) scale(1.06); box-shadow:0 18px 34px rgba(0,0,0,.55) }
+
+/* Mobile: fall back to neat grid */
+@media (max-width:640px){
+  .radial-portal{ height:auto; width:100%; display:grid; gap:12px }
+  .radial-portal .center-badge{ position:static; transform:none; margin:0 auto 8px }
+  .radial-portal .node{ position:static; transform:none; margin:0 auto; width:86px; height:86px }
+  .radial-portal .node::after{ top:106% }
+}

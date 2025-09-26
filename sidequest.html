@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Side Quest — Mission Control</title>
+  <style>
+    :root{--bg:#101318;--card:#171b22;--text:#e6e8ec;--muted:#9aa4b2;--accent:#6ee7ff}
+    body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,Segoe UI,Roboto}
+    .wrap{max-width:960px;margin:40px auto;padding:0 16px}
+    .card{background:var(--card);border:1px solid #232a34;border-radius:16px;box-shadow:0 8px 24px rgba(0,0,0,.35);padding:20px}
+    a{color:var(--accent);text-decoration:none}
+    header{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+    .btn{display:inline-block;border:1px solid #2a323f;border-radius:10px;padding:8px 12px}
+    ul{margin-left:1rem}
+    .tip{color:var(--muted);font-size:0.95rem}
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="btn" href="index.html">← Back to Mission Control</a>
+    <h1>Side Quest</h1>
+  </header>
+  <div class="card">
+    <h2 id="title">Blockbench Intro</h2>
+    <p class="tip">Follow the steps, download assets from <code>/public/...</code>, and check off items on the main dashboard.</p>
+    <ol>
+      <li>Watch: <a href="https://www.youtube.com/results?search_query=blockbench+beginner+tutorial" target="_blank" rel="noopener">Blockbench Beginner Tutorial</a></li>
+      <li>Open Blockbench → Make a simple cube model → Export <code>.bbmodel</code> to <code>/public/models/</code>.</li>
+      <li>Texture an edge → export PNG to <code>/public/sprites/</code>.</li>
+      <li>Return to <a href="index.html">Mission Control</a> and mark quest complete.</li>
+    </ol>
+  </div>
+</div>
+</body>
+</html>

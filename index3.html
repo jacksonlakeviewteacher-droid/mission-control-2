@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Mindscape Mission Control</title>
+<style>
+:root{--bg:#0b0f1a;--panel:#12192b;--muted:#7aa2f7;--text:#e6edf3}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 ui-sans-serif,system-ui,Segoe UI}
+header{display:flex;justify-content:space-between;align-items:center;padding:12px 16px;background:linear-gradient(90deg,#0b0f1a,#11162a)}
+h1{font-size:18px;margin:0}.tabs{display:flex;gap:8px}.tab{padding:8px 12px;border:1px solid #1f2a44;border-radius:10px;background:#0f1526;cursor:pointer}.tab.active{outline:2px solid var(--muted)}
+main{max-width:1100px;margin:18px auto;padding:0 12px}.card{background:#12192b;border:1px solid #1f2a44;border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+button{background:#1a2440;color:var(--text);border:1px solid #2a3863;padding:10px 14px;border-radius:10px;cursor:pointer}
+input[type=text]{background:#0f1526;color:var(--text);border:1px solid #253257;border-radius:8px;padding:10px;width:100%}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.preview{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:10px;border:1px solid #24345e;background:#0f1526}
+.monosmall{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px}.muted{color:#9fb3d8}.hr{height:1px;background:#1f2a44;margin:12px 0}
+</style></head>
+<body>
+<header><h1>Mindscape Mission Control — v1</h1><nav>
+<a href="/">Dashboard</a>
+<a href="/coding.html">Coding</a>
+<a href="/modeling.html">3d Modeling</a>
+<a href="/sidequest-blockbench.html">Side Quest</a>
+<a href="/tutorials.html">Tutorials</a>
+<a href="/bedrock-vs-java.html">Bedrock vs Java</a>
+<a href="/library/">Assets</a>
+<a href="/notebook.html">Notebook</a>
+<a href="/ai.html">AI Tools</a>
+</nav></header>
+<main>
+<section class="card" data-page="dash">
+  <h2>Quick Actions</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Set Wallpaper</h3>
+      <p class="muted">Pick any image from <span class="monosmall">/public/wallpapers</span>.</p>
+      <div class="row"><input id="wallpaperPath" placeholder="public/wallpapers/sample_wallpaper.jpg"/><button id="btnSetWallpaper">Apply</button></div>
+      <div class="hr"></div><img id="wallPreview" class="preview" alt="wallpaper preview"/>
+    </div>
+    <div class="card">
+      <h3>Library</h3>
+      <p class="muted">Load <span class="monosmall">public/data/asset_index.json</span> to browse assets.</p>
+      <div class="row"><input id="libFile" type="file" accept="application/json"/><button id="btnLoadLib">Load</button></div>
+      <p id="libStats" class="muted"></p>
+    </div>
+  </div>
+</section>
+<section class="card" data-page="assets" hidden>
+  <h2>Asset Browser</h2><div id="assetGrid" class="grid"></div>
+</section>
+<section class="card" data-page="builder" hidden>
+  <h2>Asset Index Builder</h2>
+  <p class="muted">Upload a folder (can be a subfolder) to generate <span class="monosmall">public/data/asset_index.json</span>.</p>
+  <input id="dirPicker" type="file" webkitdirectory directory multiple/>
+  <div class="hr"></div>
+  <button id="btnScan">Scan</button> <button id="btnDownload" disabled>Download JSON</button>
+  <p id="scanStats" class="muted"></p>
+  <pre id="jsonPreview" class="monosmall" style="white-space:pre-wrap;background:#0f1526;padding:12px;border-radius:10px;border:1px solid #253257;max-height:320px;overflow:auto;"></pre>
+</section>
+<section class="card" data-page="help" hidden>
+  <h2>How this works</h2>
+  <ul>
+    <li>Zero-build: open <span class="monosmall">index.html</span> or deploy the folder to Netlify.</li>
+    <li>Put assets in <span class="monosmall">/public/wallpapers</span>, <span class="monosmall">/public/sprites</span>, <span class="monosmall">/public/sounds</span>.</li>
+    <li>Use the Builder tab to regenerate <span class="monosmall">public/data/asset_index.json</span>.</li>
+  </ul>
+</section>
+</main>
+<script>
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+  t.classList.add('active');
+  const key=t.dataset.tab;
+  document.querySelectorAll('section.card').forEach(s=>s.hidden=s.dataset.page!==key);
+}));
+
+const wallInput=document.getElementById('wallpaperPath');
+const wallPreview=document.getElementById('wallPreview');
+document.getElementById('btnSetWallpaper').onclick=()=>{
+  const p=wallInput.value.trim(); if(!p) return; wallPreview.src=p; localStorage.setItem('mission_wallpaper',p);
+};
+const saved=localStorage.getItem('mission_wallpaper'); if(saved){ wallInput.value=saved; wallPreview.src=saved; }
+
+let library={images:[],audio:[],other:[]};
+const libStats=document.getElementById('libStats');
+document.getElementById('btnLoadLib').onclick=async()=>{
+  const file=document.getElementById('libFile').files?.[0]; if(!file) return;
+  try{const txt=await file.text(); library=JSON.parse(txt); const a=library.images?.length||0,b=library.audio?.length||0,c=library.other?.length||0;
+    libStats.textContent=`Loaded: ${a} images, ${b} audio, ${c} other.`; renderAssets();
+  }catch(e){libStats.textContent="Parse error: "+e.message;}
+};
+function renderAssets(){
+  const grid=document.getElementById('assetGrid'); grid.innerHTML="";
+  (library.images||[]).forEach(p=>{const card=document.createElement('div'); card.className='card'; const img=document.createElement('img'); img.className='preview'; img.src=p; img.alt=p; const cap=document.createElement('div'); cap.className='monosmall'; cap.textContent=p; card.append(img,cap); grid.appendChild(card);});
+  (library.audio||[]).forEach(p=>{const card=document.createElement('div'); card.className='card'; const a=document.createElement('audio'); a.controls=true; a.src=p; a.style.width="100%"; const cap=document.createElement('div'); cap.className='monosmall'; cap.textContent=p; card.append(a,cap); grid.appendChild(card);});
+}
+const preview=document.getElementById('jsonPreview'), stats=document.getElementById('scanStats'), dl=document.getElementById('btnDownload'); let built=null;
+document.getElementById('btnScan').onclick=()=>{
+  const files=Array.from(document.getElementById('dirPicker').files||[]); if(!files.length){stats.textContent="Select a folder first."; return;}
+  const IMG=new Set(['.png','.jpg','.jpeg','.gif','.webp','.bmp','.svg']); const AUD=new Set(['.mp3','.wav','.ogg','.m4a','.aac']);
+  const images=[], audio=[], other=[];
+  files.forEach(f=>{const p=f.webkitRelativePath||f.name; const ext=(p.slice(p.lastIndexOf('.'))||'').toLowerCase();
+    if(IMG.has(ext)) images.push("public/"+p.replace(/^.*?public[\/]/i,''));
+    else if(AUD.has(ext)) audio.push("public/"+p.replace(/^.*?public[\/]/i,''));
+    else other.push("public/"+p.replace(/^.*?public[\/]/i,''));
+  });
+  built={images:[...new Set(images)],audio:[...new Set(audio)],other:[...new Set(other)]};
+  const total=(built.images?.length||0)+(built.audio?.length||0)+(built.other?.length||0);
+  stats.textContent=`Found ${total} → ${built.images.length} images, ${built.audio.length} audio, ${built.other.length} other.`;
+  preview.textContent=JSON.stringify(built,null,2); dl.disabled=false;
+};
+dl.onclick=()=>{ if(!built) return; const blob=new Blob([JSON.stringify(built,null,2)],{type:"application/json"}); const a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download="asset_index.json"; a.click(); };
+</script>
+</body></html>

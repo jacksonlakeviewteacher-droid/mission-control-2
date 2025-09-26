@@ -1,0 +1,1217 @@
+{
+  "version": "1.0",
+  "sprites": [
+    {
+      "path": "public/data/Bill_Cipher_Dialogue_Expanded.csv",
+      "size": 11825
+    },
+    {
+      "path": "public/data/quips.json",
+      "size": 575
+    }
+  ],
+  "wallpapers": [
+    {
+      "path": "public/wallpapers/background _bc_sketch_hx.jpg",
+      "size": 963243
+    },
+    {
+      "path": "public/wallpapers/background _bc_vortex.jpg",
+      "size": 221393
+    },
+    {
+      "path": "public/wallpapers/background_bc_black.jpg",
+      "size": 403155
+    },
+    {
+      "path": "public/wallpapers/background_bc_family.jpg",
+      "size": 235505
+    },
+    {
+      "path": "public/wallpapers/background_bc_pixel_godzilla.jpg",
+      "size": 217780
+    },
+    {
+      "path": "public/wallpapers/background_wallpaper_weird_lab.jpg",
+      "size": 89697
+    },
+    {
+      "path": "public/wallpapers/background_bc_creepy.jpg",
+      "size": 81145
+    },
+    {
+      "path": "public/wallpapers/background_vortex_workshop.png",
+      "size": 367235
+    },
+    {
+      "path": "public/wallpapers/background_bc_godzilla.jpg",
+      "size": 113660
+    },
+    {
+      "path": "public/wallpapers/bcipher_glitchy_eye_pyramid_background.gif",
+      "size": 975372
+    },
+    {
+      "path": "public/wallpapers/bc_wallpaper.jpg",
+      "size": 349113
+    },
+    {
+      "path": "public/wallpapers/bc_lord_and_master.jpg",
+      "size": 168861
+    },
+    {
+      "path": "public/wallpapers/background_bc_invention_vortex.jpeg",
+      "size": 222193
+    },
+    {
+      "path": "public/wallpapers/bc_welcome_to_the_mindscape_wallpaper.webp",
+      "size": 140282
+    },
+    {
+      "path": "public/wallpapers/background_bc_stirring.jpg",
+      "size": 40857
+    },
+    {
+      "path": "public/wallpapers/castle-dungeon-brick-wall-cartoon-background-game-2d-style_567294-21238.jpg",
+      "size": 60505
+    },
+    {
+      "path": "public/wallpapers/line-of-the-rune-character-pattern-on-white-background.jpg",
+      "size": 208486
+    },
+    {
+      "path": "public/wallpapers/png-transparent-street-fighter-ii-the-world-warrior-ryu-akuma-marvel-vs-capcom-2-new-age-of-heroes-others-blue-computer-wallpaper-video-game.png",
+      "size": 60516
+    },
+    {
+      "path": "public/wallpapers/rune_character_pattern_white_background.jpg",
+      "size": 208486
+    },
+    {
+      "path": "public/wallpapers/rune_background.jpg",
+      "size": 125255
+    },
+    {
+      "path": "public/wallpapers/Rune_wall.webp",
+      "size": 125466
+    },
+    {
+      "path": "public/wallpapers/Rune_wallpaper.jpg",
+      "size": 97234
+    },
+    {
+      "path": "public/wallpapers/sfx_lens_flare_light.png",
+      "size": 4993795
+    },
+    {
+      "path": "public/wallpapers/wallpaper_chaos_1.JPG",
+      "size": 67883
+    },
+    {
+      "path": "public/wallpapers/sprite_shark_front_view_full_body_isolate_on_transparency.png",
+      "size": 1168875
+    },
+    {
+      "path": "public/wallpapers/wallpaper_ds_symbol.jpg",
+      "size": 481879
+    },
+    {
+      "path": "public/wallpapers/wallpaper_chaos_workshop.JPG",
+      "size": 107180
+    },
+    {
+      "path": "public/wallpapers/viking_rune_wallpaper.png",
+      "size": 2260122
+    },
+    {
+      "path": "public/wallpapers/welcome_to_mindscape.jpg",
+      "size": 225593
+    },
+    {
+      "path": "public/wallpapers/weapons_workshop_minecraft.png",
+      "size": 1786905
+    },
+    {
+      "path": "public/wallpapers/wallpaper_geometry (1).JPG",
+      "size": 83121
+    },
+    {
+      "path": "public/wallpapers/Wallpaper_tesselation.JPG",
+      "size": 262437
+    },
+    {
+      "path": "public/wallpapers/wallpaper_geometry.JPG",
+      "size": 26758
+    }
+  ],
+  "sounds": {
+    "sfx": [
+      {
+        "path": "public/sounds/sfx/sfx_bite.mp3",
+        "size": 17133
+      },
+      {
+        "path": "public/sounds/sfx/sfx_pop.mp3",
+        "size": 23040
+      },
+      {
+        "path": "public/sounds/sfx/sfx_elemental_magic_spell_outgoing.mp3",
+        "size": 102144
+      },
+      {
+        "path": "public/sounds/sfx/sfx_tp_chest_open.mp3",
+        "size": 19061
+      },
+      {
+        "path": "public/sounds/sfx/sfx_glitch (1).mp3",
+        "size": 129024
+      },
+      {
+        "path": "public/sounds/sfx/sfx_anime_magic_sound_effect.mp3",
+        "size": 24260
+      },
+      {
+        "path": "public/sounds/sfx/sfx_laser_zap.mp3",
+        "size": 30240
+      },
+      {
+        "path": "public/sounds/sfx/sfx_shotgun.mp3",
+        "size": 23600
+      },
+      {
+        "path": "public/sounds/sfx/sfx_punch.mp3",
+        "size": 25423
+      },
+      {
+        "path": "public/sounds/sfx/sfx_magic_coins.mp3",
+        "size": 33689
+      },
+      {
+        "path": "public/sounds/sfx/sfx_loading_glitch.wav",
+        "size": 211724
+      },
+      {
+        "path": "public/sounds/sfx/sfx_paloma_weird_shark_noise.mp3",
+        "size": 64512
+      },
+      {
+        "path": "public/sounds/sfx/sfx_coin.wav",
+        "size": 11
+      },
+      {
+        "path": "public/sounds/sfx/sfx_glitch.wav",
+        "size": 11
+      },
+      {
+        "path": "public/sounds/sfx/sfx_very_big_explosion.mp3",
+        "size": 16632
+      },
+      {
+        "path": "public/sounds/sfx/sfx_fireball_impact.mp3",
+        "size": 98638
+      },
+      {
+        "path": "public/sounds/sfx/sfx_glitch_zap.mp3",
+        "size": 67709
+      },
+      {
+        "path": "public/sounds/sfx/sfx_splash.mp3",
+        "size": 81408
+      },
+      {
+        "path": "public/sounds/sfx/sfx_elemental_magic_spell_incoming.mp3",
+        "size": 105984
+      },
+      {
+        "path": "public/sounds/sfx/sfx_futuristic_gun_shot_scifi.mp3",
+        "size": 23405
+      },
+      {
+        "path": "public/sounds/sfx/sfx_plasma_gun.mp3",
+        "size": 192261
+      },
+      {
+        "path": "public/sounds/sfx/sfx_cannon_blast.mp3",
+        "size": 33297
+      },
+      {
+        "path": "public/sounds/sfx/sfx_glitch_fx_transitions.mp3",
+        "size": 52992
+      },
+      {
+        "path": "public/sounds/sfx/sfx_anime_wow_sound_effect.mp3",
+        "size": 67637
+      },
+      {
+        "path": "public/sounds/sfx/sfx_magical_burst.mp3",
+        "size": 78202
+      },
+      {
+        "path": "public/sounds/sfx/sfx_zap.mp3",
+        "size": 74496
+      },
+      {
+        "path": "public/sounds/sfx/sfx_glitch.mp3",
+        "size": 99072
+      },
+      {
+        "path": "public/sounds/sfx/sfx_classic_videogame_secret_reveal.mp3",
+        "size": 39563
+      },
+      {
+        "path": "public/sounds/sfx/sfx_tolling_bell_magic_unlock.mp3",
+        "size": 228464
+      },
+      {
+        "path": "public/sounds/sfx/sfx_lazercannon.mp3",
+        "size": 35108
+      },
+      {
+        "path": "public/sounds/sfx/sfx_explosion1.wav",
+        "size": 247000
+      }
+    ],
+    "dialogue": [
+      {
+        "path": "public/sounds/dialogue/dlg_bill_look_at_that.mp3",
+        "size": 32052
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_take_em_out.mp3",
+        "size": 39576
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_reality_illusion_bye.mp3",
+        "size": 115437
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_intro_music.mp3",
+        "size": 469237
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_clever.mp3",
+        "size": 50861
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_doom_im_the_intro.mp3",
+        "size": 258019
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_you_know_what_to_do.mp3",
+        "size": 23125
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_you_deserve_a_prize.mp3",
+        "size": 170303
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_mad.mp3",
+        "size": 80953
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bc_reality_illusion_bye.mp3",
+        "size": 115437
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_arrrgh.mp3",
+        "size": 16855
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_i_know_lots_of_things.mp3",
+        "size": 28737
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_doom_says_no.mp3",
+        "size": 24036
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_laugh.mp3",
+        "size": 95993
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bill_this_should_be_fun.mp3",
+        "size": 17064
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_doom_brutal_haha.mp3",
+        "size": 48677
+      },
+      {
+        "path": "public/sounds/dialogue/dlg_bc_mad.mp3",
+        "size": 80953
+      }
+    ],
+    "music": [
+      {
+        "path": "public/sounds/music/music_creepy_atmosphere.mp3",
+        "size": 3879497
+      },
+      {
+        "path": "public/sounds/music/music_echo_dungeon.mp3",
+        "size": 336000
+      },
+      {
+        "path": "public/sounds/music/music_tuba_ominous_shark_theme.mp3",
+        "size": 1055232
+      }
+    ]
+  },
+  "categories": {
+    "tiles": [
+      {
+        "path": "public/tiles/sprite_tiles_floor_tiles.png",
+        "size": 3744
+      },
+      {
+        "path": "public/tiles/tile_lava2.png",
+        "size": 3494003
+      },
+      {
+        "path": "public/tiles/sprite_tiles_pixel_platformer_tile_set_1_0.png",
+        "size": 1147
+      },
+      {
+        "path": "public/tiles/sprite_tiles_groundtiles.png",
+        "size": 1029
+      }
+    ],
+    "weapons": [
+      {
+        "path": "public/weapons/weaponPack.blend1",
+        "size": 860200
+      },
+      {
+        "path": "public/weapons/bazooka.blend",
+        "size": 712464
+      },
+      {
+        "path": "public/weapons/knife.blend",
+        "size": 714888
+      },
+      {
+        "path": "public/weapons/Guns&Explosives.rar",
+        "size": 162200198
+      },
+      {
+        "path": "public/weapons/knife.png",
+        "size": 36191
+      },
+      {
+        "path": "public/weapons/bazooka.png",
+        "size": 61339
+      },
+      {
+        "path": "public/weapons/weaponPack (1).blend",
+        "size": 921748
+      },
+      {
+        "path": "public/weapons/knife.blend1",
+        "size": 733592
+      },
+      {
+        "path": "public/weapons/weaponPack.fbx",
+        "size": 78268
+      },
+      {
+        "path": "public/weapons/bazooka.blend1",
+        "size": 702968
+      },
+      {
+        "path": "public/weapons/sprite_weapons_Cannon.png",
+        "size": 26306
+      },
+      {
+        "path": "public/weapons/weaponPack.blend",
+        "size": 921748
+      },
+      {
+        "path": "public/weapons/mauser.png",
+        "size": 107972
+      },
+      {
+        "path": "public/weapons/grenadelauncher.blend1",
+        "size": 751780
+      },
+      {
+        "path": "public/weapons/mauser.blend1",
+        "size": 697248
+      },
+      {
+        "path": "public/weapons/mauser.blend",
+        "size": 703332
+      },
+      {
+        "path": "public/weapons/gl.png",
+        "size": 98254
+      },
+      {
+        "path": "public/weapons/grenadelauncher.blend",
+        "size": 745764
+      }
+    ],
+    "misc": [
+      {
+        "path": "public/misc/sprite_blue_fire_magic.gif",
+        "size": 1225657
+      },
+      {
+        "path": "public/misc/sprite_tile_lava1.png",
+        "size": 2825303
+      },
+      {
+        "path": "public/misc/sprite_cube-texture-combination-rubik-colorful-3d-cube-abstract-ai-generative-free-png.png",
+        "size": 132189
+      },
+      {
+        "path": "public/misc/sprite_purple_fire.png",
+        "size": 228636
+      },
+      {
+        "path": "public/misc/background_Norse_runes_purple.jpg",
+        "size": 177067
+      },
+      {
+        "path": "public/misc/sprite_firehands.gif",
+        "size": 1121683
+      },
+      {
+        "path": "public/misc/sprite_paint_brush_and_palette.png",
+        "size": 381020
+      },
+      {
+        "path": "public/misc/sprite_pixel_dungeon.png",
+        "size": 3021
+      },
+      {
+        "path": "public/misc/sprite_blazing_blue_flame_fireball.png",
+        "size": 441372
+      },
+      {
+        "path": "public/misc/sprite_blue_fireball.png",
+        "size": 30820
+      },
+      {
+        "path": "public/misc/sprite_bc_glyph.png",
+        "size": 1344763
+      },
+      {
+        "path": "public/misc/sprite_parchment.png",
+        "size": 376663
+      },
+      {
+        "path": "public/misc/sprite_glitch_eye.gif",
+        "size": 1315980
+      },
+      {
+        "path": "public/misc/sprite_fire_explosion_animation.gif",
+        "size": 111383
+      },
+      {
+        "path": "public/misc/sprite_blue_flame_magic.png",
+        "size": 251390
+      }
+    ],
+    "sharks": [
+      {
+        "path": "public/sharks/sprite_sharks_great_white_shark_swimming.png",
+        "size": 1028167
+      },
+      {
+        "path": "public/sharks/sprite_great_white_shark_b&w",
+        "size": 93484
+      },
+      {
+        "path": "public/sharks/sprite_sharks_shark_hunter_cannon.png",
+        "size": 408063
+      },
+      {
+        "path": "public/sharks/lapin-rocket.svg",
+        "size": 61192
+      },
+      {
+        "path": "public/sharks/sprite_sharks_shark.png",
+        "size": 928131
+      },
+      {
+        "path": "public/sharks/sprite_sharks_b&w",
+        "size": 186349
+      },
+      {
+        "path": "public/sharks/sprite_Great_white_shark.png",
+        "size": 68133
+      },
+      {
+        "path": "public/sharks/sprite_sharks_shark_attack.png",
+        "size": 69132
+      }
+    ],
+    "treasure": [
+      {
+        "path": "public/treasure/sprite_treasure_pngtree-gold-and-silver-treasure-shining-big-treasure-chest-image_2288340.jpg",
+        "size": 95065
+      },
+      {
+        "path": "public/treasure/sprite_treasure_golden_chest.png",
+        "size": 29434
+      },
+      {
+        "path": "public/treasure/sprite_treasure_empty_wooden_treasure_chest_with_golden_plate.jpeg",
+        "size": 82578
+      },
+      {
+        "path": "public/treasure/sprite_treasure_gold-chest-png_png.jpeg",
+        "size": 293247
+      }
+    ],
+    "gui": [
+      {
+        "path": "public/gui/ScrollBar_Blank_Scroller.svg",
+        "size": 2091
+      },
+      {
+        "path": "public/gui/Button Disable.png",
+        "size": 1071
+      },
+      {
+        "path": "public/gui/09.png",
+        "size": 426
+      },
+      {
+        "path": "public/gui/ScrollBar_Orange_Base.svg",
+        "size": 2714
+      },
+      {
+        "path": "public/gui/ScrollBar_WhiteOutline_Base.svg",
+        "size": 3701
+      },
+      {
+        "path": "public/gui/29.png",
+        "size": 424
+      },
+      {
+        "path": "public/gui/Card X2 (1).png",
+        "size": 93967
+      },
+      {
+        "path": "public/gui/WideSlider_Blank_Background.svg",
+        "size": 1017
+      },
+      {
+        "path": "public/gui/ScrollBar_Blank_Button.svg",
+        "size": 1564
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Arrow.png",
+        "size": 3850
+      },
+      {
+        "path": "public/gui/Icon_Large_Star.png",
+        "size": 13876
+      },
+      {
+        "path": "public/gui/SlimSlider_Scroller_Green.svg",
+        "size": 2695
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Return.png",
+        "size": 4226
+      },
+      {
+        "path": "public/gui/ScrollBar_Pointer.svg",
+        "size": 1803
+      },
+      {
+        "path": "public/gui/Icon_Small_WhiteOutline_StarGrey.png",
+        "size": 9790
+      },
+      {
+        "path": "public/gui/ScrollBar_Orange_Pointer.svg",
+        "size": 1803
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Check.png",
+        "size": 3148
+      },
+      {
+        "path": "public/gui/ScrollSlider_WhiteOutline_Arrow.svg",
+        "size": 2299
+      },
+      {
+        "path": "public/gui/WideSlider_Orange_Frame.svg",
+        "size": 6358
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Help.png",
+        "size": 3420
+      },
+      {
+        "path": "public/gui/25.png",
+        "size": 473
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Home.png",
+        "size": 3146
+      },
+      {
+        "path": "public/gui/Panel Empty.png",
+        "size": 2588
+      },
+      {
+        "path": "public/gui/20.png",
+        "size": 231
+      },
+      {
+        "path": "public/gui/26.png",
+        "size": 653
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Pause.png",
+        "size": 1985
+      },
+      {
+        "path": "public/gui/34.png",
+        "size": 592
+      },
+      {
+        "path": "public/gui/SlimSlider_Scroller.svg",
+        "size": 2648
+      },
+      {
+        "path": "public/gui/ScrollBar_Orange_Button.svg",
+        "size": 1929
+      },
+      {
+        "path": "public/gui/21.png",
+        "size": 384
+      },
+      {
+        "path": "public/gui/Icon_Small_WhiteOutline_X.png",
+        "size": 7403
+      },
+      {
+        "path": "public/gui/Icon_Small_WhiteOutline_Diamond.png",
+        "size": 9665
+      },
+      {
+        "path": "public/gui/ScrollBar_Blue_Scroller.svg",
+        "size": 2436
+      },
+      {
+        "path": "public/gui/Icon_Small_Coin.png",
+        "size": 8513
+      },
+      {
+        "path": "public/gui/10.png",
+        "size": 424
+      },
+      {
+        "path": "public/gui/SlimSlider_Blue_Frame.svg",
+        "size": 6159
+      },
+      {
+        "path": "public/gui/ScrollBar_Scroller.svg",
+        "size": 2389
+      },
+      {
+        "path": "public/gui/Button Normal.png",
+        "size": 1320
+      },
+      {
+        "path": "public/gui/WideSlider_Blue_Background.svg",
+        "size": 1021
+      },
+      {
+        "path": "public/gui/19.png",
+        "size": 404
+      },
+      {
+        "path": "public/gui/22.png",
+        "size": 670
+      },
+      {
+        "path": "public/gui/15.png",
+        "size": 664
+      },
+      {
+        "path": "public/gui/WideSlider_Blank_Scroller.svg",
+        "size": 2731
+      },
+      {
+        "path": "public/gui/WideSlider_Blank_Button_1.svg",
+        "size": 1637
+      },
+      {
+        "path": "public/gui/Icon_Large_StarGrey_WhiteOutline.png",
+        "size": 19154
+      },
+      {
+        "path": "public/gui/SlimSlider_Green_Pointer.svg",
+        "size": 1803
+      },
+      {
+        "path": "public/gui/Icon_Large_Star_SeethroughOutline.png",
+        "size": 18651
+      },
+      {
+        "path": "public/gui/11.png",
+        "size": 447
+      },
+      {
+        "path": "public/gui/ScrollSlider_Arrow.svg",
+        "size": 1591
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Music.png",
+        "size": 3849
+      },
+      {
+        "path": "public/gui/WideSlider_Blank_Frame.svg",
+        "size": 5745
+      },
+      {
+        "path": "public/gui/SlimSlider_Button.svg",
+        "size": 1919
+      },
+      {
+        "path": "public/gui/01.png",
+        "size": 197
+      },
+      {
+        "path": "public/gui/WideSlider_Orange_Scroller.svg",
+        "size": 2984
+      },
+      {
+        "path": "public/gui/SlimSlider_WhiteOutline_Frame.svg",
+        "size": 7418
+      },
+      {
+        "path": "public/gui/WideSlider_Blue_Frame.svg",
+        "size": 6361
+      },
+      {
+        "path": "public/gui/Icon_Large_StarSrey_SeethroughOutline.png",
+        "size": 19031
+      },
+      {
+        "path": "public/gui/ScrollBar_Red_Button.svg",
+        "size": 1929
+      },
+      {
+        "path": "public/gui/ScrollBar_Blank_Pointer.svg",
+        "size": 1583
+      },
+      {
+        "path": "public/gui/06.png",
+        "size": 565
+      },
+      {
+        "path": "public/gui/SlimSlider_Orange_Button.svg",
+        "size": 1966
+      },
+      {
+        "path": "public/gui/ScrollBar_Blue_Base.svg",
+        "size": 2717
+      },
+      {
+        "path": "public/gui/WideSlider_Red_Button.svg",
+        "size": 2082
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_MusicOff.png",
+        "size": 4594
+      },
+      {
+        "path": "public/gui/WideSLider_Green_Scroller.svg",
+        "size": 2984
+      },
+      {
+        "path": "public/gui/Card X2.png",
+        "size": 117487
+      },
+      {
+        "path": "public/gui/SlimSlider_Orange_Frame.svg",
+        "size": 6156
+      },
+      {
+        "path": "public/gui/Icon_Large_Music_Grey.png",
+        "size": 8242
+      },
+      {
+        "path": "public/gui/WideSlider_Blue_Scroller.svg",
+        "size": 2984
+      },
+      {
+        "path": "public/gui/27.png",
+        "size": 569
+      },
+      {
+        "path": "public/gui/Icon_Large_AudioOff_Grey.png",
+        "size": 9406
+      },
+      {
+        "path": "public/gui/WideSlider_Scroller.svg",
+        "size": 2937
+      },
+      {
+        "path": "public/gui/03.png",
+        "size": 367
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Audio.png",
+        "size": 3850
+      },
+      {
+        "path": "public/gui/SlimSlider_Orange_Scroller.svg",
+        "size": 2695
+      },
+      {
+        "path": "public/gui/Card X1.png",
+        "size": 124767
+      },
+      {
+        "path": "public/gui/UI_Different_Free_Wenrexa1.zip",
+        "size": 21754751
+      },
+      {
+        "path": "public/gui/14.png",
+        "size": 345
+      },
+      {
+        "path": "public/gui/35.png",
+        "size": 582
+      },
+      {
+        "path": "public/gui/WideSlider_Blue_Button.svg",
+        "size": 2082
+      },
+      {
+        "path": "public/gui/SlimSlider_Orange_Background.svg",
+        "size": 881
+      },
+      {
+        "path": "public/gui/WideSlider_Background.svg",
+        "size": 1021
+      },
+      {
+        "path": "public/gui/WideSlider_WhiteOutline_Frame.svg",
+        "size": 7725
+      },
+      {
+        "path": "public/gui/33.png",
+        "size": 676
+      },
+      {
+        "path": "public/gui/18.png",
+        "size": 715
+      },
+      {
+        "path": "public/gui/WideSlider_Blank_Scroller_1.svg",
+        "size": 2370
+      },
+      {
+        "path": "public/gui/Button Hover.png",
+        "size": 2311
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_AudioOff.png",
+        "size": 4293
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Info.png",
+        "size": 2090
+      },
+      {
+        "path": "public/gui/Icon_Small_WhiteOutline_Star.png",
+        "size": 9367
+      },
+      {
+        "path": "public/gui/SlimSlider_Red_Button.svg",
+        "size": 1966
+      },
+      {
+        "path": "public/gui/30.png",
+        "size": 515
+      },
+      {
+        "path": "public/gui/32.png",
+        "size": 619
+      },
+      {
+        "path": "public/gui/SlimSlider_Frame.svg",
+        "size": 6112
+      },
+      {
+        "path": "public/gui/Icon_Large_Audio_Grey.png",
+        "size": 7744
+      },
+      {
+        "path": "public/gui/Icon_Small_CoinEuro.png",
+        "size": 8852
+      },
+      {
+        "path": "public/gui/Icon_Small_CoinDollar.png",
+        "size": 9466
+      },
+      {
+        "path": "public/gui/Icon_Large_MusicOff_Grey.png",
+        "size": 8709
+      },
+      {
+        "path": "public/gui/07.png",
+        "size": 600
+      },
+      {
+        "path": "public/gui/Panel Empty Green.png",
+        "size": 2684
+      },
+      {
+        "path": "public/gui/ScrollBar_Blue_Button.svg",
+        "size": 1929
+      },
+      {
+        "path": "public/gui/Button Active.png",
+        "size": 2474
+      },
+      {
+        "path": "public/gui/23.png",
+        "size": 393
+      },
+      {
+        "path": "public/gui/sprite_gui_bc_2d_glitchy_icon.gif",
+        "size": 332339
+      },
+      {
+        "path": "public/gui/Icon_Large_Star_WhiteOutline.png",
+        "size": 18633
+      },
+      {
+        "path": "public/gui/SlimSlider_Background.svg",
+        "size": 881
+      },
+      {
+        "path": "public/gui/WideSlider_Frame.svg",
+        "size": 6314
+      },
+      {
+        "path": "public/gui/12.png",
+        "size": 525
+      },
+      {
+        "path": "public/gui/08.png",
+        "size": 522
+      },
+      {
+        "path": "public/gui/SlimSlider_Green_Scoller.svg",
+        "size": 2436
+      },
+      {
+        "path": "public/gui/31.png",
+        "size": 648
+      },
+      {
+        "path": "public/gui/SlimSlider_Blue_Button.svg",
+        "size": 1966
+      },
+      {
+        "path": "public/gui/Panel Red.png",
+        "size": 2696
+      },
+      {
+        "path": "public/gui/ScrollBar_Button.svg",
+        "size": 1882
+      },
+      {
+        "path": "public/gui/WideSlider_Orange_Button.svg",
+        "size": 2082
+      },
+      {
+        "path": "public/gui/WideSlider_Blank_Background_1.svg",
+        "size": 877
+      },
+      {
+        "path": "public/gui/ScrollBar_Blue_Pointer.svg",
+        "size": 1803
+      },
+      {
+        "path": "public/gui/Icon_Small_WhiteOutline_Key.png",
+        "size": 8759
+      },
+      {
+        "path": "public/gui/Icon_Large_Menu_Grey.png",
+        "size": 6632
+      },
+      {
+        "path": "public/gui/SlimSlider_Blue_Scroller.svg",
+        "size": 2695
+      },
+      {
+        "path": "public/gui/ScrollBar_Orange_Scroller.svg",
+        "size": 2436
+      },
+      {
+        "path": "public/gui/Card X3.png",
+        "size": 86734
+      },
+      {
+        "path": "public/gui/17.png",
+        "size": 781
+      },
+      {
+        "path": "public/gui/WideSlider_Button.svg",
+        "size": 2082
+      },
+      {
+        "path": "public/gui/05.png",
+        "size": 197
+      },
+      {
+        "path": "public/gui/SlimSlider_Base.svg",
+        "size": 2670
+      },
+      {
+        "path": "public/gui/Icon_Small_WhiteOutline_LookingGlass.png",
+        "size": 11483
+      },
+      {
+        "path": "public/gui/ScrollBar_Blank_Base.svg",
+        "size": 2292
+      },
+      {
+        "path": "public/gui/16.png",
+        "size": 746
+      },
+      {
+        "path": "public/gui/WideSlider_Orange_Background.svg",
+        "size": 1021
+      },
+      {
+        "path": "public/gui/ScrollSlider_Blank_Arrow.svg",
+        "size": 1588
+      },
+      {
+        "path": "public/gui/Icon_Small_Blank_Menu.png",
+        "size": 2384
+      },
+      {
+        "path": "public/gui/WideSlider_Blank_Button.svg",
+        "size": 1724
+      },
+      {
+        "path": "public/gui/Icon_Large_StarGrey.png",
+        "size": 14116
+      },
+      {
+        "path": "public/gui/WideSlider_Blank_Frame_1.svg",
+        "size": 5553
+      },
+      {
+        "path": "public/gui/28.png",
+        "size": 408
+      },
+      {
+        "path": "public/gui/SlimSlider_Blue_Background.svg",
+        "size": 881
+      },
+      {
+        "path": "public/gui/04.png",
+        "size": 504
+      },
+      {
+        "path": "public/gui/02.png",
+        "size": 105
+      },
+      {
+        "path": "public/gui/24.png",
+        "size": 735
+      }
+    ],
+    "sprites": [
+      {
+        "path": "public/sprites/image_robot_shark_plan",
+        "size": 494168
+      },
+      {
+        "path": "public/sprites/sprite_bc_fullview.png",
+        "size": 403063
+      },
+      {
+        "path": "public/sprites/sprite_bill_Bill-cipher-mistery.gif",
+        "size": 46707
+      },
+      {
+        "path": "public/sprites/sprite_bc_reality_is_an_illusion",
+        "size": 730184
+      },
+      {
+        "path": "public/sprites/sprite_bc_3d.jpg",
+        "size": 344073
+      },
+      {
+        "path": "public/sprites/sprite_bc_glitchy.gif",
+        "size": 975372
+      },
+      {
+        "path": "public/sprites/sprite_bc_red_animated_pyramid.gif",
+        "size": 1405035
+      },
+      {
+        "path": "public/sprites/sprite_bc_space.png",
+        "size": 142097
+      },
+      {
+        "path": "public/sprites/sprites_bc",
+        "size": 913850
+      },
+      {
+        "path": "public/sprites/sprite_bill_bill_cipher_handshake.png",
+        "size": 478073
+      },
+      {
+        "path": "public/sprites/bc_blockbench.jpg",
+        "size": 96954
+      },
+      {
+        "path": "public/sprites/bill-cipher-eye.png",
+        "size": 40501
+      },
+      {
+        "path": "public/sprites/bd_insult.jpg",
+        "size": 67796
+      },
+      {
+        "path": "public/sprites/angry_bill_coding_error.png",
+        "size": 1258291
+      },
+      {
+        "path": "public/sprites/bc_coding_image.webp",
+        "size": 191076
+      },
+      {
+        "path": "public/sprites/bill-cipher-orange.png",
+        "size": 10841
+      },
+      {
+        "path": "public/sprites/bill_blockbench_errors.png",
+        "size": 4555810
+      },
+      {
+        "path": "public/sprites/bill_cipher_blocky.png",
+        "size": 90483
+      },
+      {
+        "path": "public/sprites/bill_cipher_lego_for_blockbench_link.png",
+        "size": 257602
+      },
+      {
+        "path": "public/sprites/pixel_sharkgun.png",
+        "size": 419
+      },
+      {
+        "path": "public/sprites/bill_cipher_pixel_art.jpg",
+        "size": 113459
+      }
+    ]
+  },
+  "scanned_at": "2025-09-21T01:30:19.388Z",
+  "file_count": 296
+}

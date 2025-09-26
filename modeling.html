@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>3D Modeling — Mindscape Mission Control</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Optional per-page wallpaper -->
+    <meta name="page-wallpaper" content="/public/wallpapers/weapons_workshop_minecraft.png">
+
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/kid.css">
+</head>
+<body>
+<div class="wallpaper"></div>
+
+<header>
+    <div class="row">
+        <div class="logo">🧱 3D Modeling</div>
+        <span class="badge" id="pathBadge">Path: Java</span>
+    </div>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/coding.html">Coding</a>
+        <a class="active" href="/modeling.html">3D Modeling</a>
+        <a href="/sidequest-sharkgun.html">Side Quest</a>
+        <a href="/tutorials.html">Tutorials</a>
+        <a href="/bedrock-vs-java.html">Bedrock vs Java</a>
+        <a href="/library/">Assets</a>
+        <a href="/workbench.html">Workbench</a>
+        <a href="/ai.html">AI Tools</a>
+    </nav>
+</header>
+
+<main>
+    <section class="grid">
+        <div class="card">
+            <h3>Blockbench First</h3>
+            <p>Start with art, then wire it into code. Use Blockbench to build your shark or props. Export a PNG texture and drop it into your mod.</p>
+            <div class="code">Java textures (example): <b>src/main/resources/assets/sharkgun/textures/item/</b></div>
+            <label><input type="checkbox" data-quest-id="model-1"> Exported a texture (+5 XP)</label>
+        </div>
+
+        <div class="card">
+            <h3>Project Art Library</h3>
+            <p>Put art/sounds under <code>/public/</code> so they deploy to Netlify:</p>
+            <ul>
+                <li><code>/public/wallpapers/</code> — background images</li>
+                <li><code>/public/sprites/</code> — pixel art & UI</li>
+                <li><code>/public/sounds/</code> — sfx / dialogue / music</li>
+                <li><code>/public/models/</code> — <code>.bbmodel</code> and JSON</li>
+            </ul>
+            <p class="muted">Then run <b>Assets → Build Index</b> and save it to <code>/public/data/asset_index.json</code>.</p>
+        </div>
+    </section>
+</main>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>
+
