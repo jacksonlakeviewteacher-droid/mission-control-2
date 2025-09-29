@@ -1,12 +1,12 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Tutorials — Mindscape</title>
+    <title>Tutorials â€” Mindscape</title>
 
     <!-- Page-specific wallpaper (optional) -->
-    <meta name="page-wallpaper" content="/public/wallpapers/weapons_workshop_minecraft.png" />
+    <meta name="page-wallpaper" content="/wallpapers/weapons_workshop_minecraft.png" />
 
     <link rel="stylesheet" href="/assets/css/site.css" />
     <link rel="stylesheet" href="/assets/css/kid.css" />
@@ -16,7 +16,7 @@
 
 <header>
     <div class="row">
-        <div class="logo">🎬 Tutorials</div>
+        <div class="logo">ðŸŽ¬ Tutorials</div>
         <span class="badge" id="pathBadge">Path: Java</span>
     </div>
     <nav>
@@ -37,7 +37,7 @@
         <header class="row space">
             <h2>Watch & Learn</h2>
             <div class="row gap">
-                <input id="tSearch" class="input" placeholder="Search tutorials…" aria-label="Search tutorials" />
+                <input id="tSearch" class="input" placeholder="Search tutorialsâ€¦" aria-label="Search tutorials" />
                 <select id="tFilter" class="input" aria-label="Filter by category">
                     <option value="all">All categories</option>
                 </select>
@@ -55,7 +55,7 @@
 <script>
     (async () => {
       try {
-        const res = await fetch('/public/data/tutorials.json', { cache: 'no-store' });
+        const res = await fetch('/data/tutorials.json', { cache: 'no-store' });
         if (!res.ok) throw new Error('tutorials.json not found');
         const data = await res.json();
 
@@ -104,9 +104,10 @@
         render();
       } catch (e) {
         document.getElementById('tGrid').innerHTML =
-          '<div class="muted">Could not load tutorials. Make sure <code>/public/data/tutorials.json</code> exists.</div>';
+          '<div class="muted">Could not load tutorials. Make sure <code>/data/tutorials.json</code> exists.</div>';
       }
     })();
 </script>
 </body>
 </html>
+

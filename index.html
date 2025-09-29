@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mission Control</title>
+
+    <!-- SEO / social -->
+    <meta
+      name="description"
+      content="Mission Control: assets, sounds and scenes playground."
+    />
+    <meta property="og:title" content="Mission Control" />
+    <meta
+      property="og:description"
+      content="Assets, sounds and scenes playground."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/public/icons/icon-bc-pixelated.png" />
+    <meta name="theme-color" content="#0a0a0a" />
+
+    <!-- PWA / icons -->
+    <link rel="manifest" href="/public/manifest.webmanifest" />
+    <link
+      rel="icon"
+      href="/public/icons/icon-bc-pixelated.png"
+      sizes="192x192"
+    />
+    <link rel="apple-touch-icon" href="/public/icons/icon-bc-pixelated.png" />
+
+    <link
+      rel="preload"
+      href="/public/data/asset_index.json"
+      as="fetch"
+      crossorigin
+    />
+    <link rel="stylesheet" href="/public/site.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Mission Control</h1>
+      <button id="enable-audio">Enable Audio</button>
+      <button id="show-gallery">Choose Background</button>
+    </header>
+
+    <main id="stage" aria-live="polite">
+      <!-- background and sprites are injected here -->
+    </main>
+
+    <div id="gallery" hidden aria-label="Background gallery"></div>
+
+    <script src="/public/site.js" defer></script>
+  </body>
+</html>

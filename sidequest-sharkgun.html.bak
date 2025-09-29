@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Side Quest — Shark Gun Sprint</title>
+    <meta name="page-wallpaper" content="/public/wallpapers/weapons_workshop_minecraft.png">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/kid.css">
+</head>
+<body>
+<div class="wallpaper"></div>
+
+<header>
+    <div class="row"><div class="logo">Side Quest: Shark Gun Sprint</div><span class="badge">30–60 min</span></div>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/coding.html">Coding</a>
+        <a href="/modeling.html">3D Modeling</a>
+        <a href="/tutorials.html">Tutorials</a>
+        <a href="/library/">Assets</a>
+        <a class="active" href="/sidequest-sharkgun.html">Side Quest</a>
+    </nav>
+</header>
+
+<main class="grid">
+    <section class="card" style="grid-column:span 12">
+        <h2>Goal</h2>
+        <p>Make a shark-themed item + sound and see it in-game today. Screenshot = win.</p>
+    </section>
+
+    <section class="card">
+        <h3>1) Pixel icon</h3>
+        <ul>
+            <li>Create a 16×16 or 32×32 PNG for your Shark Gun icon (Piskel/Aseprite).</li>
+            <li>Save in <code>/public/textures/</code>.</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h3>2) (Optional) 3D model</h3>
+        <ul>
+            <li>Blockbench → simple gun model; texture it.</li>
+            <li>Export JSON/PNG and add to your mod resources.</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h3>3) Sound</h3>
+        <ul>
+            <li>Pick a SFX from <code>/public/sounds/sfx/</code> or record/edit in Audacity.</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h3>4) Wire it (Java)</h3>
+        <ul>
+            <li>Register item (SharkGun), point to texture, play SFX on use.</li>
+            <li>Run dev client → test → take a screenshot for the “Victory” folder.</li>
+        </ul>
+    </section>
+</main>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

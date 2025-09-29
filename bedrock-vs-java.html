@@ -1,0 +1,106 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Bedrock vs Java â€” Mindscape</title>
+
+    <!-- Page wallpaper -->
+    <meta name="page-wallpaper" content="/wallpapers/weapons_workshop_minecraft.png" />
+
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link rel="stylesheet" href="/assets/css/kid.css" />
+</head>
+<body data-topic="bedrock">
+
+<div class="wallpaper"></div>
+
+<header>
+    <div class="row space">
+        <div class="row"><div class="logo">ðŸ”€ Bedrock vs Java</div><span class="badge" id="pathBadge">Path: Java</span></div>
+        <button id="focusToggle" class="btn small pill secondary">Focus Mode</button>
+    </div>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/coding.html">Coding</a>
+        <a href="/modeling.html">3D Modeling</a>
+        <a href="/sidequest-blockbench.html">Side Quest</a>
+        <a href="/tutorials.html">Tutorials</a>
+        <a class="active" href="/bedrock-vs-java.html">Bedrock vs Java</a>
+        <a href="/library/">Assets</a>
+        <a href="/notebook.html">Notebook</a>
+        <a href="/ai.html">AI Tools</a>
+    </nav>
+</header>
+
+<main>
+    <section class="paper">
+        <h2>Pick your world</h2>
+        <p class="muted">Click a portal. Weâ€™ll remember it and tune the rest of the site.</p>
+
+        <!-- Portal ring -->
+        <div class="portal-ring">
+            <div class="center"></div>
+
+            <div class="portal" style="--ang:0deg" data-tip="Java: full mods with Forge/Fabric">
+                <a href="/coding.html" data-pick-path="java"><img src="/sprites/icon_bc_java.png" alt="Java" /></a>
+                <div class="label">Java Mods</div>
+            </div>
+
+            <div class="portal" style="--ang:180deg" data-tip="Bedrock: add-ons with JSON + resources">
+                <a href="/path/bedrock.html" data-pick-path="bedrock"><img src="/sprites/bedrock_icon.png" alt="Bedrock" /></a>
+                <div class="label">Bedrock Add-ons</div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card callout" data-path="java">
+                <h3>Java (PC Mods)</h3>
+                <ul>
+                    <li>Most powerful; code in <strong>Java</strong></li>
+                    <li>Common loaders: <strong>Forge</strong> or Fabric</li>
+                    <li>Great for new items, entities, particles, logic</li>
+                </ul>
+                <p class="muted">Tip: your mod project lives in <code>C:\Dev\Minecraft_SharkGun_Mod</code>. Build JARs go to <code>build\libs\</code> then into <code>.minecraft\mods</code>.</p>
+                <button class="btn pill small" data-pick-path="java">Choose Java</button>
+            </div>
+
+            <div class="card callout" data-path="bedrock">
+                <h3>Bedrock (Add-ons)</h3>
+                <ul>
+                    <li>Files are <strong>JSON</strong> + textures/models</li>
+                    <li>Runs on console, mobile, and Windows</li>
+                    <li>Faster start; fewer deep changes</li>
+                </ul>
+                <p class="muted">Folders: <code>%LOCALAPPDATA%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\</code> â†’ use <code>development_behavior_packs</code> and <code>development_resource_packs</code>.</p>
+                <button class="btn pill small secondary" data-pick-path="bedrock">Choose Bedrock</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="paper">
+        <div class="row space">
+            <div class="row"><strong>Bill says:</strong> <span id="quip" class="muted"></span></div>
+            <button class="btn small" id="newQuip">New quip</button>
+        </div>
+    </section>
+</main>
+
+<!-- Drawer with quick steps -->
+<button id="drawerToggle" class="btn small pill">Reference</button>
+<aside class="drawer">
+    <h4>Quick Steps</h4>
+    <p class="muted">Open what you needâ€”copy/paste into the search bar if itâ€™s a path.</p>
+    <ol>
+        <li>Open <b>Blockbench</b> â†’ â€œNew Entityâ€ â†’ save model.</li>
+        <li>Open <b>IntelliJ</b> â†’ your mod project â†’ <code>Tasks âžœ runClient</code>.</li>
+        <li>Drop built JAR into <code>%APPDATA%\.minecraft\mods</code>.</li>
+        <li>Screenshot: <b>Win+Shift+S</b> â†’ paste into Notebook.</li>
+    </ol>
+</aside>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>
+

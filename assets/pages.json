@@ -1,0 +1,53 @@
+﻿{
+    "sounds":  [
+
+               ],
+    "pages":  [
+                  {
+                      "title":  "Mission Control",
+                      "background":  "assets/backgrounds/bill/background_bc_zodiac_clouds_1920x1080.jpg",
+                      "id":  "home",
+                      "portals":  [
+                                      {
+                                          "icon":  "assets/ui/icons/bc/ui_icon_bc_nightsky.png",
+                                          "to":  "lab",
+                                          "id":  "portal_lab"
+                                      },
+                                      {
+                                          "icon":  "assets/concept/sharks/art_shark_red_eye_688x1024.png",
+                                          "to":  "sharkpedia",
+                                          "id":  "portal_shark"
+                                      },
+                                      {
+                                          "icon":  "assets/symbols/symbol_bc_eye_outline_820x427.png",
+                                          "to":  "billverse",
+                                          "id":  "portal_bc"
+                                      }
+                                  ]
+                  },
+                  {
+                      "title":  "Weapons Lab",
+                      "background":  "assets/backgrounds/lab/background_lab_weapons_workshop_portal_1024x1024.png",
+                      "id":  "lab",
+                      "portals":  [
+
+                                  ]
+                  },
+                  {
+                      "title":  "Sharkpedia",
+                      "background":  "assets/concept/sharks/aquarium.png",
+                      "id":  "sharkpedia",
+                      "portals":  [
+
+                                  ]
+                  },
+                  {
+                      "title":  "Billverse",
+                      "background":  "assets/backgrounds/space/background_space_blackhole_ring_1200x630.jpg",
+                      "id":  "billverse",
+                      "portals":  [
+
+                                  ]
+                  }
+              ]
+}

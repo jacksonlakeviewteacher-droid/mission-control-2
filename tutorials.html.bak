@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tutorials — Mindscape</title>
+
+    <!-- Page-specific wallpaper (optional) -->
+    <meta name="page-wallpaper" content="/public/wallpapers/weapons_workshop_minecraft.png" />
+
+    <link rel="stylesheet" href="/assets/css/site.css" />
+    <link rel="stylesheet" href="/assets/css/kid.css" />
+</head>
+<body>
+<div class="wallpaper"></div>
+
+<header>
+    <div class="row">
+        <div class="logo">🎬 Tutorials</div>
+        <span class="badge" id="pathBadge">Path: Java</span>
+    </div>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/coding.html">Coding</a>
+        <a href="/modeling.html">3D Modeling</a>
+        <a href="/sidequest-sharkgun.html">Side Quest</a>
+        <!-- If this file is /tutorials.html keep this as-is; if it's /tutorials/index.html, use href="/tutorials/" -->
+        <a class="active" href="/tutorials.html">Tutorials</a>
+        <a href="/path/bedrock.html">Bedrock</a>
+        <a href="/library/">Assets</a>
+        <a href="/workbench.html">Workbench</a>
+    </nav>
+</header>
+
+<main>
+    <section class="paper">
+        <header class="row space">
+            <h2>Watch & Learn</h2>
+            <div class="row gap">
+                <input id="tSearch" class="input" placeholder="Search tutorials…" aria-label="Search tutorials" />
+                <select id="tFilter" class="input" aria-label="Filter by category">
+                    <option value="all">All categories</option>
+                </select>
+            </div>
+        </header>
+        <div id="tGrid" class="grid cards"></div>
+    </section>
+</main>
+
+<!-- overlays/utilities outside main -->
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js" defer></script>
+
+<!-- Loader script moved after main for cleaner structure -->
+<script>
+    (async () => {
+      try {
+        const res = await fetch('/public/data/tutorials.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('tutorials.json not found');
+        const data = await res.json();
+
+        const cats = Object.keys(data);
+        const tFilter = document.getElementById('tFilter');
+        tFilter.innerHTML = '<option value="all">All categories</option>' +
+          cats.map(c => `<option value="${c}">${c}</option>`).join('');
+
+        const tGrid = document.getElementById('tGrid');
+        const tSearch = document.getElementById('tSearch');
+
+        function card(item, cat) {
+          const tag = (item.tags || []).slice(0, 3).map(x => `<span class="tag">${x}</span>`).join('');
+          return `
+            <a class="card" href="${item.url}" target="_blank" rel="noopener">
+              <div class="card-body">
+                <h3>${item.title}</h3>
+                <p class="muted">${item.why || ''}</p>
+                <div class="row wrap gap-s">
+                  <span class="chip">${cat}</span>${tag}
+                </div>
+              </div>
+            </a>`;
+        }
+
+        function render() {
+          const q = (tSearch.value || '').toLowerCase();
+          const cat = tFilter.value;
+          const out = [];
+
+          for (const c of cats) {
+            if (cat !== 'all' && cat !== c) continue;
+            const items = data[c].filter(it =>
+              it.title.toLowerCase().includes(q) ||
+              (it.why || '').toLowerCase().includes(q)
+            );
+            if (!items.length) continue;
+            out.push(`<h3 class="section-title">${c}</h3>`);
+            out.push(`<div class="grid cards">${items.map(i => card(i, c)).join('')}</div>`);
+          }
+          tGrid.innerHTML = out.join('');
+        }
+
+        tFilter.addEventListener('change', render);
+        tSearch.addEventListener('input', render);
+        render();
+      } catch (e) {
+        document.getElementById('tGrid').innerHTML =
+          '<div class="muted">Could not load tutorials. Make sure <code>/public/data/tutorials.json</code> exists.</div>';
+      }
+    })();
+</script>
+</body>
+</html>

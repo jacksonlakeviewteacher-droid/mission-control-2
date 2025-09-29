@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Bedrock Path — Mindscape</title>
+    <meta name="page-wallpaper" content="/public/wallpapers/bc_welcome_to_the_mindscape_wallpaper.webp">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/kid.css">
+</head>
+<body>
+<div class="wallpaper"></div>
+<header>
+    <div class="row"><div class="logo">🧰 Bedrock Path</div><span class="badge">Add-ons (JSON)</span></div>
+    <nav>
+        <a href="/">Choose Path</a>
+        <a href="/tutorials.html">Tutorials</a>
+        <a href="/library/">Assets</a>
+        <a href="/notebook.html">Notebook</a>
+        <a href="/ai.html">AI Tools</a>
+    </nav>
+</header>
+
+<main>
+    <section class="grid">
+        <article class="card"><h3>Where files live</h3>
+            <code>%LOCALAPPDATA%\Packages\Microsoft.MinecraftUWP_8wekyb3d8bbwe\LocalState\games\com.mojang\</code>
+            <ul><li>development_behavior_packs\shark_gun_bp</li><li>development_resource_packs\shark_gun_rp</li></ul>
+        </article>
+        <article class="card"><h3>First add-on</h3>
+            <p>Create <code>manifest.json</code> + <code>pack_icon.png</code>, add an item JSON, test in-game.</p>
+            <a class="btn" href="/tutorials.html">Open Bedrock tutorials</a>
+        </article>
+    </section>
+</main>
+
+<div class="sprite-layer">
+    <img class="sprite bill sprite-quip" src="/public/sprites/sprite_bill_bill_cipher_handshake.png" alt="Bill">
+    <div class="bubble" id="billBubble" hidden></div>
+</div>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js"></script>
+</body>
+</html>

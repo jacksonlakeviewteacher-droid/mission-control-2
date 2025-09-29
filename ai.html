@@ -1,0 +1,61 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>AI Tools â€” Mindscape Mission Control</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Optional per-page wallpaper -->
+    <meta name="page-wallpaper" content="/wallpapers/wallpaper_geometry.JPG">
+
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/kid.css">
+</head>
+<body>
+<div class="wallpaper"></div>
+
+<header>
+    <div class="row">
+        <div class="logo">ðŸ¤– AI Tools</div>
+        <span class="badge" id="pathBadge">Path: Java</span>
+    </div>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/coding.html">Coding</a>
+        <a href="/modeling.html">3D Modeling</a>
+        <a href="/sidequest-sharkgun.html">Side Quest</a>
+        <a href="/tutorials.html">Tutorials</a>
+        <a href="/bedrock-vs-java.html">Bedrock vs Java</a>
+        <a href="/library/">Assets</a>
+        <a href="/workbench.html">Workbench</a>
+        <a class="active" href="/ai.html">AI Tools</a>
+    </nav>
+</header>
+
+<main>
+    <section class="grid">
+        <div class="card">
+            <h3>Brainstormer / Explainer</h3>
+            <label for="geminiKey">Gemini API Key (optional)</label>
+            <input id="geminiKey" type="password" placeholder="Paste key here (stored locally)" aria-describedby="aiHelp">
+            <button class="btn small" id="askAI" type="button">Save Key / Use Offline</button>
+            <p class="muted" id="aiHelp">If left blank, the app stays in friendly offline mode.</p>
+        </div>
+
+        <div class="card">
+            <h3>Prompts to try</h3>
+            <ul>
+                <li>â€œGive me 5 item ideas that fit a Shark Gun theme.â€</li>
+                <li>â€œExplain what a DeferredRegister is in Forge.â€</li>
+                <li>â€œTurn this Blockbench model into a Minecraft item texture checklist.â€</li>
+            </ul>
+        </div>
+    </section>
+</main>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>
+
+

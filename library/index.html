@@ -1,0 +1,116 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Assets Library</title>
+    <meta name="page-wallpaper" content="/wallpapers/wallpaper_geometry.JPG">
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/kid.css">
+    <style>
+        /* visually hide labels but keep them accessible */
+        .sr-only{position:absolute!important;left:-10000px!important;top:auto!important;width:1px!important;height:1px!important;overflow:hidden!important;}
+    </style>
+</head>
+<body>
+<div class="wallpaper"></div>
+
+<header>
+    <div class="row">
+        <div class="logo">Assets Library</div>
+        <span class="badge">Preview â€¢ Download â€¢ Index</span>
+    </div>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/coding.html">Coding</a>
+        <a href="/modeling.html">3D Modeling</a>
+        <a href="/tutorials.html">Tutorials</a>
+        <a class="active" href="/library/">Assets</a>
+        <a href="/workbench.html">Workbench</a>
+    </nav>
+</header>
+
+<main class="grid" aria-labelledby="assetsTitle">
+    <h1 id="assetsTitle" class="sr-only">Assets Library</h1>
+
+    <section class="card" style="grid-column:span 12" aria-labelledby="filtersTitle">
+        <h2 id="filtersTitle" class="sr-only">Filters</h2>
+        <div class="row">
+            <label for="assetFolder" class="sr-only">Folder</label>
+            <select id="assetFolder" title="Folder" aria-label="Folder">
+                <option value="all">All folders</option>
+            </select>
+
+            <label for="assetFilter" class="sr-only">Type</label>
+            <select id="assetFilter" title="Type" aria-label="Type">
+                <option value="all">All types</option>
+                <option value="images" selected>Images</option>
+                <option value="audio">Audio</option>
+            </select>
+
+            <label for="assetSearch" class="sr-only">Search</label>
+            <input id="assetSearch" type="search" placeholder="Search (name, folder, type)" aria-label="Search assets">
+
+            <button class="btn small secondary" id="refreshAssets" type="button">Refresh</button>
+        </div>
+
+        <div class="row" style="margin-top:8px">
+            <button class="btn small pill" type="button" onclick="quick('sprites')">Sprites</button>
+            <button class="btn small pill" type="button" onclick="quick('textures')">Textures</button>
+            <button class="btn small pill" type="button" onclick="quick('sounds')">Sounds</button>
+            <button class="btn small pill" type="button" onclick="quick('gui')">GUI</button>
+            <button class="btn small pill" type="button" onclick="quick('wallpapers')">Wallpapers</button>
+        </div>
+    </section>
+
+    <section class="card" id="hotPicks" style="grid-column:span 12; display:none" aria-labelledby="hotTitle">
+        <h2 id="hotTitle" class="sr-only">Quick Picks</h2>
+    </section>
+
+    <section class="card" style="grid-column:span 12" aria-labelledby="gridTitle">
+        <h2 id="gridTitle" class="sr-only">Asset Grid</h2>
+        <div id="assetGrid" class="asset-grid"></div>
+    </section>
+
+    <section class="card" style="grid-column:span 12" aria-labelledby="builderTitle">
+        <h2 id="builderTitle">Build or rebuild index</h2>
+
+        <!-- Keep markup validator-friendly; JS will add folder-pick attributes -->
+        <label for="dirPicker" class="sr-only">Select your public folder</label>
+        <input id="dirPicker" type="file" multiple aria-label="Select your public folder">
+
+        <div id="builderOut" class="muted small" style="margin-top:8px">
+            Pick your local <b>public/</b> folder to generate <code>/data/asset_index.json</code>, then upload it.
+        </div>
+        <div class="muted small">
+            <em>Tip:</em> If your browser canâ€™t choose a folder, select all files in <code>public/</code> instead.
+        </div>
+    </section>
+</main>
+
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js" defer></script>
+<script>
+    // Make the folder picker work without upsetting validators:
+    // add non-standard attributes via JS only if supported.
+    (function () {
+      const input = document.getElementById('dirPicker');
+      if (!input) return;
+      if ('webkitdirectory' in input) {
+        input.setAttribute('webkitdirectory', '');
+        input.setAttribute('directory', '');
+      }
+    })();
+
+    function quick(folder){
+      const f=document.getElementById('assetFolder');
+      if(!f) return;
+      f.value=folder;
+      f.dispatchEvent(new Event('change'));
+    }
+</script>
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,11 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.gitignore": true
+  },
+  "files.associations": {
+    "*.ps1": "powershell"
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "explorer.sortOrder": "type"
+}

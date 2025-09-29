@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Notebook — Mindscape Mission Control</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Optional per-page wallpaper -->
+    <meta name="page-wallpaper" content="/public/wallpapers/wallpaper_geometry.JPG">
+
+    <link rel="stylesheet" href="/assets/css/site.css">
+    <link rel="stylesheet" href="/assets/css/kid.css">
+    <style>
+        /* accessible-but-hidden label helper */
+        .sr-only{position:absolute!important;left:-10000px!important;top:auto!important;width:1px!important;height:1px!important;overflow:hidden!important;}
+    </style>
+</head>
+<body>
+<div class="wallpaper"></div>
+
+<header>
+    <div class="row">
+        <div class="logo">📝 Notebook / Brainstorm</div>
+        <span class="badge" id="pathBadge">Path: Java</span>
+    </div>
+    <nav>
+        <a href="/">Dashboard</a>
+        <a href="/coding.html">Coding</a>
+        <a href="/modeling.html">3D Modeling</a>
+        <a href="/sidequest-sharkgun.html">Side Quest</a>
+        <a href="/tutorials.html">Tutorials</a>
+        <a href="/bedrock-vs-java.html">Bedrock vs Java</a>
+        <a href="/library/">Assets</a>
+        <a class="active" href="/notebook.html">Notebook</a>
+        <a href="/ai.html">AI Tools</a>
+    </nav>
+</header>
+
+<main>
+    <section class="card">
+        <h3>Ideas, todos, quips</h3>
+
+        <!-- Associate label to satisfy the validator -->
+        <label for="notepad" class="sr-only">Notebook text area</label>
+        <textarea id="notepad" rows="16" placeholder="Write anything here. Saved locally to your browser."></textarea>
+
+        <small class="muted">Autosaves to this browser only (localStorage).</small>
+    </section>
+</main>
+
+<!-- overlays/utilities outside main -->
+<div class="toast" id="toast"></div>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>
+

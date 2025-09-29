@@ -1,0 +1,29 @@
+﻿{
+    "paths":  {
+                  "quotes":  {
+                                 "wallpaper":  "/wallpapers/bg_reality_illusion_quote.jpg"
+                             },
+                  "sharklab":  {
+                                   "wallpaper":  "/wallpapers/bg_sharklab_portal.jpg"
+                               },
+                  "summon":  {
+                                 "wallpaper":  "/wallpapers/bg_do_not_summon.jpg"
+                             },
+                  "music":  {
+                                "wallpaper":  "/wallpapers/bg_music_conductor.JPG"
+                            },
+                  "lab":  {
+                              "wallpaper":  "/wallpapers/bg_vortex_room_alt.PNG"
+                          },
+                  "ok":  {
+                             "icon":  "/sprites/icons/bc_icon_thumbs_up.PNG"
+                         },
+                  "status":  {
+                                 "wallpaper":  "/wallpapers/bg_status_check.jpg"
+                             }
+              },
+    "overlays":  {
+                     "glitch":  "/overlays/fx_glitch_eye.gif",
+                     "spiral":  "/overlays/fx_spiral_galaxy.PNG"
+                 }
+}
