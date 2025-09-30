@@ -1,0 +1,402 @@
+[
+  {
+    "name": "bc_names_bill_cipher-1-1",
+    "path": "assets/concept/bill/bc_names_bill_cipher-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_names_bill_cipher-1",
+    "path": "assets/concept/bill/bc_names_bill_cipher-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_names_bill_cipher",
+    "path": "assets/concept/bill/bc_names_bill_cipher.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_arrrgh",
+    "path": "assets/concept/bill/dlg_bill_arrrgh.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_clever",
+    "path": "assets/concept/bill/dlg_bill_clever.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_i_know_lots_of_things",
+    "path": "assets/concept/bill/dlg_bill_i_know_lots_of_things.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_intro_music",
+    "path": "assets/concept/bill/dlg_bill_intro_music.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_laugh",
+    "path": "assets/concept/bill/dlg_bill_laugh.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_look_at_that",
+    "path": "assets/concept/bill/dlg_bill_look_at_that.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_take_em_out",
+    "path": "assets/concept/bill/dlg_bill_take_em_out.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_this_should_be_fun",
+    "path": "assets/concept/bill/dlg_bill_this_should_be_fun.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_you_deserve_a_prize",
+    "path": "assets/concept/bill/dlg_bill_you_deserve_a_prize.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bill_you_know_what_to_do",
+    "path": "assets/concept/bill/dlg_bill_you_know_what_to_do.mp3",
+    "tags": []
+  },
+  {
+    "name": "music_tuba_ominous_shark_theme",
+    "path": "assets/concept/sharks/music_tuba_ominous_shark_theme.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_paloma_weird_shark_noise",
+    "path": "assets/concept/sharks/sfx_paloma_weird_shark_noise.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_glitch_fx_transitions",
+    "path": "assets/overlays/sfx_glitch_fx_transitions.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_glitch_zap",
+    "path": "assets/overlays/sfx_glitch_zap.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_glitch-1-1",
+    "path": "assets/overlays/sfx_glitch-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_glitch-1",
+    "path": "assets/overlays/sfx_glitch-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_glitch-2",
+    "path": "assets/overlays/sfx_glitch-2.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_glitch",
+    "path": "assets/overlays/sfx_glitch.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_loading_glitch",
+    "path": "assets/overlays/sfx_loading_glitch.wav",
+    "tags": []
+  },
+  {
+    "name": "bc_are_you_a_living_ventriloquist_dummy-1-1",
+    "path": "assets/sounds/sfx/bc_are_you_a_living_ventriloquist_dummy-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_are_you_a_living_ventriloquist_dummy-1",
+    "path": "assets/sounds/sfx/bc_are_you_a_living_ventriloquist_dummy-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_are_you_a_living_ventriloquist_dummy",
+    "path": "assets/sounds/sfx/bc_are_you_a_living_ventriloquist_dummy.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_deerteeth_for_you_kid-1-1",
+    "path": "assets/sounds/sfx/bc_deerteeth_for_you_kid-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_deerteeth_for_you_kid-1",
+    "path": "assets/sounds/sfx/bc_deerteeth_for_you_kid-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_deerteeth_for_you_kid",
+    "path": "assets/sounds/sfx/bc_deerteeth_for_you_kid.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_hey_look_what_i_can_do-1-1",
+    "path": "assets/sounds/sfx/bc_hey_look_what_i_can_do-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_hey_look_what_i_can_do-1",
+    "path": "assets/sounds/sfx/bc_hey_look_what_i_can_do-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_hey_look_what_i_can_do",
+    "path": "assets/sounds/sfx/bc_hey_look_what_i_can_do.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_ill_help_you_youll_help_me-1-1",
+    "path": "assets/sounds/sfx/bc_ill_help_you_youll_help_me-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_ill_help_you_youll_help_me-1",
+    "path": "assets/sounds/sfx/bc_ill_help_you_youll_help_me-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_ill_help_you_youll_help_me",
+    "path": "assets/sounds/sfx/bc_ill_help_you_youll_help_me.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_it_is_good_to_be_back-1-1",
+    "path": "assets/sounds/sfx/bc_it_is_good_to_be_back-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_it_is_good_to_be_back-1",
+    "path": "assets/sounds/sfx/bc_it_is_good_to_be_back-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_it_is_good_to_be_back",
+    "path": "assets/sounds/sfx/bc_it_is_good_to_be_back.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_lots_of_things_creepy-1-1",
+    "path": "assets/sounds/sfx/bc_lots_of_things_creepy-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_lots_of_things_creepy-1",
+    "path": "assets/sounds/sfx/bc_lots_of_things_creepy-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_lots_of_things_creepy",
+    "path": "assets/sounds/sfx/bc_lots_of_things_creepy.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_sure_i_am_whats_your_point-1-1",
+    "path": "assets/sounds/sfx/bc_sure_i_am_whats_your_point-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_sure_i_am_whats_your_point-1",
+    "path": "assets/sounds/sfx/bc_sure_i_am_whats_your_point-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_sure_i_am_whats_your_point",
+    "path": "assets/sounds/sfx/bc_sure_i_am_whats_your_point.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_we_will_work_out_the_details_later-1-1",
+    "path": "assets/sounds/sfx/bc_we_will_work_out_the_details_later-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_we_will_work_out_the_details_later-1",
+    "path": "assets/sounds/sfx/bc_we_will_work_out_the_details_later-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_we_will_work_out_the_details_later",
+    "path": "assets/sounds/sfx/bc_we_will_work_out_the_details_later.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_youve_convinced_me-1-1",
+    "path": "assets/sounds/sfx/bc_youve_convinced_me-1-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_youve_convinced_me-1",
+    "path": "assets/sounds/sfx/bc_youve_convinced_me-1.mp3",
+    "tags": []
+  },
+  {
+    "name": "bc_youve_convinced_me",
+    "path": "assets/sounds/sfx/bc_youve_convinced_me.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bc_mad",
+    "path": "assets/sounds/sfx/dlg_bc_mad.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_bc_reality_illusion_bye",
+    "path": "assets/sounds/sfx/dlg_bc_reality_illusion_bye.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_doom_brutal_haha",
+    "path": "assets/sounds/sfx/dlg_doom_brutal_haha.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_doom_im_the_intro",
+    "path": "assets/sounds/sfx/dlg_doom_im_the_intro.mp3",
+    "tags": []
+  },
+  {
+    "name": "dlg_doom_says_no",
+    "path": "assets/sounds/sfx/dlg_doom_says_no.mp3",
+    "tags": []
+  },
+  {
+    "name": "music_creepy_atmosphere",
+    "path": "assets/sounds/sfx/music_creepy_atmosphere.mp3",
+    "tags": []
+  },
+  {
+    "name": "music_echo_dungeon",
+    "path": "assets/sounds/sfx/music_echo_dungeon.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_anime_magic_sound_effect",
+    "path": "assets/sounds/sfx/sfx_anime_magic_sound_effect.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_anime_wow_sound_effect",
+    "path": "assets/sounds/sfx/sfx_anime_wow_sound_effect.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_bite",
+    "path": "assets/sounds/sfx/sfx_bite.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_cannon_blast",
+    "path": "assets/sounds/sfx/sfx_cannon_blast.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_classic_videogame_secret_reveal",
+    "path": "assets/sounds/sfx/sfx_classic_videogame_secret_reveal.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_coin",
+    "path": "assets/sounds/sfx/sfx_coin.wav",
+    "tags": []
+  },
+  {
+    "name": "sfx_elemental_magic_spell_incoming",
+    "path": "assets/sounds/sfx/sfx_elemental_magic_spell_incoming.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_elemental_magic_spell_outgoing",
+    "path": "assets/sounds/sfx/sfx_elemental_magic_spell_outgoing.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_explosion1",
+    "path": "assets/sounds/sfx/sfx_explosion1.wav",
+    "tags": []
+  },
+  {
+    "name": "sfx_fireball_impact",
+    "path": "assets/sounds/sfx/sfx_fireball_impact.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_futuristic_gun_shot_scifi",
+    "path": "assets/sounds/sfx/sfx_futuristic_gun_shot_scifi.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_laser_zap",
+    "path": "assets/sounds/sfx/sfx_laser_zap.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_lazercannon",
+    "path": "assets/sounds/sfx/sfx_lazercannon.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_magic_coins",
+    "path": "assets/sounds/sfx/sfx_magic_coins.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_magical_burst",
+    "path": "assets/sounds/sfx/sfx_magical_burst.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_plasma_gun",
+    "path": "assets/sounds/sfx/sfx_plasma_gun.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_pop",
+    "path": "assets/sounds/sfx/sfx_pop.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_punch",
+    "path": "assets/sounds/sfx/sfx_punch.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_shotgun",
+    "path": "assets/sounds/sfx/sfx_shotgun.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_splash",
+    "path": "assets/sounds/sfx/sfx_splash.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_tolling_bell_magic_unlock",
+    "path": "assets/sounds/sfx/sfx_tolling_bell_magic_unlock.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_tp_chest_open",
+    "path": "assets/sounds/sfx/sfx_tp_chest_open.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_very_big_explosion",
+    "path": "assets/sounds/sfx/sfx_very_big_explosion.mp3",
+    "tags": []
+  },
+  {
+    "name": "sfx_zap",
+    "path": "assets/sounds/sfx/sfx_zap.mp3",
+    "tags": []
+  }
+]
