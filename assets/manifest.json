@@ -1,0 +1,1132 @@
+[
+  {
+    "id": "fx_glitch_eye",
+    "path": "public/overlays/fx_glitch_eye.gif",
+    "kind": "image",
+    "ext": "gif",
+    "tags": [
+      "public\\overlays",
+      "fx_glitch_eye"
+    ]
+  },
+  {
+    "id": "fx_spiral_galaxy",
+    "path": "public/overlays/fx_spiral_galaxy.PNG",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\overlays",
+      "fx_spiral_galaxy"
+    ]
+  },
+  {
+    "id": "fx_swirl",
+    "path": "public/overlays/fx_swirl.jpeg",
+    "kind": "image",
+    "ext": "jpeg",
+    "tags": [
+      "public\\overlays",
+      "fx_swirl"
+    ]
+  },
+  {
+    "id": "overlay_electric_vortex",
+    "path": "public/overlays/overlay_electric_vortex.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\overlays",
+      "overlay_electric_vortex"
+    ]
+  },
+  {
+    "id": "dlg_bc_mad",
+    "path": "public/sounds/dialogue/dlg_bc_mad.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bc_mad"
+    ]
+  },
+  {
+    "id": "dlg_bc_reality_illusion_bye",
+    "path": "public/sounds/dialogue/dlg_bc_reality_illusion_bye.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bc_reality_illusion_bye"
+    ]
+  },
+  {
+    "id": "dlg_bill_arrrgh",
+    "path": "public/sounds/dialogue/dlg_bill_arrrgh.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_arrrgh"
+    ]
+  },
+  {
+    "id": "dlg_bill_clever",
+    "path": "public/sounds/dialogue/dlg_bill_clever.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_clever"
+    ]
+  },
+  {
+    "id": "dlg_bill_i_know_lots_of_things",
+    "path": "public/sounds/dialogue/dlg_bill_i_know_lots_of_things.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_i_know_lots_of_things"
+    ]
+  },
+  {
+    "id": "dlg_bill_intro_music",
+    "path": "public/sounds/dialogue/dlg_bill_intro_music.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_intro_music"
+    ]
+  },
+  {
+    "id": "dlg_bill_laugh",
+    "path": "public/sounds/dialogue/dlg_bill_laugh.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_laugh"
+    ]
+  },
+  {
+    "id": "dlg_bill_look_at_that",
+    "path": "public/sounds/dialogue/dlg_bill_look_at_that.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_look_at_that"
+    ]
+  },
+  {
+    "id": "dlg_bill_mad",
+    "path": "public/sounds/dialogue/dlg_bill_mad.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_mad"
+    ]
+  },
+  {
+    "id": "dlg_bill_reality_illusion_bye",
+    "path": "public/sounds/dialogue/dlg_bill_reality_illusion_bye.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_reality_illusion_bye"
+    ]
+  },
+  {
+    "id": "dlg_bill_take_em_out",
+    "path": "public/sounds/dialogue/dlg_bill_take_em_out.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_take_em_out"
+    ]
+  },
+  {
+    "id": "dlg_bill_this_should_be_fun",
+    "path": "public/sounds/dialogue/dlg_bill_this_should_be_fun.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_this_should_be_fun"
+    ]
+  },
+  {
+    "id": "dlg_bill_you_deserve_a_prize",
+    "path": "public/sounds/dialogue/dlg_bill_you_deserve_a_prize.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_you_deserve_a_prize"
+    ]
+  },
+  {
+    "id": "dlg_bill_you_know_what_to_do",
+    "path": "public/sounds/dialogue/dlg_bill_you_know_what_to_do.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_bill_you_know_what_to_do"
+    ]
+  },
+  {
+    "id": "dlg_doom_brutal_haha",
+    "path": "public/sounds/dialogue/dlg_doom_brutal_haha.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_doom_brutal_haha"
+    ]
+  },
+  {
+    "id": "dlg_doom_im_the_intro",
+    "path": "public/sounds/dialogue/dlg_doom_im_the_intro.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_doom_im_the_intro"
+    ]
+  },
+  {
+    "id": "dlg_doom_says_no",
+    "path": "public/sounds/dialogue/dlg_doom_says_no.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\dialogue",
+      "dlg_doom_says_no"
+    ]
+  },
+  {
+    "id": "music_creepy_atmosphere",
+    "path": "public/sounds/music/music_creepy_atmosphere.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\music",
+      "music_creepy_atmosphere"
+    ]
+  },
+  {
+    "id": "music_echo_dungeon",
+    "path": "public/sounds/music/music_echo_dungeon.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\music",
+      "music_echo_dungeon"
+    ]
+  },
+  {
+    "id": "music_tuba_ominous_shark_theme",
+    "path": "public/sounds/music/music_tuba_ominous_shark_theme.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\music",
+      "music_tuba_ominous_shark_theme"
+    ]
+  },
+  {
+    "id": "sfx_anime_magic_sound_effect",
+    "path": "public/sounds/sfx/sfx_anime_magic_sound_effect.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_anime_magic_sound_effect"
+    ]
+  },
+  {
+    "id": "sfx_anime_wow_sound_effect",
+    "path": "public/sounds/sfx/sfx_anime_wow_sound_effect.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_anime_wow_sound_effect"
+    ]
+  },
+  {
+    "id": "sfx_bite",
+    "path": "public/sounds/sfx/sfx_bite.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_bite"
+    ]
+  },
+  {
+    "id": "sfx_cannon_blast",
+    "path": "public/sounds/sfx/sfx_cannon_blast.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_cannon_blast"
+    ]
+  },
+  {
+    "id": "sfx_classic_videogame_secret_reveal",
+    "path": "public/sounds/sfx/sfx_classic_videogame_secret_reveal.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_classic_videogame_secret_reveal"
+    ]
+  },
+  {
+    "id": "sfx_coin",
+    "path": "public/sounds/sfx/sfx_coin.wav",
+    "kind": "audio",
+    "ext": "wav",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_coin"
+    ]
+  },
+  {
+    "id": "sfx_elemental_magic_spell_incoming",
+    "path": "public/sounds/sfx/sfx_elemental_magic_spell_incoming.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_elemental_magic_spell_incoming"
+    ]
+  },
+  {
+    "id": "sfx_elemental_magic_spell_outgoing",
+    "path": "public/sounds/sfx/sfx_elemental_magic_spell_outgoing.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_elemental_magic_spell_outgoing"
+    ]
+  },
+  {
+    "id": "sfx_explosion1",
+    "path": "public/sounds/sfx/sfx_explosion1.wav",
+    "kind": "audio",
+    "ext": "wav",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_explosion1"
+    ]
+  },
+  {
+    "id": "sfx_fireball_impact",
+    "path": "public/sounds/sfx/sfx_fireball_impact.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_fireball_impact"
+    ]
+  },
+  {
+    "id": "sfx_futuristic_gun_shot_scifi",
+    "path": "public/sounds/sfx/sfx_futuristic_gun_shot_scifi.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_futuristic_gun_shot_scifi"
+    ]
+  },
+  {
+    "id": "sfx_glitch_fx_transitions",
+    "path": "public/sounds/sfx/sfx_glitch_fx_transitions.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_glitch_fx_transitions"
+    ]
+  },
+  {
+    "id": "sfx_glitch_zap",
+    "path": "public/sounds/sfx/sfx_glitch_zap.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_glitch_zap"
+    ]
+  },
+  {
+    "id": "sfx_glitch",
+    "path": "public/sounds/sfx/sfx_glitch.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_glitch"
+    ]
+  },
+  {
+    "id": "sfx_glitch",
+    "path": "public/sounds/sfx/sfx_glitch.wav",
+    "kind": "audio",
+    "ext": "wav",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_glitch"
+    ]
+  },
+  {
+    "id": "sfx_laser_zap",
+    "path": "public/sounds/sfx/sfx_laser_zap.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_laser_zap"
+    ]
+  },
+  {
+    "id": "sfx_lazercannon",
+    "path": "public/sounds/sfx/sfx_lazercannon.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_lazercannon"
+    ]
+  },
+  {
+    "id": "sfx_loading_glitch",
+    "path": "public/sounds/sfx/sfx_loading_glitch.wav",
+    "kind": "audio",
+    "ext": "wav",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_loading_glitch"
+    ]
+  },
+  {
+    "id": "sfx_magic_coins",
+    "path": "public/sounds/sfx/sfx_magic_coins.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_magic_coins"
+    ]
+  },
+  {
+    "id": "sfx_magical_burst",
+    "path": "public/sounds/sfx/sfx_magical_burst.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_magical_burst"
+    ]
+  },
+  {
+    "id": "sfx_paloma_weird_shark_noise",
+    "path": "public/sounds/sfx/sfx_paloma_weird_shark_noise.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_paloma_weird_shark_noise"
+    ]
+  },
+  {
+    "id": "sfx_plasma_gun",
+    "path": "public/sounds/sfx/sfx_plasma_gun.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_plasma_gun"
+    ]
+  },
+  {
+    "id": "sfx_pop",
+    "path": "public/sounds/sfx/sfx_pop.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_pop"
+    ]
+  },
+  {
+    "id": "sfx_punch",
+    "path": "public/sounds/sfx/sfx_punch.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_punch"
+    ]
+  },
+  {
+    "id": "sfx_shotgun",
+    "path": "public/sounds/sfx/sfx_shotgun.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_shotgun"
+    ]
+  },
+  {
+    "id": "sfx_splash",
+    "path": "public/sounds/sfx/sfx_splash.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_splash"
+    ]
+  },
+  {
+    "id": "sfx_tolling_bell_magic_unlock",
+    "path": "public/sounds/sfx/sfx_tolling_bell_magic_unlock.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_tolling_bell_magic_unlock"
+    ]
+  },
+  {
+    "id": "sfx_tp_chest_open",
+    "path": "public/sounds/sfx/sfx_tp_chest_open.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_tp_chest_open"
+    ]
+  },
+  {
+    "id": "sfx_very_big_explosion",
+    "path": "public/sounds/sfx/sfx_very_big_explosion.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_very_big_explosion"
+    ]
+  },
+  {
+    "id": "sfx_zap",
+    "path": "public/sounds/sfx/sfx_zap.mp3",
+    "kind": "audio",
+    "ext": "mp3",
+    "tags": [
+      "public\\sounds\\sfx",
+      "sfx_zap"
+    ]
+  },
+  {
+    "id": "bc_icon_bedrock",
+    "path": "public/sprites/icons/bc_icon_bedrock.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_bedrock"
+    ]
+  },
+  {
+    "id": "bc_icon_blockbench",
+    "path": "public/sprites/icons/bc_icon_blockbench.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_blockbench"
+    ]
+  },
+  {
+    "id": "bc_icon_blocks",
+    "path": "public/sprites/icons/bc_icon_blocks.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_blocks"
+    ]
+  },
+  {
+    "id": "bc_icon_boss",
+    "path": "public/sprites/icons/bc_icon_boss.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_boss"
+    ]
+  },
+  {
+    "id": "bc_icon_coding",
+    "path": "public/sprites/icons/bc_icon_coding.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_coding"
+    ]
+  },
+  {
+    "id": "bc_icon_forge",
+    "path": "public/sprites/icons/bc_icon_forge.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_forge"
+    ]
+  },
+  {
+    "id": "bc_icon_glow_yellow",
+    "path": "public/sprites/icons/bc_icon_glow_yellow.PNG",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_glow_yellow"
+    ]
+  },
+  {
+    "id": "bc_icon_issues",
+    "path": "public/sprites/icons/bc_icon_issues.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_issues"
+    ]
+  },
+  {
+    "id": "bc_icon_java",
+    "path": "public/sprites/icons/bc_icon_java.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_java"
+    ]
+  },
+  {
+    "id": "bc_icon_launch",
+    "path": "public/sprites/icons/bc_icon_launch.svg",
+    "kind": "image",
+    "ext": "svg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_launch"
+    ]
+  },
+  {
+    "id": "bc_icon_notes",
+    "path": "public/sprites/icons/bc_icon_notes.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_notes"
+    ]
+  },
+  {
+    "id": "bc_icon_os_tools",
+    "path": "public/sprites/icons/bc_icon_os_tools.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_os_tools"
+    ]
+  },
+  {
+    "id": "bc_icon_red_flames",
+    "path": "public/sprites/icons/bc_icon_red_flames.PNG",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_red_flames"
+    ]
+  },
+  {
+    "id": "bc_icon_retro_pixel",
+    "path": "public/sprites/icons/bc_icon_retro_pixel.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_retro_pixel"
+    ]
+  },
+  {
+    "id": "bc_icon_sharkdex",
+    "path": "public/sprites/icons/bc_icon_sharkdex.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_sharkdex"
+    ]
+  },
+  {
+    "id": "bc_icon_sharkgun",
+    "path": "public/sprites/icons/bc_icon_sharkgun.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_sharkgun"
+    ]
+  },
+  {
+    "id": "bc_icon_sounds_alt",
+    "path": "public/sprites/icons/bc_icon_sounds_alt.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_sounds_alt"
+    ]
+  },
+  {
+    "id": "bc_icon_sounds",
+    "path": "public/sprites/icons/bc_icon_sounds.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_sounds"
+    ]
+  },
+  {
+    "id": "bc_icon_thumbs_up",
+    "path": "public/sprites/icons/bc_icon_thumbs_up.PNG",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_thumbs_up"
+    ]
+  },
+  {
+    "id": "bc_icon_versions",
+    "path": "public/sprites/icons/bc_icon_versions.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_versions"
+    ]
+  },
+  {
+    "id": "bc_icon_vr",
+    "path": "public/sprites/icons/bc_icon_vr.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\icons",
+      "bc_icon_vr"
+    ]
+  },
+  {
+    "id": "cannon_hunter",
+    "path": "public/sprites/sharks/cannon_hunter.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\sharks",
+      "cannon_hunter"
+    ]
+  },
+  {
+    "id": "shark_attack",
+    "path": "public/sprites/sharks/shark_attack.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\sharks",
+      "shark_attack"
+    ]
+  },
+  {
+    "id": "shark_front_transparent",
+    "path": "public/sprites/sharks/shark_front_transparent.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\sharks",
+      "shark_front_transparent"
+    ]
+  },
+  {
+    "id": "shark_great_white_bw",
+    "path": "public/sprites/sharks/shark_great_white_bw.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\sharks",
+      "shark_great_white_bw"
+    ]
+  },
+  {
+    "id": "shark_great_white",
+    "path": "public/sprites/sharks/shark_great_white.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\sharks",
+      "shark_great_white"
+    ]
+  },
+  {
+    "id": "shark_swimming",
+    "path": "public/sprites/sharks/shark_swimming.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\sharks",
+      "shark_swimming"
+    ]
+  },
+  {
+    "id": "shark",
+    "path": "public/sprites/sharks/shark.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\sharks",
+      "shark"
+    ]
+  },
+  {
+    "id": "sharkgun_catfish",
+    "path": "public/sprites/sharks/sharkgun_catfish.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\sharks",
+      "sharkgun_catfish"
+    ]
+  },
+  {
+    "id": "sharks_bw_sheet",
+    "path": "public/sprites/sharks/sharks_bw_sheet.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\sharks",
+      "sharks_bw_sheet"
+    ]
+  },
+  {
+    "id": "sheet_bc_actions",
+    "path": "public/sprites/sheets/sheet_bc_actions.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\sheets",
+      "sheet_bc_actions"
+    ]
+  },
+  {
+    "id": "chest_alt",
+    "path": "public/sprites/treasures/chest_alt.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\treasures",
+      "chest_alt"
+    ]
+  },
+  {
+    "id": "chest_closed",
+    "path": "public/sprites/treasures/chest_closed.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\sprites\\treasures",
+      "chest_closed"
+    ]
+  },
+  {
+    "id": "chest_empty",
+    "path": "public/sprites/treasures/chest_empty.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\treasures",
+      "chest_empty"
+    ]
+  },
+  {
+    "id": "chest_open",
+    "path": "public/sprites/treasures/chest_open.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\sprites\\treasures",
+      "chest_open"
+    ]
+  },
+  {
+    "id": "bg_diamond_blocks",
+    "path": "public/wallpapers/bg_diamond_blocks.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\wallpapers",
+      "bg_diamond_blocks"
+    ]
+  },
+  {
+    "id": "bg_do_not_summon",
+    "path": "public/wallpapers/bg_do_not_summon.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_do_not_summon"
+    ]
+  },
+  {
+    "id": "bg_floating_volcano",
+    "path": "public/wallpapers/bg_floating_volcano.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_floating_volcano"
+    ]
+  },
+  {
+    "id": "bg_godzilla_cinematic",
+    "path": "public/wallpapers/bg_godzilla_cinematic.JPEG",
+    "kind": "image",
+    "ext": "jpeg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_godzilla_cinematic"
+    ]
+  },
+  {
+    "id": "bg_godzilla_pixel",
+    "path": "public/wallpapers/bg_godzilla_pixel.JPEG",
+    "kind": "image",
+    "ext": "jpeg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_godzilla_pixel"
+    ]
+  },
+  {
+    "id": "bg_lava_cubes",
+    "path": "public/wallpapers/bg_lava_cubes.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_lava_cubes"
+    ]
+  },
+  {
+    "id": "bg_lava_islands",
+    "path": "public/wallpapers/bg_lava_islands.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_lava_islands"
+    ]
+  },
+  {
+    "id": "bg_living_room",
+    "path": "public/wallpapers/bg_living_room.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_living_room"
+    ]
+  },
+  {
+    "id": "bg_monster_bill",
+    "path": "public/wallpapers/bg_monster_bill.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_monster_bill"
+    ]
+  },
+  {
+    "id": "bg_music_conductor",
+    "path": "public/wallpapers/bg_music_conductor.JPG",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_music_conductor"
+    ]
+  },
+  {
+    "id": "bg_nightmare_dimension",
+    "path": "public/wallpapers/bg_nightmare_dimension.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_nightmare_dimension"
+    ]
+  },
+  {
+    "id": "bg_purple_wheel_night",
+    "path": "public/wallpapers/bg_purple_wheel_night.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_purple_wheel_night"
+    ]
+  },
+  {
+    "id": "bg_reality_illusion_quote",
+    "path": "public/wallpapers/bg_reality_illusion_quote.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_reality_illusion_quote"
+    ]
+  },
+  {
+    "id": "bg_runtime_error",
+    "path": "public/wallpapers/bg_runtime_error.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\wallpapers",
+      "bg_runtime_error"
+    ]
+  },
+  {
+    "id": "bg_shark_machine",
+    "path": "public/wallpapers/bg_shark_machine.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_shark_machine"
+    ]
+  },
+  {
+    "id": "bg_sharklab_portal",
+    "path": "public/wallpapers/bg_sharklab_portal.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_sharklab_portal"
+    ]
+  },
+  {
+    "id": "bg_space_chess",
+    "path": "public/wallpapers/bg_space_chess.JPG",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_space_chess"
+    ]
+  },
+  {
+    "id": "bg_status_check",
+    "path": "public/wallpapers/bg_status_check.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_status_check"
+    ]
+  },
+  {
+    "id": "bg_vortex_room_alt",
+    "path": "public/wallpapers/bg_vortex_room_alt.PNG",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\wallpapers",
+      "bg_vortex_room_alt"
+    ]
+  },
+  {
+    "id": "bg_vortex_room",
+    "path": "public/wallpapers/bg_vortex_room.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_vortex_room"
+    ]
+  },
+  {
+    "id": "bg_vr_chaos",
+    "path": "public/wallpapers/bg_vr_chaos.jpg",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "bg_vr_chaos"
+    ]
+  },
+  {
+    "id": "img_0947",
+    "path": "public/wallpapers/IMG_0947.JPG",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "IMG_0947"
+    ]
+  },
+  {
+    "id": "img_0953",
+    "path": "public/wallpapers/IMG_0953.JPG",
+    "kind": "image",
+    "ext": "jpg",
+    "tags": [
+      "public\\wallpapers",
+      "IMG_0953"
+    ]
+  },
+  {
+    "id": "png_transparent_street_fighter_ii_the_world_warrior_ryu_akuma_marvel_vs_capcom_2_new_age_of_heroes_others_blue_computer_wallpaper_video_game",
+    "path": "public/wallpapers/png-transparent-street-fighter-ii-the-world-warrior-ryu-akuma-marvel-vs-capcom-2-new-age-of-heroes-others-blue-computer-wallpaper-video-game.png",
+    "kind": "image",
+    "ext": "png",
+    "tags": [
+      "public\\wallpapers",
+      "png-transparent-street-fighter-ii-the-world-warrior-ryu-akuma-marvel-vs-capcom-2-new-age-of-heroes-others-blue-computer-wallpaper-video-game"
+    ]
+  }
+]
