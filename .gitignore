@@ -1,2 +1,7 @@
 
 public/weapons/*.rar
+# ignore archives
+*.zip
+*.rar
+*.7z
+public/weapons/*.rar
