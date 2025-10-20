@@ -1,0 +1,19 @@
+{
+  "banner": "Mindscape: Mission Control – Shark Gun Mod Questline",
+  "phases": [
+    "Portal",
+    "Setup",
+    "Modeling",
+    "Texturing",
+    "Sound",
+    "Logic",
+    "Testing",
+    "Export"
+  ],
+  "side_nodes": [
+    "Notes",
+    "Quips",
+    "Wallpapers",
+    "Audio"
+  ]
+}

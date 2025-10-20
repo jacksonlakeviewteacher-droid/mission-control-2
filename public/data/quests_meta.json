@@ -1,0 +1,103 @@
+{
+  "project": "Mission Control – Shark Gun Questline",
+  "xp_total": 2750.0,
+  "phases": [
+    "Portal",
+    "Setup",
+    "Modeling",
+    "Texturing",
+    "Sound",
+    "Logic",
+    "Testing",
+    "Export"
+  ],
+  "quests": [
+    {
+      "xp": 150,
+      "phase": "Portal",
+      "title": "The Fork in the Code",
+      "subs": [
+        "Choose Path",
+        "Deploy Choice"
+      ],
+      "id": "Q0"
+    },
+    {
+      "xp": 200,
+      "phase": "Setup",
+      "title": "Mission Prep",
+      "subs": [
+        "Folders",
+        "Forge Test"
+      ],
+      "id": "Q1"
+    },
+    {
+      "xp": 350,
+      "phase": "Modeling",
+      "title": "Prototype the Shark Gun",
+      "subs": [
+        "Blockbench",
+        "Optional Variants"
+      ],
+      "id": "Q2"
+    },
+    {
+      "xp": 400,
+      "phase": "Texturing",
+      "title": "Skin of the Shark",
+      "subs": [
+        "Find Texture",
+        "Pixelate",
+        "UV Map"
+      ],
+      "id": "Q3"
+    },
+    {
+      "xp": 300,
+      "phase": "Sound",
+      "title": "Echoes of the Deep",
+      "subs": [
+        "Attack",
+        "Transform",
+        "Idle"
+      ],
+      "id": "Q4"
+    },
+    {
+      "xp": 500,
+      "phase": "Logic",
+      "title": "Code of the Abyss",
+      "subs": [
+        "Create Item",
+        "Assign Model",
+        "Stats",
+        "Sounds"
+      ],
+      "id": "Q5"
+    },
+    {
+      "xp": 250,
+      "phase": "Testing",
+      "title": "Bubbles & Blood",
+      "subs": [
+        "Particles",
+        "Animate",
+        "Record Clip"
+      ],
+      "id": "Q6"
+    },
+    {
+      "xp": 600,
+      "phase": "Export",
+      "title": "Release the Beast",
+      "subs": [
+        "Build JAR",
+        "Victory Shot",
+        "Reflect"
+      ],
+      "id": "Q7"
+    }
+  ],
+  "bill_note": "Knowledge through mayhem."
+}
