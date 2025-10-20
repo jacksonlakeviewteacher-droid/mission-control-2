@@ -1,102 +1,108 @@
 {
-  "project": "Mission Control – Shark Gun Questline",
+  "project": "Mission Control — Shark Gun Questline",
   "xp_total": 2750.0,
-  "phases": [
-    "Portal",
-    "Setup",
-    "Modeling",
-    "Texturing",
-    "Sound",
-    "Logic",
-    "Testing",
-    "Export"
-  ],
+  "phases": {
+    "Sound": "#facc15",
+    "Modeling": "#22d3ee",
+    "Testing": "#fb7185",
+    "Export": "#a78bfa",
+    "Portal": "#e879f9",
+    "Texturing": "#34d399",
+    "Setup": "#60a5fa",
+    "Logic": "#f97316"
+  },
   "quests": [
     {
-      "xp": 150,
-      "phase": "Portal",
+      "id": "Q0",
       "title": "The Fork in the Code",
+      "phase": "Portal",
+      "xp": 150,
       "subs": [
         "Choose Path",
         "Deploy Choice"
-      ],
-      "id": "Q0"
+      ]
     },
     {
-      "xp": 200,
-      "phase": "Setup",
+      "id": "Q1",
       "title": "Mission Prep",
+      "phase": "Setup",
+      "xp": 200,
       "subs": [
         "Folders",
         "Forge Test"
-      ],
-      "id": "Q1"
+      ]
     },
     {
-      "xp": 350,
-      "phase": "Modeling",
+      "id": "Q2",
       "title": "Prototype the Shark Gun",
+      "phase": "Modeling",
+      "xp": 350,
       "subs": [
         "Blockbench",
-        "Optional Variants"
-      ],
-      "id": "Q2"
+        "Optional VR",
+        "Export Model"
+      ]
     },
     {
-      "xp": 400,
-      "phase": "Texturing",
+      "id": "Q3",
       "title": "Skin of the Shark",
+      "phase": "Texturing",
+      "xp": 400,
       "subs": [
         "Find Texture",
         "Pixelate",
-        "UV Map"
-      ],
-      "id": "Q3"
+        "Map Model",
+        "Glow"
+      ]
     },
     {
-      "xp": 300,
-      "phase": "Sound",
+      "id": "Q4",
       "title": "Echoes of the Deep",
+      "phase": "Sound",
+      "xp": 300,
       "subs": [
         "Attack",
         "Transform",
-        "Idle"
-      ],
-      "id": "Q4"
+        "Idle",
+        "Import"
+      ]
     },
     {
-      "xp": 500,
-      "phase": "Logic",
+      "id": "Q5",
       "title": "Code of the Abyss",
+      "phase": "Logic",
+      "xp": 500,
       "subs": [
         "Create Item",
         "Assign Model",
+        "GUI Picker",
         "Stats",
         "Sounds"
-      ],
-      "id": "Q5"
+      ]
     },
     {
-      "xp": 250,
-      "phase": "Testing",
+      "id": "Q6",
       "title": "Bubbles & Blood",
+      "phase": "Testing",
+      "xp": 250,
       "subs": [
         "Particles",
         "Animate",
+        "Tweak",
         "Record Clip"
-      ],
-      "id": "Q6"
+      ]
     },
     {
-      "xp": 600,
-      "phase": "Export",
+      "id": "Q7",
       "title": "Release the Beast",
+      "phase": "Export",
+      "xp": 600,
       "subs": [
         "Build JAR",
         "Victory Shot",
+        "Publish (opt.)",
         "Reflect"
-      ],
-      "id": "Q7"
+      ]
     }
   ],
   "bill_note": "Knowledge through mayhem."

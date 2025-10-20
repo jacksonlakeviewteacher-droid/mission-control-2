@@ -1,19 +1,184 @@
 {
-  "banner": "Mindscape: Mission Control – Shark Gun Mod Questline",
+  "banner": "Mindscape: Mission Control — Shark Gun Mod Questline",
   "phases": [
-    "Portal",
-    "Setup",
-    "Modeling",
-    "Texturing",
-    "Sound",
-    "Logic",
-    "Testing",
-    "Export"
+    {
+      "id": "Q0",
+      "phase": "Portal",
+      "title": "The Fork in the Code",
+      "color": "#e879f9",
+      "purpose": "Choose Java vs Bedrock; orient.",
+      "core": [
+        "Mission Control site",
+        "GitHub (Pages/PRs)"
+      ],
+      "optional": [
+        "VS Code (notes)",
+        "Python local server"
+      ],
+      "icons": [
+        "public/assets/ui/icons/bc/bc_icon_versions.jpg"
+      ],
+      "quip": "Two doors diverged in the void—pick the one with teeth."
+    },
+    {
+      "id": "Q1",
+      "phase": "Setup",
+      "title": "Mission Prep",
+      "color": "#60a5fa",
+      "purpose": "Folders, installs, first run.",
+      "core": [
+        "Forge",
+        "MCreator",
+        "VS Code",
+        "Git / GitHub Desktop"
+      ],
+      "optional": [
+        "PowerShell / Git Bash",
+        "Python (http.server)"
+      ],
+      "icons": [
+        "public/assets/ui/icons/bc/bc_icon_forge.jpg",
+        "public/assets/ui/icons/bc/bc_icon_os_tools.jpg"
+      ],
+      "quip": "Install now, explode later."
+    },
+    {
+      "id": "Q2",
+      "phase": "Modeling",
+      "title": "Prototype the Shark Gun",
+      "color": "#22d3ee",
+      "purpose": "Design weapon model.",
+      "core": [
+        "Blockbench"
+      ],
+      "optional": [
+        "Tinkercad",
+        "Blender"
+      ],
+      "icons": null,
+      "quip": "Shape chaos into geometry."
+    },
+    {
+      "id": "Q3",
+      "phase": "Texturing",
+      "title": "Skin of the Shark",
+      "color": "#34d399",
+      "purpose": "Create & map textures.",
+      "core": [
+        "Paint.NET",
+        "Aseprite",
+        "Photopea"
+      ],
+      "optional": [
+        "Adobe Express / Firefly"
+      ],
+      "icons": null,
+      "quip": "Pixels crave meaning—feed them."
+    },
+    {
+      "id": "Q4",
+      "phase": "Sound",
+      "title": "Echoes of the Deep",
+      "color": "#facc15",
+      "purpose": "Design/import SFX.",
+      "core": [
+        "Audacity",
+        "Bfxr"
+      ],
+      "optional": [
+        "Tone generators",
+        "AI voices (optional)"
+      ],
+      "icons": "public/assets/ui/icons/bc/bc_icon_sounds_alt.png",
+      "quip": "If it screeches, it teaches."
+    },
+    {
+      "id": "Q5",
+      "phase": "Logic",
+      "title": "Code of the Abyss",
+      "color": "#f97316",
+      "purpose": "Item behavior & GUI.",
+      "core": [
+        "MCreator",
+        "VS Code"
+      ],
+      "optional": [
+        "IntelliJ IDEA",
+        "JSON viewers"
+      ],
+      "icons": "public/assets/ui/icons/bc/bc_icon_coding.jpg",
+      "quip": "If it compiles, aim higher."
+    },
+    {
+      "id": "Q6",
+      "phase": "Testing",
+      "title": "Bubbles & Blood",
+      "color": "#fb7185",
+      "purpose": "Test, tweak, record.",
+      "core": [
+        "Forge dev client",
+        "Minecraft"
+      ],
+      "optional": [
+        "OBS Studio / Game Bar"
+      ],
+      "icons": null,
+      "quip": "Press run. Observe chaos. Adjust variables."
+    },
+    {
+      "id": "Q7",
+      "phase": "Export",
+      "title": "Release the Beast",
+      "color": "#a78bfa",
+      "purpose": "Build & share.",
+      "core": [
+        "Gradle / MCreator Build",
+        "GitHub Releases"
+      ],
+      "optional": [
+        "Canva (poster)",
+        "Screenshots"
+      ],
+      "icons": null,
+      "quip": "Ship it—and duck."
+    }
   ],
   "side_nodes": [
-    "Notes",
-    "Quips",
-    "Wallpapers",
-    "Audio"
+    {
+      "id": "VR",
+      "label": "VR Sculpting",
+      "phase": "Modeling",
+      "tools": [
+        "Gravity Sketch",
+        "Tilt Brush",
+        "SculptGL"
+      ],
+      "icon": "public/assets/ui/icons/bc/bc_icon_vr.jpg",
+      "quip": "Think it, sculpt it, break reality."
+    },
+    {
+      "id": "AI",
+      "label": "AI Tools",
+      "phase": "Logic",
+      "tools": [
+        "ChatGPT",
+        "Gemini",
+        "Leonardo.ai"
+      ],
+      "icon": null,
+      "quip": "Ask the void for ideas."
+    },
+    {
+      "id": "NOTES",
+      "label": "Notes/Glossary",
+      "phase": "Portal",
+      "tools": [
+        "Google Docs (Voice)",
+        "Notion",
+        "Otter.ai"
+      ],
+      "icon": "public/assets/ui/icons/bc/bc_icon_notes.jpg",
+      "quip": "Say it out loud; capture the chaos."
+    }
   ]
 }
