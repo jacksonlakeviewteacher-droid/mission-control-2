@@ -1,5 +1,5 @@
 {
-  // === Explorer & File Settings ===
+  // ===== FILE VIEW & LANGUAGE SETTINGS =====
   "files.exclude": {
     "**/.git": true,
     "**/.gitignore": true
@@ -9,21 +9,29 @@
   },
   "explorer.sortOrder": "type",
 
-  // === Terminal ===
+  // ===== TERMINAL & ENVIRONMENT =====
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.cwd": "${workspaceFolder}",
 
-  // === Editor & Formatting ===
+  // ===== EDITOR BEHAVIOR =====
   "editor.formatOnSave": true,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
+
+  // ===== POWERSHELL CODE STYLE =====
   "powershell.codeFormatting.preset": "Stroustrup",
   "powershell.codeFormatting.useCorrectCasing": true,
 
-  // === Python Env ===
+  // ===== PYTHON VENV =====
   "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
 
-  // === Action Buttons (requires jkearin.vscode-action-buttons) ===
+  // ===== GIT AUTO-FETCH SETTINGS =====
+  "git.autofetch": true,
+  "git.autofetchPeriod": 1800, // every 30 minutes
+  "git.pruneOnFetch": true,
+  "git.fetchOnPull": true,
+
+  // ===== COMMAND RUNNER / ACTION BUTTONS =====
   "actionButtons": {
     "defaultColor": "#cccccc",
     "commands": [
@@ -31,28 +39,28 @@
         "name": "🔁 Rebuild",
         "command": "workbench.action.tasks.runTask",
         "args": ["Rebuild Data JSONs"],
-        "color": "#ffd700",
-        "tooltip": "Run rebuild-data.ps1"
+        "color": "#8be9fd",
+        "tooltip": "Run Rebuild Data JSONs"
       },
       {
         "name": "📝 Rebuild+Commit",
         "command": "workbench.action.tasks.runTask",
         "args": ["Rebuild Data + Commit (No Push)"],
-        "color": "#87cefa",
-        "tooltip": "Rebuild and commit locally"
+        "color": "#50fa7b",
+        "tooltip": "Rebuild and commit locally (no push)"
       },
       {
         "name": "✅ Rebuild+Push",
         "command": "workbench.action.tasks.runTask",
         "args": ["Rebuild Data + Commit & Push"],
-        "color": "#7cfc00",
-        "tooltip": "Rebuild, commit, and push (if upstream set)"
+        "color": "#bd93f9",
+        "tooltip": "Rebuild, commit, and push (safe branch only)"
       },
       {
         "name": "🌿 New Branch",
         "command": "workbench.action.tasks.runTask",
         "args": ["Safe: New Feature Branch"],
-        "color": "#32cd32",
+        "color": "#f1fa8c",
         "tooltip": "Create & push a safe feature branch"
       }
     ]
