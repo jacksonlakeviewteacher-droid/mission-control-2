@@ -1,32 +1,118 @@
 {
   "version": "2.0.0",
-  "files.exclude": {
-    "**/.git": true,
-    "**/.gitignore": true
+  "options": {
+    "cwd": "${workspaceFolder}"
   },
-  "files.associations": { "*.ps1": "powershell" },
-  "explorer.sortOrder": "type",
+  "tasks": [
+    {
+      "label": "Build: assets manifests",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}\\tools\\Build-Manifests.ps1"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
 
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.cwd": "${workspaceFolder}",
+    {
+      "label": "Rebuild Data JSONs",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}\\scripts\\rebuild-data.ps1"
+      ],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
 
-  "editor.formatOnSave": true,
-  "files.trimTrailingWhitespace": true,
-  "files.insertFinalNewline": true,
+    {
+      "label": "Rebuild Data + Commit (No Push)",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}\\scripts\\rebuild-data.ps1",
+        "-AutoCommit",
+        "-NoPush",
+        "-Message", "${input:commitMessage}"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
 
-  "powershell.codeFormatting.preset": "Stroustrup",
-  "powershell.codeFormatting.useCorrectCasing": true,
+    {
+      "label": "Rebuild Data + Commit & Push",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}\\scripts\\rebuild-data.ps1",
+        "-AutoCommit",
+        "-Message", "${input:commitMessage}"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
 
-  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+    {
+      "label": "Safe: New Feature Branch",
+      "type": "shell",
+      "command": "pwsh",
+      "args": [
+        "-ExecutionPolicy", "Bypass",
+        "-File", "${workspaceFolder}\\.vscode\\git-branch-helper.ps1"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
 
-  "actionButtons": {
-    "alignment": "left",
-    "defaultColor": "#cccccc",
-    "commands": [
-      { "name": "🔁 Rebuild",        "command": "workbench.action.tasks.runTask", "args": "Rebuild Data JSONs",                    "color": "#ffd700", "tooltip": "Run rebuild-data.ps1" },
-      { "name": "📝 Rebuild+Commit", "command": "workbench.action.tasks.runTask", "args": "Rebuild Data + Commit (No Push)",       "color": "#87cefa", "tooltip": "Rebuild and commit locally" },
-      { "name": "✅ Rebuild+Push",   "command": "workbench.action.tasks.runTask", "args": "Rebuild Data + Commit & Push",          "color": "#7cfc00", "tooltip": "Rebuild, commit, then push" },
-      { "name": "🌿 New Branch",     "command": "workbench.action.tasks.runTask", "args": "Safe: New Feature Branch",              "color": "#32cd32", "tooltip": "Create & push a safe feature branch" }
-    ]
-  }
+    {
+      "label": "Full Rebuild (Manifests + Data)",
+      "dependsOn": [
+        "Build: assets manifests",
+        "Rebuild Data JSONs"
+      ],
+      "dependsOrder": "sequence",
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      },
+      "problemMatcher": []
+    }
+  ],
+
+  "inputs": [
+    {
+      "id": "commitMessage",
+      "type": "promptString",
+      "description": "Commit message",
+      "default": "chore: rebuild data JSONs"
+    }
+  ]
 }
