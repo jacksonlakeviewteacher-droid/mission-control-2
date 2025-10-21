@@ -1,55 +1,32 @@
 {
   "version": "2.0.0",
-  "tasks": [
-    {
-      "label": "Build: assets manifest",
-      "type": "shell",
-      "command": "powershell",
-      "args": [
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        "${workspaceFolder}\\tools\\build-manifest.ps1"
-      ],
-      "problemMatcher": []
-    },
-    {
-      "label": "Rebuild Data JSONs",
-      "type": "shell",
-      "command": "powershell",
-      "args": [
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        "${workspaceFolder}\\scripts\\rebuild-data.ps1"
-      ],
-      "group": {
-        "kind": "build",
-        "isDefault": true
-      },
-      "presentation": {
-        "reveal": "always",
-        "panel": "shared",
-        "focus": false
-      },
-      "problemMatcher": []
-    },
-    {
-      "label": "Safe: New Feature Branch",
-      "type": "shell",
-      "command": "powershell",
-      "args": [
-        "-ExecutionPolicy",
-        "Bypass",
-        "-File",
-        "${workspaceFolder}\\.vscode\\git-branch-helper.ps1"
-      ],
-      "presentation": {
-        "reveal": "always",
-        "panel": "shared",
-        "focus": false
-      },
-      "problemMatcher": []
-    }
-  ]
+  "files.exclude": {
+    "**/.git": true,
+    "**/.gitignore": true
+  },
+  "files.associations": { "*.ps1": "powershell" },
+  "explorer.sortOrder": "type",
+
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.cwd": "${workspaceFolder}",
+
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "powershell.codeFormatting.preset": "Stroustrup",
+  "powershell.codeFormatting.useCorrectCasing": true,
+
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+
+  "actionButtons": {
+    "alignment": "left",
+    "defaultColor": "#cccccc",
+    "commands": [
+      { "name": "🔁 Rebuild",        "command": "workbench.action.tasks.runTask", "args": "Rebuild Data JSONs",                    "color": "#ffd700", "tooltip": "Run rebuild-data.ps1" },
+      { "name": "📝 Rebuild+Commit", "command": "workbench.action.tasks.runTask", "args": "Rebuild Data + Commit (No Push)",       "color": "#87cefa", "tooltip": "Rebuild and commit locally" },
+      { "name": "✅ Rebuild+Push",   "command": "workbench.action.tasks.runTask", "args": "Rebuild Data + Commit & Push",          "color": "#7cfc00", "tooltip": "Rebuild, commit, then push" },
+      { "name": "🌿 New Branch",     "command": "workbench.action.tasks.runTask", "args": "Safe: New Feature Branch",              "color": "#32cd32", "tooltip": "Create & push a safe feature branch" }
+    ]
+  }
 }

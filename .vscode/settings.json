@@ -1,4 +1,5 @@
 {
+  // === Explorer & File Settings ===
   "files.exclude": {
     "**/.git": true,
     "**/.gitignore": true
@@ -6,51 +7,54 @@
   "files.associations": {
     "*.ps1": "powershell"
   },
+  "explorer.sortOrder": "type",
+
+  // === Terminal ===
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.cwd": "${workspaceFolder}",
 
-  "explorer.sortOrder": "type",
+  // === Editor & Formatting ===
   "editor.formatOnSave": true,
   "files.trimTrailingWhitespace": true,
   "files.insertFinalNewline": true,
-
   "powershell.codeFormatting.preset": "Stroustrup",
   "powershell.codeFormatting.useCorrectCasing": true,
 
+  // === Python Env ===
   "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
 
-  "statusbar.command.commands": [
-    {
-      "text": "🔁 Rebuild",
-      "command": "workbench.action.tasks.runTask",
-      "arguments": "Rebuild Data JSONs",
-      "alignment": "right",
-      "priority": 100,
-      "tooltip": "Run: Rebuild Data JSONs"
-    },
-    {
-      "text": "📝 Rebuild+Commit",
-      "command": "workbench.action.tasks.runTask",
-      "arguments": "Rebuild Data + Commit (No Push)",
-      "alignment": "right",
-      "priority": 99,
-      "tooltip": "Rebuild JSONs and commit locally (no push)"
-    },
-    {
-      "text": "✅ Rebuild+Push",
-      "command": "workbench.action.tasks.runTask",
-      "arguments": "Rebuild Data + Commit & Push",
-      "alignment": "right",
-      "priority": 98,
-      "tooltip": "Rebuild JSONs, commit, and push (if upstream set)"
-    },
-    {
-      "text": "🌿 New Branch",
-      "command": "workbench.action.tasks.runTask",
-      "arguments": "Safe: New Feature Branch",
-      "alignment": "right",
-      "priority": 97,
-      "tooltip": "Create & push a safe feature branch"
-    }
-  ]
+  // === Action Buttons (requires jkearin.vscode-action-buttons) ===
+  "actionButtons": {
+    "defaultColor": "#cccccc",
+    "commands": [
+      {
+        "name": "🔁 Rebuild",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Rebuild Data JSONs"],
+        "color": "#ffd700",
+        "tooltip": "Run rebuild-data.ps1"
+      },
+      {
+        "name": "📝 Rebuild+Commit",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Rebuild Data + Commit (No Push)"],
+        "color": "#87cefa",
+        "tooltip": "Rebuild and commit locally"
+      },
+      {
+        "name": "✅ Rebuild+Push",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Rebuild Data + Commit & Push"],
+        "color": "#7cfc00",
+        "tooltip": "Rebuild, commit, and push (if upstream set)"
+      },
+      {
+        "name": "🌿 New Branch",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Safe: New Feature Branch"],
+        "color": "#32cd32",
+        "tooltip": "Create & push a safe feature branch"
+      }
+    ]
+  }
 }
