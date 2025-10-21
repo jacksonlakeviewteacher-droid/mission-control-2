@@ -7,5 +7,50 @@
     "*.ps1": "powershell"
   },
   "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "explorer.sortOrder": "type"
+  "terminal.integrated.cwd": "${workspaceFolder}",
+
+  "explorer.sortOrder": "type",
+  "editor.formatOnSave": true,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "powershell.codeFormatting.preset": "Stroustrup",
+  "powershell.codeFormatting.useCorrectCasing": true,
+
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+
+  "statusbar.command.commands": [
+    {
+      "text": "🔁 Rebuild",
+      "command": "workbench.action.tasks.runTask",
+      "arguments": "Rebuild Data JSONs",
+      "alignment": "right",
+      "priority": 100,
+      "tooltip": "Run: Rebuild Data JSONs"
+    },
+    {
+      "text": "📝 Rebuild+Commit",
+      "command": "workbench.action.tasks.runTask",
+      "arguments": "Rebuild Data + Commit (No Push)",
+      "alignment": "right",
+      "priority": 99,
+      "tooltip": "Rebuild JSONs and commit locally (no push)"
+    },
+    {
+      "text": "✅ Rebuild+Push",
+      "command": "workbench.action.tasks.runTask",
+      "arguments": "Rebuild Data + Commit & Push",
+      "alignment": "right",
+      "priority": 98,
+      "tooltip": "Rebuild JSONs, commit, and push (if upstream set)"
+    },
+    {
+      "text": "🌿 New Branch",
+      "command": "workbench.action.tasks.runTask",
+      "arguments": "Safe: New Feature Branch",
+      "alignment": "right",
+      "priority": 97,
+      "tooltip": "Create & push a safe feature branch"
+    }
+  ]
 }

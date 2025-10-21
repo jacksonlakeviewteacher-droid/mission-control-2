@@ -1,0 +1,3920 @@
+[
+    {
+        "path":  ".gitattributes"
+    },
+    {
+        "path":  ".gitignore"
+    },
+    {
+        "path":  "ai.html"
+    },
+    {
+        "path":  "ai.html.bak"
+    },
+    {
+        "path":  "bedrock-vs-java.html"
+    },
+    {
+        "path":  "bedrock-vs-java.html.bak"
+    },
+    {
+        "path":  "coding.html"
+    },
+    {
+        "path":  "desktop.ini"
+    },
+    {
+        "path":  "FLOW.md"
+    },
+    {
+        "path":  "HANDOFF.md"
+    },
+    {
+        "path":  "import-quips.html"
+    },
+    {
+        "path":  "import-quips.html.bak"
+    },
+    {
+        "path":  "index.html"
+    },
+    {
+        "path":  "index.html.bak"
+    },
+    {
+        "path":  "index3.html"
+    },
+    {
+        "path":  "modeling.html"
+    },
+    {
+        "path":  "modeling.html.bak"
+    },
+    {
+        "path":  "notebook.html"
+    },
+    {
+        "path":  "notebook.html.bak"
+    },
+    {
+        "path":  "project-files.json"
+    },
+    {
+        "path":  "project-folders.txt"
+    },
+    {
+        "path":  "project-tree.txt"
+    },
+    {
+        "path":  "README.md"
+    },
+    {
+        "path":  "RUNBOOK.md"
+    },
+    {
+        "path":  "sidequest-blockbench.html"
+    },
+    {
+        "path":  "sidequest-blockbench.html.bak"
+    },
+    {
+        "path":  "sidequest-sharkgun.html"
+    },
+    {
+        "path":  "sidequest-sharkgun.html.bak"
+    },
+    {
+        "path":  "sidequest.html"
+    },
+    {
+        "path":  "sidequest.html.bak"
+    },
+    {
+        "path":  "sketch1758669665247.png"
+    },
+    {
+        "path":  "start_mission_control.bat"
+    },
+    {
+        "path":  "tutorials.html"
+    },
+    {
+        "path":  "tutorials.html.bak"
+    },
+    {
+        "path":  "workbench.html"
+    },
+    {
+        "path":  "workbench.html.bak"
+    },
+    {
+        "path":  "_headers"
+    },
+    {
+        "path":  "_redirects"
+    },
+    {
+        "path":  ".idea\\.gitignore"
+    },
+    {
+        "path":  ".idea\\desktop.ini"
+    },
+    {
+        "path":  ".idea\\misc.xml"
+    },
+    {
+        "path":  ".idea\\Mission-Control-2.iml"
+    },
+    {
+        "path":  ".idea\\modules.xml"
+    },
+    {
+        "path":  ".idea\\libraries\\desktop.ini"
+    },
+    {
+        "path":  ".idea\\libraries\\UI_Different_Free_Wenrexa1.xml"
+    },
+    {
+        "path":  ".vscode\\git-branch-helper.ps1"
+    },
+    {
+        "path":  ".vscode\\launch.json"
+    },
+    {
+        "path":  ".vscode\\settings.json"
+    },
+    {
+        "path":  ".vscode\\tasks.json"
+    },
+    {
+        "path":  "assets\\manifest.json"
+    },
+    {
+        "path":  "assets\\pages.json"
+    },
+    {
+        "path":  "assets\\css\\kid.css"
+    },
+    {
+        "path":  "assets\\css\\site.css"
+    },
+    {
+        "path":  "assets\\js\\site.js"
+    },
+    {
+        "path":  "assets\\js\\site.js.bak"
+    },
+    {
+        "path":  "docs\\github_cloudflare_flowchart_clean.pdf"
+    },
+    {
+        "path":  "docs\\github_cloudflare_flowchart_clean.png"
+    },
+    {
+        "path":  "helper_scripts_for_mod_root\\1_run_dev_client.bat"
+    },
+    {
+        "path":  "helper_scripts_for_mod_root\\2_new_item.ps1"
+    },
+    {
+        "path":  "helper_scripts_for_mod_root\\3_build_release.bat"
+    },
+    {
+        "path":  "helper_scripts_for_mod_root\\4_fix_common_issues.bat"
+    },
+    {
+        "path":  "helper_scripts_for_mod_root\\desktop.ini"
+    },
+    {
+        "path":  "helper_scripts_for_mod_root\\README_DROP_IN.txt"
+    },
+    {
+        "path":  "library\\index.html"
+    },
+    {
+        "path":  "library\\index.html.bak"
+    },
+    {
+        "path":  "mindscape-mission-control-site\\desktop.ini"
+    },
+    {
+        "path":  "path\\bedrock.html"
+    },
+    {
+        "path":  "path\\bedrock.html.bak"
+    },
+    {
+        "path":  "path\\desktop.ini"
+    },
+    {
+        "path":  "path\\java.html"
+    },
+    {
+        "path":  "path\\java.html.bak"
+    },
+    {
+        "path":  "public\\desktop.ini"
+    },
+    {
+        "path":  "public\\_headers.yml"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\another_lava_island_transparent-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\another_lava_island_transparent-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\another_lava_island_transparent.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background-_bc_sketch_hx-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background-_bc_sketch_hx-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background-_bc_sketch_hx.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background-_bc_vortex-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background-_bc_vortex-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background-_bc_vortex.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_black-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_black-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_black.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_creepy-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_creepy-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_creepy.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_family-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_family-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_family.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_godzilla-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_godzilla-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_godzilla.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_invention_vortex-1-1.jpeg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_invention_vortex-1.jpeg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_invention_vortex.jpeg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_pixel_godzilla-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_pixel_godzilla-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_pixel_godzilla.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_stirring-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_stirring-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_bc_stirring.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_norse_runes_purple-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_norse_runes_purple-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_norse_runes_purple.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_vortex_workshop-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_vortex_workshop-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_vortex_workshop.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_wallpaper_weird_lab-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_wallpaper_weird_lab-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\background_wallpaper_weird_lab.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_blue_patterned_background---copy-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_blue_patterned_background---copy-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_blue_patterned_background---copy.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_floating_nightsky_transparent_icon.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_space_interior-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_space_interior-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_space_interior.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_wallpaper-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_wallpaper-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_wallpaper.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_welcome_to_the_mindscape_wallpaper-1-1.webp"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_welcome_to_the_mindscape_wallpaper-1.webp"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_welcome_to_the_mindscape_wallpaper.webp"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_zodiac_of_weirdness_ring_in_clouds.jpg-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_zodiac_of_weirdness_ring_in_clouds.jpg-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bc_zodiac_of_weirdness_ring_in_clouds.jpg.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_diamond_blocks.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_do_not_summon.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_floating_volcano.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_lab-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_lab-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_lab.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_lava_cubes.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_lava_islands.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_living_room.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_music_conductor.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_nightmare_dimension.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_purple_wheel_night.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_reality_illusion_quote.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_runtime_error.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_status_check.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_vortex_room.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_vortex_room_alt.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\bg_vr_chaos.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\blue_sky_stone_blocks-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\blue_sky_stone_blocks-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\blue_sky_stone_blocks.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\castle-dungeon-brick-wall-cartoon-background-game-2d-style_567294-21238-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\castle-dungeon-brick-wall-cartoon-background-game-2d-style_567294-21238.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\falling_lava_rocks-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\falling_lava_rocks-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\falling_lava_rocks.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\floating_rock_island-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\floating_rock_island-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\floating_rock_island.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\jagged_bottom_transparent_lava_rock-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\jagged_bottom_transparent_lava_rock-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\jagged_bottom_transparent_lava_rock.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lab_perspective_ring-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lab_perspective_ring-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lab_perspective_ring.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lab_screens_perspective-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lab_screens_perspective-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lab_screens_perspective.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island10-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island10-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island10.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island11-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island11-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island11.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island12-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island12-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island12.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island13-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island13-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island13.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island2-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island2-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island2.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island4-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island4-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island4.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island5-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island5-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island5.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island6-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island6-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island6.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island7-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island7-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island7.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island8-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island8-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island8.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island9-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island9-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island9.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island_flat_transparent-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island_flat_transparent-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_island_flat_transparent.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_rock_island1-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_rock_island1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\lava_rock_island1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\png-transparent-street-fighter-ii-the-world-warrior-ryu-akuma-marvel-vs-capcom-2-new-age-of-heroes-others-blue-computer-wallpaper-video-game.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rock_islands_with_volcano_transparent-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rock_islands_with_volcano_transparent-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rock_islands_with_volcano_transparent.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rock_island_transparent-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rock_island_transparent-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rock_island_transparent.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\round_boulders_island-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\round_boulders_island-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\round_boulders_island.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rune_background-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rune_background-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rune_background.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rune_character_pattern_white_background-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rune_character_pattern_white_background-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rune_character_pattern_white_background.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rune_wallpaper-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rune_wallpaper-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\rune_wallpaper.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\sample_wallpaper-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\sample_wallpaper-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\sample_wallpaper.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\space_shark_regrets_choices-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\space_shark_regrets_choices.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\sprite_bc_space-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\sprite_bc_space-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\sprite_bc_space.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\sprite_tile_lava1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\sprite_tile_lava1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\tile_lava2-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\tile_lava2.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\twisted_chaos_lab_workshop_flame-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\twisted_chaos_lab_workshop_flame-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\twisted_chaos_lab_workshop_flame.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\viking_rune_wallpaper-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\viking_rune_wallpaper-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\viking_rune_wallpaper.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_chaos_1-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_chaos_1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_chaos_1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_chaos_workshop-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_chaos_workshop-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_chaos_workshop.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_ds_symbol.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_geometry-1-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_geometry-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_geometry-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_geometry-2-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_geometry-2.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_geometry.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_tesselation-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_tesselation-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\wallpaper_tesselation.jpg"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\weapons_lab_bc-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\weapons_lab_bc-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\weapons_lab_bc.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\weapons_lab_computers_with_software-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\weapons_lab_computers_with_software-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\weapons_lab_computers_with_software.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\weapons_lab_without_bc-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\weapons_lab_without_bc-1.png"
+    },
+    {
+        "path":  "public\\assets\\backgrounds\\weapons_lab_without_bc.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\angry_bill_coding_error-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\angry_bill_coding_error-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\angry_bill_coding_error.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bc_names_bill_cipher-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bc_names_bill_cipher-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bc_names_bill_cipher.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bg_monster_bill.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill-cipher-did_you_miss_me-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill-cipher-did_you_miss_me-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill-cipher-did_you_miss_me.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill-cipher-orange-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill-cipher-orange-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill-cipher-orange.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_blockbench_errors-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_blockbench_errors-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_blockbench_errors.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_cipher-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_cipher-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_cipher.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_cipher_blocky-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_cipher_blocky-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_cipher_blocky.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_cipher_lego_for_blockbench_link-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_cipher_lego_for_blockbench_link-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\bill_cipher_lego_for_blockbench_link.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\cipher_wheel_stained_glass-1-1.jpeg"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\cipher_wheel_stained_glass-1.jpeg"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\cipher_wheel_stained_glass.jpeg"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_arrrgh.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_clever.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_intro_music.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_i_know_lots_of_things.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_laugh.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_look_at_that.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_take_em_out.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_this_should_be_fun.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_you_deserve_a_prize.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\dlg_bill_you_know_what_to_do.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\sprite_bill_bill-cipher-mistery-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\sprite_bill_bill-cipher-mistery-1.gif"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\sprite_bill_bill-cipher-mistery.gif"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\sprite_bill_bill_cipher_handshake-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\sprite_bill_bill_cipher_handshake-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\bill\\sprite_bill_bill_cipher_handshake.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\7_most_aggressive_sharks-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\7_most_aggressive_sharks-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\7_most_aggressive_sharks.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\bc_icon_sharkdex.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\beach_shark-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\beach_shark-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\beach_shark.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\bg_sharklab_portal.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\bone_shark-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\bone_shark-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\bone_shark.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\cgishark-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\cgishark-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\cgishark.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\cyborg_shark-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\cyborg_shark-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\cyborg_shark.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\four_headed_shark-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\four_headed_shark-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\four_headed_shark.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\futuristic_shark_handguns-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\futuristic_shark_handguns-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\futuristic_shark_handguns.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\laser_roboshark-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\laser_roboshark-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\laser_roboshark.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\m3_big_shark-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\m3_big_shark-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\m3_big_shark.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\modeling_shark_pistol_gun-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\modeling_shark_pistol_gun-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\modeling_shark_pistol_gun.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\multi_headed_shark-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\multi_headed_shark-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\multi_headed_shark.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\music_tuba_ominous_shark_theme.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\pixel_sharkgun-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\pixel_sharkgun-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\pixel_sharkgun.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\red_eyed_shark-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\roboshark_poster-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\roboshark_poster.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\robo_shark_cutout-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\robo_shark_cutout-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\robo_shark_cutout.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sfx_paloma_weird_shark_noise.mp3"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharkgun_catfish.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharknado-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharknado-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharknado.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharks_bw_sheet.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharktopus-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharktopus-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharktopus.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharktopus_transparent-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharktopus_transparent-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\sharktopus_transparent.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_attack.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_blaster-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_blaster-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_blaster.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_faces-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_faces-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_faces.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_front_transparent.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_great_white.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_great_white_bw.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_gun_fin-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_gun_fin-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_gun_fin.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_schematic-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_schematic-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_schematic.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_swimming.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_types_poster-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\shark_types_poster.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\six_headed_shark_transparent-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\six_headed_shark_transparent-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\six_headed_shark_transparent.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\space_shark_regrets_choices-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\toxic_shark-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\toxic_shark-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\toxic_shark-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\toxic_shark-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\toxic_shark.jpg"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\toxic_shark.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\two_mouthed_shark-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\two_mouthed_shark-1.png"
+    },
+    {
+        "path":  "public\\assets\\concept\\sharks\\two_mouthed_shark.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\01.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\02.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\03.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\04.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\05.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\06.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\07-02-25-mit-black-hole-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\07-02-25-mit-black-hole-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\07-02-25-mit-black-hole.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\07.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\08.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\09.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\10.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\11.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\12.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\14.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\15.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\16.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\17.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\18.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\19.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\20.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\21.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\22.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\23.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\24.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\25.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\26.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\27.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\28.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\29.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\30.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\31.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\32.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\33.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\34.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\35.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\aquarium-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\aquarium-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\aquarium.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\barwindow.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bazooka-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bazooka-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bazooka.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_blockbench-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_blockbench-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_blockbench.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_blue_flame_hands-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_blue_flame_hands-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_blue_flame_hands.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_chaos_exe-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_chaos_exe-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_chaos_exe.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_coding_image-1-1.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_coding_image-1.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_coding_image.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_come_w_me-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_come_w_me-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_come_w_me.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_fatal_computer_error-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_fatal_computer_error-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_fatal_computer_error.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_floating_gif-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_floating_gif-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_floating_gif.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_greatest_hit_flame_nightmare-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_greatest_hit_flame_nightmare-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_greatest_hit_flame_nightmare.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_grr-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_grr-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_grr.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_looking_out_of_pyramid-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_looking_out_of_pyramid-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_looking_out_of_pyramid.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_lord_and_master-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_lord_and_master-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_lord_and_master.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_meditating-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_meditating-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_meditating.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_multidimensional_chess-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_multidimensional_chess-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_multidimensional_chess.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_multiple_computers-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_multiple_computers-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_multiple_computers.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_nightmare-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_nightmare-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_nightmare.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_paleolithic-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_paleolithic-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_paleolithic.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_red_transparent-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_red_transparent-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_red_transparent.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_ring_journal_desk-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_ring_journal_desk-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_ring_journal_desk.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_weirdmaggedon_with_friends-1-1.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_weirdmaggedon_with_friends-1.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_weirdmaggedon_with_friends.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_weird_friends-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_weird_friends-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bc_weird_friends.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bd_insult-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bd_insult-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bd_insult.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bedrock-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bedrock-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bedrock.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bill_cipher_pixel_art-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bill_cipher_pixel_art-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\bill_cipher_pixel_art.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\black_and_white_swirling_vortex-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\black_and_white_swirling_vortex-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\black_and_white_swirling_vortex.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\block_computer_sketch-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\block_computer_sketch-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\block_computer_sketch.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btnexitnoopacity.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btnexitopacity.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v01.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v02.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v03.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v04.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v05.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v06.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v07.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v08.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v09.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v10.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v11.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v12.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v13.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v14.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v15.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v16.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v17.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v18.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v19.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\btn_v20.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\button-active.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\button-disable.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\button-hover.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\button-normal.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\buttonpanel.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\cannon_hunter.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\card-x1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\card-x2-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\card-x2.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\card-x3.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\castle-dungeon-brick-wall-cartoon-background-game-2d-style_567294-21238-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\cell125x121px.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\cellbig_01.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\cellbig_02.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\cellbig_03.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\checked_01.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\checked_02.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\checked_03.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\checked_04.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\checked_05.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\checked_06.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\chest_alt.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\chest_closed.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\chest_empty.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\chest_open.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\closeup_dark_waves---copy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\closeup_dark_waves---copy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\closeup_dark_waves---copy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\creepy_abandoned_house-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\creepy_abandoned_house-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\creepy_abandoned_house.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\dark_bc_cracking-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\dark_bc_cracking-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\dark_bc_cracking.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\dark_waves---copy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\dark_waves---copy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\dark_waves---copy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\desolate_desert-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\desolate_desert-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\desolate_desert.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\dimension_502_float_land-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\dimension_502_float_land-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\dimension_502_float_land.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\fiery_blackhole-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\fiery_blackhole-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\fiery_blackhole.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\fx_spiral_galaxy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\fx_swirl.jpeg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\gl-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\gl-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\gl.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\grassy_rock_path---copy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\grassy_rock_path---copy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\grassy_rock_path---copy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\img_0947.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\img_0953.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\incredulous_speed-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\incredulous_speed-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\incredulous_speed.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\java-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\java-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\java.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\knife-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\knife-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\knife.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\lets_make_a_deal-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\lets_make_a_deal-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\lets_make_a_deal.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\mass_disruption_black_hole-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\mass_disruption_black_hole-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\mass_disruption_black_hole.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\mauser-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\mauser-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\mauser.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\maxresdefault-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\maxresdefault-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\maxresdefault.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\milky_way_dark-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\milky_way_dark-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\milky_way_dark.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\mutant_aquarium-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\mutant_aquarium-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\mutant_aquarium.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\nightmare_woods-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\nightmare_woods-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\nightmare_woods.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\outer_gods_nebula-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\outer_gods_nebula-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\outer_gods_nebula.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\panel-empty-green.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\panel-empty.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\panel-red.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\panel1_noopacity592x975px.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\panel1_opacity592x975px.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\panel2_noopacity591x975px.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\panel2_opacity591x975px.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\panelcells528x653px.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\panelwindow.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\plain_floating_rock-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\plain_floating_rock-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\plain_floating_rock.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\purple_back_bh_w_ring-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\purple_back_bh_w_ring-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\purple_back_bh_w_ring.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\purple_vortex-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\purple_vortex-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\purple_vortex.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\red_dimension-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\red_dimension-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\red_dimension.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\rifle-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\rifle-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\rifle.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\roboshark_poster.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\rock_with_tree_transparent-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\rock_with_tree_transparent-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\rock_with_tree_transparent.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\rune_wall-1-1.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\rune_wall-1.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\rune_wall.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sfx_lens_flare_light-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sfx_lens_flare_light-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sfx_lens_flare_light.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\shark_types_poster.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sheet_bc_actions.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sketch1758669665247-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sketch1758669665247-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sketch1758669665247.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sketch1758756647942-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sketch1758756647942-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sketch1758756647942.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\spaghetiffication-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\spaghetiffication-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\spaghetiffication.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sparkle_blue_vortex-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sparkle_blue_vortex-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sparkle_blue_vortex.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\spiral_galaxy-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\spiral_galaxy-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\spiral_galaxy.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_3d-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_3d-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_3d.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_fullview-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_fullview-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_fullview.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_glyph---copy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_glyph---copy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_glyph---copy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_red_animated_pyramid-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_red_animated_pyramid-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_bc_red_animated_pyramid.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blazing_blue_flame_fireball-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blazing_blue_flame_fireball-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blazing_blue_flame_fireball.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blue_fireball-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blue_fireball-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blue_fireball.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blue_fire_magic---copy-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blue_fire_magic---copy-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blue_fire_magic---copy.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blue_flame_magic---copy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blue_flame_magic---copy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_blue_flame_magic---copy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_cube-texture-combination-rubik-colorful-3d-cube-abstract-ai-generative-free-png---copy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_cube-texture-combination-rubik-colorful-3d-cube-abstract-ai-generative-free-png---copy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_cube-texture-combination-rubik-colorful-3d-cube-abstract-ai-generative-free-png---copy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_firehands-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_firehands-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_firehands.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_fire_explosion_animation-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_fire_explosion_animation-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_fire_explosion_animation.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_paint_brush_and_palette---copy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_paint_brush_and_palette---copy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_paint_brush_and_palette---copy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_parchment---copy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_parchment---copy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_parchment---copy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_pixel_dungeon---copy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_pixel_dungeon---copy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_pixel_dungeon---copy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_purple_fire-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_purple_fire-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_purple_fire.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_weapons_cannon-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_weapons_cannon-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\sprite_weapons_cannon.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\supermassive-black-hole-1-1.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\supermassive-black-hole-1.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\supermassive-black-hole.webp"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\supermassive_sphere_blackhole-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\supermassive_sphere_blackhole-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\supermassive_sphere_blackhole.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\swirling_blue_starry-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\swirling_blue_starry-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\swirling_blue_starry.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\swirling_spiral_galaxy-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\swirling_spiral_galaxy-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\swirling_spiral_galaxy.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\time_vortex-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\time_vortex-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\time_vortex.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\transform_bc-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\transform_bc-1.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\transform_bc.gif"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\transparent_dimensional_rift_bc-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\transparent_dimensional_rift_bc-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\transparent_dimensional_rift_bc.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\violet_nebula-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\violet_nebula-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\violet_nebula.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weapons_workshop_minecraft-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weapons_workshop_minecraft-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weapons_workshop_minecraft.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weirdmageddon-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weirdmageddon-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weirdmageddon.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weirdmaggedon_bc_twisted_pyramid-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weirdmaggedon_bc_twisted_pyramid-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weirdmaggedon_bc_twisted_pyramid.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weirdmaggedon_dance-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weirdmaggedon_dance-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\weirdmaggedon_dance.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\welcome_to_mindscape-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\welcome_to_mindscape-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\welcome_to_mindscape.jpg"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\window01.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\window02.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\window03.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\window03_btn.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\window03_minimize.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\window04.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\workshop_vortex-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\workshop_vortex-1.png"
+    },
+    {
+        "path":  "public\\assets\\illustrations\\workshop_vortex.png"
+    },
+    {
+        "path":  "public\\assets\\overlays\\creepy_border-1-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\overlays\\creepy_border-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\overlays\\creepy_border.jpg"
+    },
+    {
+        "path":  "public\\assets\\overlays\\overlay_electric_vortex.png"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sfx_glitch-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sfx_glitch-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sfx_glitch-2.mp3"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sfx_glitch.mp3"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sfx_glitch_fx_transitions.mp3"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sfx_glitch_zap.mp3"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sfx_loading_glitch.wav"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sprite_bc_glitchy-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sprite_bc_glitchy-1.gif"
+    },
+    {
+        "path":  "public\\assets\\overlays\\sprite_bc_glitchy.gif"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_are_you_a_living_ventriloquist_dummy-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_are_you_a_living_ventriloquist_dummy-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_are_you_a_living_ventriloquist_dummy.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_deerteeth_for_you_kid-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_deerteeth_for_you_kid-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_deerteeth_for_you_kid.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_hey_look_what_i_can_do-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_hey_look_what_i_can_do-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_hey_look_what_i_can_do.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_ill_help_you_youll_help_me-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_ill_help_you_youll_help_me-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_ill_help_you_youll_help_me.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_it_is_good_to_be_back-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_it_is_good_to_be_back-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_it_is_good_to_be_back.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_lots_of_things_creepy-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_lots_of_things_creepy-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_lots_of_things_creepy.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_sure_i_am_whats_your_point-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_sure_i_am_whats_your_point-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_sure_i_am_whats_your_point.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_we_will_work_out_the_details_later-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_we_will_work_out_the_details_later-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_we_will_work_out_the_details_later.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_youve_convinced_me-1-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_youve_convinced_me-1.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\bc_youve_convinced_me.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\dlg_bc_mad.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\dlg_bc_reality_illusion_bye.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\dlg_doom_brutal_haha.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\dlg_doom_im_the_intro.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\dlg_doom_says_no.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\music_creepy_atmosphere.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\music_echo_dungeon.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_anime_magic_sound_effect.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_anime_wow_sound_effect.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_bite.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_cannon_blast.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_classic_videogame_secret_reveal.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_coin.wav"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_elemental_magic_spell_incoming.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_elemental_magic_spell_outgoing.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_explosion1.wav"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_fireball_impact.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_futuristic_gun_shot_scifi.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_laser_zap.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_lazercannon.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_magical_burst.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_magic_coins.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_plasma_gun.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_pop.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_punch.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_shotgun.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_splash.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_tolling_bell_magic_unlock.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_tp_chest_open.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_very_big_explosion.mp3"
+    },
+    {
+        "path":  "public\\assets\\sounds\\sfx\\sfx_zap.mp3"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tiles_floor_tiles-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tiles_floor_tiles-1.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tiles_floor_tiles.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tiles_groundtiles-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tiles_groundtiles-1.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tiles_groundtiles.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tiles_pixel_platformer_tile_set_1_0-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tiles_pixel_platformer_tile_set_1_0-1.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tiles_pixel_platformer_tile_set_1_0.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\sprite_tile_lava1.png"
+    },
+    {
+        "path":  "public\\assets\\tiles\\tile_lava2.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_eyeball_realm-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_eyeball_realm-1.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_eyeball_realm.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_floating_nightsky_transparent_icon-1.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_floating_nightsky_transparent_icon.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_bedrock.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_blocks.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_boss.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_coding.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_forge.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_glow_yellow.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_issues.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_java.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_notes.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_os_tools.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_red_flames.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_retro_pixel.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_sounds.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_sounds_alt.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_versions.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bc_icon_vr.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bill_cipher_eye-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bill_cipher_eye-1.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\bill_cipher_eye.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_audiooff_grey.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_audio_grey.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_menu_grey.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_musicoff_grey.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_music_grey.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_star.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_stargrey.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_stargrey_whiteoutline.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_starsrey_seethroughoutline.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_star_seethroughoutline.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_large_star_whiteoutline.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_arrow.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_audio.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_audiooff.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_check.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_help.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_home.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_info.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_menu.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_music.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_musicoff.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_pause.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_blank_return.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_coin.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_coindollar.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_coineuro.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_whiteoutline_diamond.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_whiteoutline_key.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_whiteoutline_lookingglass.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_whiteoutline_star.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_whiteoutline_stargrey.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\icon_small_whiteoutline_x.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\minecraft_icon_256x-1-1.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\minecraft_icon_256x-1.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\minecraft_icon_256x.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\red_eyed_shark-1.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\red_eyed_shark.png"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\sprite_glitch_eye-1-1.gif"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\sprite_glitch_eye-1.gif"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\sprite_glitch_eye.gif"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\sprite_gui_bc_2d_glitchy_icon.gif"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\wallpaper_ds_symbol-1.jpg"
+    },
+    {
+        "path":  "public\\assets\\ui\\icons\\bc\\wallpaper_ds_symbol.jpg"
+    },
+    {
+        "path":  "public\\assets\\_manifest\\images.json"
+    },
+    {
+        "path":  "public\\assets\\_manifest\\sounds.json"
+    },
+    {
+        "path":  "public\\data\\asset_index (1).json"
+    },
+    {
+        "path":  "public\\data\\asset_index.json"
+    },
+    {
+        "path":  "public\\data\\Bill_Cipher_Dialogue_Expanded.csv"
+    },
+    {
+        "path":  "public\\data\\desktop.ini"
+    },
+    {
+        "path":  "public\\data\\paths_assets.json"
+    },
+    {
+        "path":  "public\\data\\quests_meta.json"
+    },
+    {
+        "path":  "public\\data\\quips.json"
+    },
+    {
+        "path":  "public\\data\\sounds_index.json"
+    },
+    {
+        "path":  "public\\data\\tools_meta.json"
+    },
+    {
+        "path":  "public\\data\\tutorials"
+    },
+    {
+        "path":  "public\\gui\\01.png"
+    },
+    {
+        "path":  "public\\gui\\02.png"
+    },
+    {
+        "path":  "public\\gui\\03.png"
+    },
+    {
+        "path":  "public\\gui\\04.png"
+    },
+    {
+        "path":  "public\\gui\\05.png"
+    },
+    {
+        "path":  "public\\gui\\06.png"
+    },
+    {
+        "path":  "public\\gui\\07.png"
+    },
+    {
+        "path":  "public\\gui\\08.png"
+    },
+    {
+        "path":  "public\\gui\\09.png"
+    },
+    {
+        "path":  "public\\gui\\10.png"
+    },
+    {
+        "path":  "public\\gui\\11.png"
+    },
+    {
+        "path":  "public\\gui\\12.png"
+    },
+    {
+        "path":  "public\\gui\\14.png"
+    },
+    {
+        "path":  "public\\gui\\15.png"
+    },
+    {
+        "path":  "public\\gui\\16.png"
+    },
+    {
+        "path":  "public\\gui\\17.png"
+    },
+    {
+        "path":  "public\\gui\\18.png"
+    },
+    {
+        "path":  "public\\gui\\19.png"
+    },
+    {
+        "path":  "public\\gui\\20.png"
+    },
+    {
+        "path":  "public\\gui\\21.png"
+    },
+    {
+        "path":  "public\\gui\\22.png"
+    },
+    {
+        "path":  "public\\gui\\23.png"
+    },
+    {
+        "path":  "public\\gui\\24.png"
+    },
+    {
+        "path":  "public\\gui\\25.png"
+    },
+    {
+        "path":  "public\\gui\\26.png"
+    },
+    {
+        "path":  "public\\gui\\27.png"
+    },
+    {
+        "path":  "public\\gui\\28.png"
+    },
+    {
+        "path":  "public\\gui\\29.png"
+    },
+    {
+        "path":  "public\\gui\\30.png"
+    },
+    {
+        "path":  "public\\gui\\31.png"
+    },
+    {
+        "path":  "public\\gui\\32.png"
+    },
+    {
+        "path":  "public\\gui\\33.png"
+    },
+    {
+        "path":  "public\\gui\\34.png"
+    },
+    {
+        "path":  "public\\gui\\35.png"
+    },
+    {
+        "path":  "public\\gui\\Button Active.png"
+    },
+    {
+        "path":  "public\\gui\\Button Disable.png"
+    },
+    {
+        "path":  "public\\gui\\Button Hover.png"
+    },
+    {
+        "path":  "public\\gui\\Button Normal.png"
+    },
+    {
+        "path":  "public\\gui\\Card X1.png"
+    },
+    {
+        "path":  "public\\gui\\Card X2 (1).png"
+    },
+    {
+        "path":  "public\\gui\\Card X2.png"
+    },
+    {
+        "path":  "public\\gui\\Card X3.png"
+    },
+    {
+        "path":  "public\\gui\\desktop.ini"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_AudioOff_Grey.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_Audio_Grey.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_Menu_Grey.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_MusicOff_Grey.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_Music_Grey.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_Star.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_StarGrey.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_StarGrey_WhiteOutline.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_StarSrey_SeethroughOutline.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_Star_SeethroughOutline.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Large_Star_WhiteOutline.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Arrow.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Audio.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_AudioOff.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Check.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Help.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Home.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Info.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Menu.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Music.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_MusicOff.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Pause.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Blank_Return.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_Coin.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_CoinDollar.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_CoinEuro.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_WhiteOutline_Diamond.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_WhiteOutline_Key.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_WhiteOutline_LookingGlass.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_WhiteOutline_Star.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_WhiteOutline_StarGrey.png"
+    },
+    {
+        "path":  "public\\gui\\Icon_Small_WhiteOutline_X.png"
+    },
+    {
+        "path":  "public\\gui\\Panel Empty Green.png"
+    },
+    {
+        "path":  "public\\gui\\Panel Empty.png"
+    },
+    {
+        "path":  "public\\gui\\Panel Red.png"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Blank_Base.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Blank_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Blank_Pointer.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Blank_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Blue_Base.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Blue_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Blue_Pointer.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Blue_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Orange_Base.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Orange_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Orange_Pointer.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Orange_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Pointer.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Red_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollBar_WhiteOutline_Base.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollSlider_Arrow.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollSlider_Blank_Arrow.svg"
+    },
+    {
+        "path":  "public\\gui\\ScrollSlider_WhiteOutline_Arrow.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Background.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Base.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Blue_Background.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Blue_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Blue_Frame.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Blue_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Frame.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Green_Pointer.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Green_Scoller.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Orange_Background.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Orange_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Orange_Frame.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Orange_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Red_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_Scroller_Green.svg"
+    },
+    {
+        "path":  "public\\gui\\SlimSlider_WhiteOutline_Frame.svg"
+    },
+    {
+        "path":  "public\\gui\\sprite_gui_bc_2d_glitchy_icon.gif"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1.zip"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Background.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blank_Background.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blank_Background_1.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blank_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blank_Button_1.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blank_Frame.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blank_Frame_1.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blank_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blank_Scroller_1.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blue_Background.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blue_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blue_Frame.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Blue_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Frame.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSLider_Green_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Orange_Background.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Orange_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Orange_Frame.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Orange_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Red_Button.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_Scroller.svg"
+    },
+    {
+        "path":  "public\\gui\\WideSlider_WhiteOutline_Frame.svg"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\desktop.ini"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\UI_Different_Free_Wenrexa01.psd"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\BarWindow.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\BtnExitNoOpacity.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\BtnExitOpacity.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V01.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V02.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V03.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V04.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V05.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V06.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V07.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V08.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V09.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V10.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V11.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V12.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V13.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V14.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V15.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V16.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V17.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V18.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V19.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Btn_V20.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\ButtonPanel.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Cell125x121px.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\CellBig_01.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\CellBig_02.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\CellBig_03.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Checked_01.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Checked_02.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Checked_03.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Checked_04.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Checked_05.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Checked_06.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\desktop.ini"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Panel1_NoOpacity592x975px.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Panel1_Opacity592x975px.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Panel2_NoOpacity591x975px.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Panel2_Opacity591x975px.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\PanelCells528x653px.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\PanelWindow.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Window01.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Window02.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Window03.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Window03_Btn.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Window03_Minimize.png"
+    },
+    {
+        "path":  "public\\gui\\UI_Different_Free_Wenrexa1 (Unzipped Files)\\PNG\\Window04.png"
+    },
+    {
+        "path":  "public\\misc\\background_Norse_runes_purple.jpg"
+    },
+    {
+        "path":  "public\\misc\\desktop.ini"
+    },
+    {
+        "path":  "public\\misc\\sprite_bc_glyph.png"
+    },
+    {
+        "path":  "public\\misc\\sprite_blazing_blue_flame_fireball.png"
+    },
+    {
+        "path":  "public\\misc\\sprite_blue_fireball.png"
+    },
+    {
+        "path":  "public\\misc\\sprite_blue_fire_magic.gif"
+    },
+    {
+        "path":  "public\\misc\\sprite_blue_flame_magic.png"
+    },
+    {
+        "path":  "public\\misc\\sprite_cube-texture-combination-rubik-colorful-3d-cube-abstract-ai-generative-free-png.png"
+    },
+    {
+        "path":  "public\\misc\\sprite_firehands.gif"
+    },
+    {
+        "path":  "public\\misc\\sprite_fire_explosion_animation.gif"
+    },
+    {
+        "path":  "public\\misc\\sprite_glitch_eye.gif"
+    },
+    {
+        "path":  "public\\misc\\sprite_paint_brush_and_palette.png"
+    },
+    {
+        "path":  "public\\misc\\sprite_parchment.png"
+    },
+    {
+        "path":  "public\\misc\\sprite_pixel_dungeon.png"
+    },
+    {
+        "path":  "public\\misc\\sprite_purple_fire.png"
+    },
+    {
+        "path":  "public\\misc\\sprite_tile_lava1.png"
+    },
+    {
+        "path":  "public\\overlays\\desktop.ini"
+    },
+    {
+        "path":  "public\\overlays\\fx_glitch_eye.gif"
+    },
+    {
+        "path":  "public\\overlays\\fx_spiral_galaxy.PNG"
+    },
+    {
+        "path":  "public\\overlays\\fx_swirl.jpeg"
+    },
+    {
+        "path":  "public\\overlays\\overlay_electric_vortex.png"
+    },
+    {
+        "path":  "public\\sounds\\desktop.ini"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\desktop.ini"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bc_mad.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bc_reality_illusion_bye.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_arrrgh.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_clever.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_intro_music.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_i_know_lots_of_things.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_laugh.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_look_at_that.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_mad.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_reality_illusion_bye.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_take_em_out.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_this_should_be_fun.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_you_deserve_a_prize.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_bill_you_know_what_to_do.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_doom_brutal_haha.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_doom_im_the_intro.mp3"
+    },
+    {
+        "path":  "public\\sounds\\dialogue\\dlg_doom_says_no.mp3"
+    },
+    {
+        "path":  "public\\sounds\\music\\desktop.ini"
+    },
+    {
+        "path":  "public\\sounds\\music\\music_creepy_atmosphere.mp3"
+    },
+    {
+        "path":  "public\\sounds\\music\\music_echo_dungeon.mp3"
+    },
+    {
+        "path":  "public\\sounds\\music\\music_tuba_ominous_shark_theme.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\desktop.ini"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_anime_magic_sound_effect.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_anime_wow_sound_effect.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_bite.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_cannon_blast.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_classic_videogame_secret_reveal.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_coin.wav"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_elemental_magic_spell_incoming.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_elemental_magic_spell_outgoing.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_explosion1.wav"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_fireball_impact.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_futuristic_gun_shot_scifi.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_glitch.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_glitch.wav"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_glitch_fx_transitions.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_glitch_zap.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_laser_zap.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_lazercannon.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_loading_glitch.wav"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_magical_burst.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_magic_coins.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_paloma_weird_shark_noise.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_plasma_gun.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_pop.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_punch.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_shotgun.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_splash.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_tolling_bell_magic_unlock.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_tp_chest_open.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_very_big_explosion.mp3"
+    },
+    {
+        "path":  "public\\sounds\\sfx\\sfx_zap.mp3"
+    },
+    {
+        "path":  "public\\sprites\\desktop.ini"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_bedrock.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_blockbench.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_blocks.png"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_boss.png"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_coding.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_forge.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_glow_yellow.PNG"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_issues.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_java.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_launch.svg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_notes.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_os_tools.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_red_flames.PNG"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_retro_pixel.png"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_sharkdex.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_sharkgun.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_sounds.png"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_sounds_alt.png"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_thumbs_up.PNG"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_versions.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\bc_icon_vr.jpg"
+    },
+    {
+        "path":  "public\\sprites\\icons\\desktop.ini"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\cannon_hunter.png"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\desktop.ini"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\shark.png"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\sharkgun_catfish.png"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\sharks_bw_sheet.jpg"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\shark_attack.png"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\shark_front_transparent.png"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\shark_great_white.png"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\shark_great_white_bw.jpg"
+    },
+    {
+        "path":  "public\\sprites\\sharks\\shark_swimming.png"
+    },
+    {
+        "path":  "public\\sprites\\sheets\\desktop.ini"
+    },
+    {
+        "path":  "public\\sprites\\sheets\\sheet_bc_actions.jpg"
+    },
+    {
+        "path":  "public\\sprites\\treasures\\chest_alt.jpg"
+    },
+    {
+        "path":  "public\\sprites\\treasures\\chest_closed.png"
+    },
+    {
+        "path":  "public\\sprites\\treasures\\chest_empty.jpg"
+    },
+    {
+        "path":  "public\\sprites\\treasures\\chest_open.jpg"
+    },
+    {
+        "path":  "public\\sprites\\treasures\\desktop.ini"
+    },
+    {
+        "path":  "public\\tiles\\desktop.ini"
+    },
+    {
+        "path":  "public\\tiles\\sprite_tiles_floor_tiles.png"
+    },
+    {
+        "path":  "public\\tiles\\sprite_tiles_groundtiles.png"
+    },
+    {
+        "path":  "public\\tiles\\sprite_tiles_pixel_platformer_tile_set_1_0.png"
+    },
+    {
+        "path":  "public\\tiles\\tile_lava2.png"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_diamond_blocks.png"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_do_not_summon.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_floating_volcano.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_godzilla_cinematic.JPEG"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_godzilla_pixel.JPEG"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_lava_cubes.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_lava_islands.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_living_room.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_monster_bill.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_music_conductor.JPG"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_nightmare_dimension.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_purple_wheel_night.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_reality_illusion_quote.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_runtime_error.png"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_sharklab_portal.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_shark_machine.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_space_chess.JPG"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_status_check.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_vortex_room.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_vortex_room_alt.PNG"
+    },
+    {
+        "path":  "public\\wallpapers\\bg_vr_chaos.jpg"
+    },
+    {
+        "path":  "public\\wallpapers\\desktop.ini"
+    },
+    {
+        "path":  "public\\wallpapers\\IMG_0947.JPG"
+    },
+    {
+        "path":  "public\\wallpapers\\IMG_0953.JPG"
+    },
+    {
+        "path":  "public\\wallpapers\\Lede_BHmerger_c.Victor-de-Schwanberg_Science-Photo-Library.avif"
+    },
+    {
+        "path":  "public\\wallpapers\\Lede_BHmerger_c.Victor-de-Schwanberg_Science-Photo-Library.avif.zip"
+    },
+    {
+        "path":  "public\\wallpapers\\png-transparent-street-fighter-ii-the-world-warrior-ryu-akuma-marvel-vs-capcom-2-new-age-of-heroes-others-blue-computer-wallpaper-video-game.png"
+    },
+    {
+        "path":  "public\\weapons\\bazooka.blend"
+    },
+    {
+        "path":  "public\\weapons\\bazooka.blend1"
+    },
+    {
+        "path":  "public\\weapons\\bazooka.png"
+    },
+    {
+        "path":  "public\\weapons\\desktop.ini"
+    },
+    {
+        "path":  "public\\weapons\\gl.png"
+    },
+    {
+        "path":  "public\\weapons\\grenadelauncher.blend"
+    },
+    {
+        "path":  "public\\weapons\\grenadelauncher.blend1"
+    },
+    {
+        "path":  "public\\weapons\\knife.blend"
+    },
+    {
+        "path":  "public\\weapons\\knife.blend1"
+    },
+    {
+        "path":  "public\\weapons\\knife.png"
+    },
+    {
+        "path":  "public\\weapons\\mauser.blend"
+    },
+    {
+        "path":  "public\\weapons\\mauser.blend1"
+    },
+    {
+        "path":  "public\\weapons\\mauser.png"
+    },
+    {
+        "path":  "public\\weapons\\sprite_weapons_Cannon.png"
+    },
+    {
+        "path":  "public\\weapons\\weaponPack (1).blend"
+    },
+    {
+        "path":  "public\\weapons\\weaponPack.blend"
+    },
+    {
+        "path":  "public\\weapons\\weaponPack.blend1"
+    },
+    {
+        "path":  "public\\weapons\\weaponPack.fbx"
+    },
+    {
+        "path":  "scripts\\rebuild-data.ps1"
+    },
+    {
+        "path":  "scripts\\Sync-MissionControl.py"
+    },
+    {
+        "path":  "tools\\adopt_last_batch.ps1"
+    },
+    {
+        "path":  "tools\\adopt_lava_vortex_batch.ps1"
+    },
+    {
+        "path":  "tools\\adopt_review_assets.ps1"
+    },
+    {
+        "path":  "tools\\Build-Manifests.ps1"
+    },
+    {
+        "path":  "tools\\build_asset_index.py"
+    },
+    {
+        "path":  "tools\\build_ci.py"
+    },
+    {
+        "path":  "tools\\build_sounds_index.py"
+    },
+    {
+        "path":  "tools\\install_pwsh_shim.ps1"
+    },
+    {
+        "path":  "tools\\rename_assets.ps1"
+    }
+]
