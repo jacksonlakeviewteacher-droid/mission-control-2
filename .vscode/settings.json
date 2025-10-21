@@ -32,9 +32,47 @@
   "git.fetchOnPull": true,
 
   // ===== COMMAND RUNNER / ACTION BUTTONS =====
-  "actionButtons": {
-    "defaultColor": "#cccccc",
-    "commands": [
+    "actionButtons": {
+      "reloadButton": "false",
+      "defaultColor": "#cccccc",
+      "commands": [
+      {
+        "name": "🧩 Full Rebuild",
+        "tooltip": "Run: Build Manifests → Rebuild Data JSONs",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Full Rebuild (Manifests + Data)"]
+      },
+      {
+        "name": "🧱 Manifests",
+        "tooltip": "Build: assets manifests",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Build: assets manifests"]
+      },
+      {
+        "name": "🔁 Rebuild",
+        "tooltip": "Rebuild Data JSONs",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Rebuild Data JSONs"]
+      },
+      {
+        "name": "📝 Commit (no push)",
+        "tooltip": "Rebuild + Commit locally",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Rebuild Data + Commit (No Push)"]
+      },
+      {
+        "name": "✅ Commit & Push",
+        "tooltip": "Rebuild + Commit & Push feature branch",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Rebuild Data + Commit & Push"]
+      },
+      {
+        "name": "🌿 New Branch",
+        "tooltip": "Create safe feature/* branch",
+        "command": "workbench.action.tasks.runTask",
+        "args": ["Safe: New Feature Branch"]
+      },
+
       {
         "name": "🔁 Rebuild",
         "command": "workbench.action.tasks.runTask",
