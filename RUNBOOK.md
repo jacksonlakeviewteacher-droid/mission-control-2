@@ -4,11 +4,8 @@ _Last updated: September 28, 2025_
 
 This runbook lists every script and executable you might run, with **what**, **when**, **where**, and **how**. It assumes this project layout:
 
-```
-G:\My Drive\Mission-Control-2\         ← source-of-truth for assets you drop in
-C:\Dev\Mission-Control-2\              ← mirrored working copy used for local server
-```
-
+```bash`r`nG:\My Drive\Mission-Control-2\         ← source-of-truth for assets you drop in
+C:\Dev\Mission-Control-2\              ← mirrored working copy used for local server`r`n`r`n```bash`r`n
 > ✅ **Tip:** Prefer **PowerShell 7** (`pwsh`) for all scripts. Our tools auto-hop to `pwsh` if you run them from Windows PowerShell 5.1.
 
 ---
@@ -37,11 +34,8 @@ C:\Dev\Mission-Control-2\              ← mirrored working copy used for local 
 - **Prefer PowerShell 7** (`pwsh`). Faster JSON and modern features.
 - Windows PowerShell **5.1** still works; our patched scripts will **auto-hop to pwsh** when available.
 
-If scripts ever complain about policy:
-```powershell
-Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
-```
-
+If scripts ever complain about policy:`r`n`r`n```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`r`n`r`n```bash`r`n
 ---
 
 ## One-time setup (recommended)
@@ -50,9 +44,7 @@ Run these once after the tools are present:
 
 ```powershell
 # Patches all /tools scripts to auto-prefer pwsh and use -AsHashtable on PS7+
-pwsh -File "G:\My Drive\Mission-Control-2\tools\install_pwsh_shim.ps1"
-```
-
+pwsh -File "G:\My Drive\Mission-Control-2\tools\install_pwsh_shim.ps1"`r`n`r`n```bash`r`n
 This adds a small header to each `/tools/*.ps1`:
 - If launched from Windows PowerShell 5.1, it **re-invokes** itself under `pwsh`.
 - JSON reads use `ConvertFrom-Json -AsHashtable` on PS7+, with a PS5.1-safe fallback.
@@ -72,13 +64,11 @@ This adds a small header to each `/tools/*.ps1`:
    ```powershell
    py -3 "C:\Dev\Mission-Control-2\tools\build_asset_index.py"
    py -3 "C:\Dev\Mission-Control-2\tools\build_sounds_index.py"
-   ```
-4. **Serve locally:**
+   ```bash`r`n4. **Serve locally:**
    ```powershell
    cd "C:\Dev\Mission-Control-2"
    py -3 -m http.server 8000 -d public
-   ```
-   - Open http://localhost:8000
+   ```bash`r`n   - Open http://localhost:8000
    - Stop server: **Ctrl + C** (or open a new tab to keep working)
 
 ---
@@ -89,17 +79,14 @@ This adds a small header to each `/tools/*.ps1`:
 - **What:** Mirror **G:\\public → C:\\Dev\\public**, rebuild indexes, auto-wire icons/wallpapers/overlays into `public\data\paths_assets.json`, and add `<html lang="…">` + `<meta name="path-key">` / `<meta name="overlay">` to pages you choose.
 - **When:** After a big upload (or at the end) to refresh everything in one go.
 - **Run from:** Anywhere.
-- **Commands:**
-```powershell
+- **Commands:**`r`n`r`n```powershell
 # Preview only (shows actions + JSON to be written)
 pwsh -File "G:\My Drive\Mission-Control-2\tools\wire_after_upload.ps1" -Preview
 
 # Apply with specific page defaults
 pwsh -File "G:\My Drive\Mission-Control-2\tools\wire_after_upload.ps1" `
      -MetaFiles @("public\tools\portal-demo.html","public\index.html") `
-     -PathKey "sharklab" -Overlay "glitch" -Lang "en"
-```
-- **Output:** Updated `/public/data/paths_assets.json` on **C:** and metas added/updated in your listed pages.
+     -PathKey "sharklab" -Overlay "glitch" -Lang "en"`r`n`r`n```bash`r`n- **Output:** Updated `/public/data/paths_assets.json` on **C:** and metas added/updated in your listed pages.
 
 ---
 
@@ -107,23 +94,19 @@ pwsh -File "G:\My Drive\Mission-Control-2\tools\wire_after_upload.ps1" `
 - **What:** Mirror sprites/wallpapers/overlays G:→C:, rebuild image index, and refresh **specific** mapping entries based on the base filenames you configure in the script.
 - **When:** You swapped a few “hero” artwork files or overlays and want those keys updated.
 - **Run from:** Anywhere.
-- **Commands:**
-```powershell
+- **Commands:**`r`n`r`n```powershell
 # Dry run + (optional) patch Python indexer URLs
 pwsh -File "G:\My Drive\Mission-Control-2\tools\update_paths_assets.ps1" -Preview -FixIndexer
 
 # Apply
-pwsh -File "G:\My Drive\Mission-Control-2\tools\update_paths_assets.ps1" -FixIndexer
-```
-
+pwsh -File "G:\My Drive\Mission-Control-2\tools\update_paths_assets.ps1" -FixIndexer`r`n`r`n```bash`r`n
 ---
 
 ### `tools\adopt_*.ps1` (batch-specific movers)
 - **What:** Move/rename a specific **batch** (e.g., VR/Sharks, Lava/Vortex, Treasures/Nightmare) into the right `public\...` subfolders, mirror to C:, rebuild indexes, and write sensible defaults into `paths_assets.json`.
 - **When:** Immediately after you drop that batch of 10 so you can preview it live.
 - **Run from:** Anywhere.
-- **Examples:**
-```powershell
+- **Examples:**`r`n`r`n```powershell
 # VR/Sharks
 pwsh -File "G:\My Drive\Mission-Control-2\tools\adopt_vr_shark_batch.ps1" -Preview
 pwsh -File "G:\My Drive\Mission-Control-2\tools\adopt_vr_shark_batch.ps1"
@@ -134,21 +117,16 @@ pwsh -File "G:\My Drive\Mission-Control-2\tools\adopt_lava_vortex_batch.ps1"
 
 # Treasures + Nightmare
 pwsh -File "G:\My Drive\Mission-Control-2\tools\adopt_treasures_and_nightmare.ps1" -Preview
-pwsh -File "G:\My Drive\Mission-Control-2\tools\adopt_treasures_and_nightmare.ps1"
-```
-
+pwsh -File "G:\My Drive\Mission-Control-2\tools\adopt_treasures_and_nightmare.ps1"`r`n`r`n```bash`r`n
 ---
 
 ### `tools\ingest_sfx_and_update_mapping.ps1` (and friends)
 - **What:** Find listed SFX anywhere under **G:**, move into `public\sounds\sfx`, mirror to **C:**, rebuild `sounds_index.json`, and **merge** sound assignments into `paths_assets.json` (non-destructive).
 - **When:** After uploading a group of sound effects.
 - **Run from:** Anywhere.
-- **Commands (example):**
-```powershell
+- **Commands (example):**`r`n`r`n```powershell
 pwsh -File "G:\My Drive\Mission-Control-2\tools\ingest_sfx_and_update_mapping.ps1" -Preview
-pwsh -File "G:\My Drive\Mission-Control-2\tools\ingest_sfx_and_update_mapping.ps1"
-```
-- **Note:** Keeps your `sfx_*` names; run the rename plan later if you want stricter naming.
+pwsh -File "G:\My Drive\Mission-Control-2\tools\ingest_sfx_and_update_mapping.ps1"`r`n`r`n```bash`r`n- **Note:** Keeps your `sfx_*` names; run the rename plan later if you want stricter naming.
 
 ---
 
@@ -156,8 +134,7 @@ pwsh -File "G:\My Drive\Mission-Control-2\tools\ingest_sfx_and_update_mapping.ps
 - **What:** End-of-project **global rename** under `public\sprites` (and optionally `public\sounds`). Generates a **plan CSV/JSON** first; you review, then apply; includes **Undo**.
 - **When:** After the final upload batch, before shipping or sharing widely.
 - **Run from:** Repo root on **C:** or **G:**.
-- **Commands:**
-```powershell
+- **Commands:**`r`n`r`n```powershell
 # Preview (writes tools\rename_plan.csv & .json)
 pwsh -File tools\rename_assets.ps1
 
@@ -168,20 +145,15 @@ pwsh -File tools\rename_assets.ps1 -Apply
 pwsh -File tools\rename_assets.ps1 -Undo
 
 # Include audio in the pass
-pwsh -File tools\rename_assets.ps1 -IncludeAudio -Apply
-```
-- **Output:** Files renamed; `public\data\asset_index.json` rebuilt automatically.
+pwsh -File tools\rename_assets.ps1 -IncludeAudio -Apply`r`n`r`n```bash`r`n- **Output:** Files renamed; `public\data\asset_index.json` rebuilt automatically.
 
 ---
 
 ### `tools\install_pwsh_shim.ps1`
 - **What:** Patches all `tools\*.ps1` to prepend a **pwsh auto-hop** and switch JSON reads to **`-AsHashtable`** on PS7+ (with safe fallback on PS5.1).
 - **When:** After adding **new** scripts to `/tools` or when you edit old ones.
-- **Run:**
-```powershell
-pwsh -File "G:\My Drive\Mission-Control-2\tools\install_pwsh_shim.ps1"
-```
-- **Note:** Modifies the other scripts in place (idempotent). No need to run daily.
+- **Run:**`r`n`r`n```powershell
+pwsh -File "G:\My Drive\Mission-Control-2\tools\install_pwsh_shim.ps1"`r`n`r`n```bash`r`n- **Note:** Modifies the other scripts in place (idempotent). No need to run daily.
 
 ---
 
@@ -190,52 +162,37 @@ pwsh -File "G:\My Drive\Mission-Control-2\tools\install_pwsh_shim.ps1"
 ### `tools\build_asset_index.py`
 - **What:** Scans `public/sprites/**` → writes `public/data/asset_index.json` (root-relative URLs like `/sprites/...`).
 - **When:** Images change (move/rename/add).
-- **Run:**
-```powershell
-py -3 "C:\Dev\Mission-Control-2\tools\build_asset_index.py"
-```
-
+- **Run:**`r`n`r`n```powershell
+py -3 "C:\Dev\Mission-Control-2\tools\build_asset_index.py"`r`n`r`n```bash`r`n
 ### `tools\build_sounds_index.py`
 - **What:** Scans `public/sounds/**` → writes `public/data/sounds_index.json`.
 - **When:** SFX change.
-- **Run:**
-```powershell
-py -3 "C:\Dev\Mission-Control-2\tools\build_sounds_index.py"
-```
-
+- **Run:**`r`n`r`n```powershell
+py -3 "C:\Dev\Mission-Control-2\tools\build_sounds_index.py"`r`n`r`n```bash`r`n
 ---
 
 ## Local web server (preview site)
 
-- **Serve:**
-```powershell
+- **Serve:**`r`n`r`n```powershell
 cd "C:\Dev\Mission-Control-2"
-py -3 -m http.server 8000 -d public
-```
-- **Open:** http://localhost:8000  
+py -3 -m http.server 8000 -d public`r`n`r`n```bash`r`n- **Open:** http://localhost:8000  
 - **Stop:** **Ctrl + C**  
-- **Run in another window and keep a prompt free:**
-```powershell
-Start-Process pwsh -ArgumentList '-NoExit -Command cd "C:\Dev\Mission-Control-2"; py -3 -m http.server 8000 -d public'
-```
-
+- **Run in another window and keep a prompt free:**`r`n`r`n```powershell
+Start-Process pwsh -ArgumentList '-NoExit -Command cd "C:\Dev\Mission-Control-2"; py -3 -m http.server 8000 -d public'`r`n`r`n```bash`r`n
 ---
 
 ## Where to put assets
 
 On **G:\\My Drive\\Mission-Control-2\\public**:
 
-```
-sprites\icons\        ← tile icons (PNG/JPG/SVG)
+```bash`r`nsprites\icons\        ← tile icons (PNG/JPG/SVG)
 sprites\sharks\       ← shark sprites
 sprites\treasures\    ← chests/loot
 sprites\portals\      ← vortex/portal art
 sprites\misc\         ← everything else
 wallpapers\           ← backgrounds
 overlays\             ← full-screen transparent FX (PNG/GIF/WEBM)
-sounds\sfx\           ← audio files (mp3/wav/ogg)
-```
-
+sounds\sfx\           ← audio files (mp3/wav/ogg)`r`n`r`n```bash`r`n
 Scripts mirror these into **C:\\Dev** automatically.
 
 ---
@@ -246,12 +203,10 @@ Scripts mirror these into **C:\\Dev** automatically.
   - Close & reopen the terminal (PATH refresh), or run it directly:
   ```powershell
   & "C:\Program Files\PowerShell\7\pwsh.exe" --version
-  ```
-  - (Optional) Add to PATH for this user:
+  ```bash`r`n  - (Optional) Add to PATH for this user:
   ```powershell
   [Environment]::SetEnvironmentVariable('Path', $env:Path + ';C:\Program Files\PowerShell\7', 'User')
-  ```
-
+  ```bash`r`n
 - **JSON errors mentioning `-Depth` on ConvertFrom-Json**
   - That switch does **not** exist on Windows PowerShell 5.1. Use `pwsh`, or use our patched scripts (they handle both shells).
 
@@ -262,7 +217,6 @@ Scripts mirror these into **C:\\Dev** automatically.
   - Run the Python indexer(s) again from **C:\\Dev**:
   ```powershell
   py -3 "C:\Dev\Mission-Control-2\tools\build_asset_index.py"
-  ```
-
+  ```bash`r`n
 - **Robocopy warnings**
   - Usually fine; ensure the destination isn’t locked, and that paths exist.

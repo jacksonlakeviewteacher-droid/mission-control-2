@@ -28,17 +28,14 @@ git pull --rebase
 # After edits
 git add -A
 git commit -m "message"
-git push
-```
-- Open PR `feature-<name> → main` for **Preview URL**.  
+git push`r`n`r`n```bash`r`n- Open PR `feature-<name> → main` for **Preview URL**.  
 - When ready to ship: PR `main → release`.
 
 ---
 
 ## Project Layout (key folders)
 
-```
-/index.html
+```bash`r`n/index.html
 /assets/css/...
 /assets/js/site.js
 /public/sprites/...
@@ -47,9 +44,7 @@ git push
 /public/data/quests.json
 /public/data/offline_libraries.json
 /public/data/asset_index.json
-/tools/*.ps1
-```
-**Rule:** runtime assets live under `/public`, code under `/assets` or root.
+/tools/*.ps1`r`n`r`n```bash`r`n**Rule:** runtime assets live under `/public`, code under `/assets` or root.
 
 ---
 
@@ -89,9 +84,7 @@ git log --oneline origin/main..HEAD
 git status
 
 # Serve locally (PC)
-python -m http.server 8000
-```
-
+python -m http.server 8000`r`n`r`n```bash`r`n
 ---
 
 ## Contacts / Notes
