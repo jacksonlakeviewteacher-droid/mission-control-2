@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Mission Control — Home</title>
+  <link rel="stylesheet" href="./css/mission.css"/>
+  <style>
+    .hero{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin:10px 0 18px}
+    .subtitle{color:var(--muted);margin-top:6px}
+    .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+    .card .big{font-size:28px;margin-bottom:6px}
+    .card a.btn{display:inline-block}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <div>
+        <div class="title">Mission Control</div>
+        <div class="subtitle">Preview-only workflow • Blue / Grey / Gold / Black</div>
+        <nav class="crumbs" aria-label="breadcrumbs">
+          <span>Home</span>
+        </nav>
+      </div>
+      <div style="min-width:280px">
+        <div class="xprow"><span>Total XP</span><span id="xpLabel">0 / 0</span></div>
+        <div class="xpbar"><i id="xpFill"></i></div>
+      </div>
+    </header>
+
+    <section class="cards" aria-label="main links">
+      <article class="card">
+        <div class="meta"><span class="tag gold">Learning</span></div>
+        <div class="big">🎯 Quests</div>
+        <p class="small">Follow the Learning Path modules and track XP locally.</p>
+        <a class="btn" href="./quests.html">Open Quests</a>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span class="tag blue">Workshop</span></div>
+        <div class="big">🛠️ Tools</div>
+        <p class="small">Jump to your portal: code editor, Blockbench, assets, more.</p>
+        <a class="btn" href="./workshop.html">Open Workshop</a>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span class="tag grey">Docs</span></div>
+        <div class="big">📚 Docs</div>
+        <p class="small">Developer guide, flow map, and hand-off notes.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <a class="btn" href="../docs/DEV_GUIDE.md">Dev Guide</a>
+          <a class="btn" href="../docs/FLOW.md">Flow</a>
+          <a class="btn" href="../docs/HANDOFF_LearningPath_v25.md">Hand-off</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span class="tag black">Preview</span></div>
+        <div class="big">🚀 Preview</div>
+        <p class="small">This site is preview-only. Open your current branch build.</p>
+        <button id="openPreview" class="btn" type="button">Open Cloudflare Preview</button>
+      </article>
+    </section>
+  </div>
+
+  <script type="module">
+    import "./js/quip.js"; BillQuip.init();
+
+    // Load palette + quests to drive CSS vars and XP bar
+    async function load(url){ const r = await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(url); return r.json(); }
+
+    const [paths, questsRaw] = await Promise.all([
+      load("./data/paths.json").catch(()=>[]),
+      load("./data/quests_meta.json").catch(()=>[])
+    ]);
+
+    // Apply palette from paths.json
+    const path = Array.isArray(paths) ? paths.find(p=>p.id==="mc-learning-path") : null;
+    const palette = path?.palette ?? { blue:"#1f9cf0", grey:"#2a2f36", gold:"#d4af37", black:"#0a0c10" };
+    Object.entries(palette).forEach(([k,v]) => document.documentElement.style.setProperty(`--${k}`, v));
+
+    // XP bar (reads local progress)
+    const progressKey = "mc_progress_v1";
+    function getProgress(){ try{ return JSON.parse(localStorage.getItem(progressKey)||"{}"); }catch{ return {}; } }
+    const list = Array.isArray(questsRaw) ? questsRaw : Object.values(questsRaw);
+    const p = getProgress();
+    const total = list.reduce((s,q)=> s + (q.xp||0), 0);
+    const earned = list.reduce((s,q)=> s + (p[q.id] ? (q.xp||0) : 0), 0);
+    const pct = total ? Math.min(100, Math.round(earned*100/total)) : 0;
+    document.querySelector("#xpLabel").textContent = `${earned} / ${total}`;
+    document.querySelector("#xpFill").style.width = pct + "%";
+    BillQuip.on('previewReady');
+
+    // Preview opener helper: tries to open CF preview from env vars/comment links pattern
+    // Fallback: opens /quests.html (so there's always something)
+    document.querySelector("#openPreview").onclick = () => {
+      // If your PR template includes the preview link, consider storing it in localStorage
+      const cached = localStorage.getItem("cf_preview_url");
+      if (cached) { window.open(cached, "_blank"); return; }
+      // Otherwise, open quests and let the user paste the CF preview into localStorage
+      const hint = prompt("Paste your Cloudflare Preview URL (we will remember it). Leave blank to open Quests.");
+      if (hint && /^https?:\/\/.+\.pages\.dev\/?/.test(hint)) {
+        localStorage.setItem("cf_preview_url", hint);
+        window.open(hint, "_blank");
+      } else {
+        window.location.href = "./quests.html";
+      }
+    };
+  </script>
+</body>
+</html>
