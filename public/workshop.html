@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Mission Control — Workshop</title>
+  <link rel="stylesheet" href="./css/mission.css"/>
+  <style>
+    .cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+    .card .big{font-size:22px;margin-bottom:6px}
+    .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:8px}
+    .muter{color:var(--muted);font-size:12px;margin-top:6px}
+    .input{display:flex;gap:8px;align-items:center;margin-top:6px}
+    .input input{flex:1;min-width:160px;background:#0f141c;border:1px solid #273040;border-radius:10px;padding:6px 10px;color:var(--ink)}
+    .tip{font-size:12px;color:var(--muted);margin-top:6px}
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header class="header">
+      <div>
+        <div class="title">Workshop</div>
+        <nav class="crumbs">
+          <a href="./index.html">Home</a><span class="sep">›</span>
+          <span>Workshop</span>
+        </nav>
+      </div>
+      <div style="min-width:280px">
+        <div class="xprow"><span>Total XP</span><span id="xpLabel">0 / 0</span></div>
+        <div class="xpbar"><i id="xpFill"></i></div>
+      </div>
+    </header>
+
+    <section class="cards" aria-label="tools">
+      <!-- Quests -->
+      <article class="card">
+        <div class="meta"><span class="tag gold">Learning</span></div>
+        <div class="big">🎯 Quests</div>
+        <p class="small">Open the Learning Path grid and keep shipping preview-only.</p>
+        <div class="row">
+          <a class="btn" href="./quests.html">Open Quests</a>
+          <a class="btn" href="./quest.html?id=git-draft-pr-preview">Sample Quest</a>
+        </div>
+      </article>
+
+      <!-- IDE / Code -->
+      <article class="card">
+        <div class="meta"><span class="tag blue">Code</span></div>
+        <div class="big">💻 IDE & Repo</div>
+        <p class="small">Jump into code, commit small, push to a feature branch.</p>
+        <div class="row">
+          <a class="btn" href="../docs/DEV_GUIDE.md">Dev Guide</a>
+          <a class="btn" href="../docs/FLOW.md">Flow Map</a>
+        </div>
+        <div class="tip">Tip: use GitHub Desktop or GitKraken to open the repo and create Draft PRs → <span class="pill">main</span>.</div>
+      </article>
+
+      <!-- Blockbench -->
+      <article class="card">
+        <div class="meta"><span class="tag gold">Models</span></div>
+        <div class="big">🧊 Blockbench</div>
+        <p class="small">Model the shark projectile or item and export to Bedrock/Java format.</p>
+        <div class="row">
+          <a class="btn" href="https://www.blockbench.net/" target="_blank" rel="noopener">Open Blockbench site</a>
+          <a class="btn" href="./assets/" target="_self">Browse /public/assets</a>
+        </div>
+        <div class="tip">Export to your repo’s <code>public/assets/</code> and run “Rebuild Data JSONs”.</div>
+      </article>
+
+      <!-- Assets & Data -->
+      <article class="card">
+        <div class="meta"><span class="tag grey">Data</span></div>
+        <div class="big">🗂️ Assets & Data</div>
+        <p class="small">Inspect the generated JSON indexes that power cards and quests.</p>
+        <div class="row">
+          <a class="btn" href="./data/asset_index.json">asset_index.json</a>
+          <a class="btn" href="./data/quests_meta.json">quests_meta.json</a>
+          <a class="btn" href="./data/paths.json">paths.json</a>
+        </div>
+      </article>
+
+      <!-- Cloudflare Preview helper -->
+      <article class="card">
+        <div class="meta"><span class="tag black">Preview</span></div>
+        <div class="big">🚀 Cloudflare Preview</div>
+        <p class="small">Store & open your branch’s Pages preview URL here for quick access.</p>
+        <div class="input">
+          <input id="cfUrl" type="url" placeholder="https://your-project--branch.pages.dev/"/>
+          <button class="btn" id="savePreview" type="button">Save</button>
+          <button class="btn" id="openPreview" type="button">Open</button>
+        </div>
+        <div class="tip">Paste the URL from your Draft PR checks comment. We’ll remember it in your browser.</div>
+      </article>
+
+      <!-- Rebuild Data (copy command) -->
+      <article class="card">
+        <div class="meta"><span class="tag grey">Build</span></div>
+        <div class="big">🔁 Rebuild Data JSONs</div>
+        <p class="small">Run your VS Code task or PowerShell script locally, then push.</p>
+        <div class="row">
+          <button class="btn" id="copyTask" type="button">Copy VS Code Task</button>
+          <button class="btn" id="copyPS" type="button">Copy PowerShell</button>
+        </div>
+        <div class="tip">After rebuilding, commit changes under <code>public/data/</code> and open Quests to verify.</div>
+      </article>
+
+      <!-- Reset local progress -->
+      <article class="card">
+        <div class="meta"><span class="tag black">Local</span></div>
+        <div class="big">🧹 Reset Progress</div>
+        <p class="small">Clear your local quest completion and XP state in this browser.</p>
+        <div class="row">
+          <button class="reset" id="resetProgress" type="button">Reset</button>
+        </div>
+        <div class="tip">This does not affect the repo—it only clears this browser’s saved checkboxes.</div>
+      </article>
+
+      <!-- Docs / Hand-off -->
+      <article class="card">
+        <div class="meta"><span class="tag grey">Docs</span></div>
+        <div class="big">📚 Docs & Handoff</div>
+        <p class="small">Reference materials and agreements that keep the ship steady.</p>
+        <div class="row">
+          <a class="btn" href="../docs/HANDOFF_LearningPath_v25.md">Learning Path Handoff</a>
+          <a class="btn" href="../docs/CONTRIBUTING.md">Contributing</a>
+          <a class="btn" href="../README.md">README</a>
+        </div>
+      </article>
+
+    </section>
+  </div>
+
+  <script type="module">
+    import "./js/quip.js"; BillQuip.init();
+
+    // Utilities
+    async function load(url){ const r=await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(url); return r.json(); }
+    function copy(txt){ navigator.clipboard?.writeText(txt).then(()=>BillQuip.say("Copied. Now actually run it.")); }
+
+    // Load palette + quests to drive CSS vars & XP bar
+    const [paths, questsRaw] = await Promise.all([
+      load("./data/paths.json").catch(()=>[]),
+      load("./data/quests_meta.json").catch(()=>[])
+    ]);
+
+    const path = Array.isArray(paths) ? paths.find(p=>p.id==="mc-learning-path") : null;
+    const palette = path?.palette ?? { blue:"#1f9cf0", grey:"#2a2f36", gold:"#d4af37", black:"#0a0c10" };
+    Object.entries(palette).forEach(([k,v]) => document.documentElement.style.setProperty(`--${k}`, v));
+
+    const progressKey = "mc_progress_v1";
+    function getProgress(){ try{ return JSON.parse(localStorage.getItem(progressKey)||"{}"); }catch{ return {}; } }
+    const list = Array.isArray(questsRaw) ? questsRaw : Object.values(questsRaw);
+    const p = getProgress();
+    const total = list.reduce((s,q)=> s + (q.xp||0), 0);
+    const earned = list.reduce((s,q)=> s + (p[q.id] ? (q.xp||0) : 0), 0);
+    const pct = total ? Math.min(100, Math.round(earned*100/total)) : 0;
+    document.querySelector("#xpLabel").textContent = `${earned} / ${total}`;
+    document.querySelector("#xpFill").style.width = pct + "%";
+    BillQuip.on('previewReady');
+
+    // Preview URL store/open
+    const keyCF = "cf_preview_url";
+    const input = document.querySelector("#cfUrl");
+    input.value = localStorage.getItem(keyCF) || "";
+    document.querySelector("#savePreview").onclick = () => {
+      const v = input.value.trim();
+      if (!/^https?:\/\/.+\.pages\.dev\/?/.test(v)) { alert("Paste a valid Cloudflare Pages preview URL."); return; }
+      localStorage.setItem(keyCF, v);
+      BillQuip.say("Preview stashed. Don’t lose it like your sanity.");
+    };
+    document.querySelector("#openPreview").onclick = () => {
+      const v = localStorage.getItem(keyCF) || input.value.trim();
+      if (v) { window.open(v, "_blank"); } else { alert("No preview URL saved yet."); }
+    };
+
+    // Copy commands
+    document.querySelector("#copyTask").onclick = () => copy("Run: VS Code → Terminal → Run Task → Rebuild Data JSONs");
+    document.querySelector("#copyPS").onclick = () => copy(".\\scripts\\rebuild-data.ps1 -AutoCommit");
+
+    // Reset progress
+    document.querySelector("#resetProgress").onclick = () => {
+      if (!confirm("Reset local progress? This only clears your browser’s saved checkboxes.")) return;
+      localStorage.removeItem(progressKey);
+      document.querySelector("#xpLabel").textContent = `0 / ${total}`;
+      document.querySelector("#xpFill").style.width = "0%";
+      BillQuip.say("Progress obliterated. Glorious emptiness!");
+    };
+  </script>
+</body>
+</html>
