@@ -1,15 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Quests — Mission Control</title>
+  <link rel="stylesheet" href="./css/mission.css"/>
+</head>
 <body>
   <div class="container">
+
     <header class="header">
       <div>
         <div class="title">Quests</div>
-        <div class="small">Filter by module and track completion locally.</div>
+        <nav class="crumbs">
+          <a href="./index.html">Home</a><span class="sep">›</span>
+          <span>Learning Path</span>
+        </nav>
       </div>
-      <div><span class="pill">Preview-only</span></div>
+      <div style="min-width:280px">
+        <div class="xprow"><span>Total XP</span><span id="xpLabel">0 / 0</span></div>
+        <div class="xpbar"><i id="xpFill"></i></div>
+      </div>
     </header>
 
     <nav id="filters" class="filters" aria-label="Module filters"></nav>
     <section id="grid" class="grid" aria-live="polite"></section>
   </div>
-  <!-- keep your existing <script type="module"> … </script> -->
+
+  <script type="module">
+    import "./js/quip.js";  // Bill overlay
+    BillQuip.init();
+
+    async function load(url){ const r = await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(url); return r.json(); }
+
+    // ---------- helpers ----------
+    const progressKey = "mc_progress_v1";
+    function getProgress(){ try{ return JSON.parse(localStorage.getItem(progressKey)||"{}"); }catch{ return {}; } }
+    function setProgress(v){ localStorage.setItem(progressKey, JSON.stringify(v)); }
+
+    function updateXPBar(list){
+      const p = getProgress();
+      const total = list.reduce((s,q)=> s + (q.xp||0), 0);
+      const earned = list.reduce((s,q)=> s + (p[q.id] ? (q.xp||0) : 0), 0);
+      const pct = total ? Math.min(100, Math.round(earned*100/total)) : 0;
+      document.querySelector("#xpLabel").textContent = `${earned} / ${total}`;
+      document.querySelector("#xpFill").style.width = pct + "%";
+    }
+
+    function computeModuleXP(list){
+      const p = getProgress();
+      const sums = {};
+      for (const q of list){
+        const mod = q.module || "setup";
+        if (!sums[mod]) sums[mod] = { earned:0, total:0 };
+        const xp = Number(q.xp || 0);
+        sums[mod].total += xp;
+        if (p[q.id]) sums[mod].earned += xp;
+      }
+      return sums; // { moduleId: {earned, total}, ... }
+    }
+
+    // ---------- load data ----------
+    const [paths, questsRaw] = await Promise.all([
+      load("./data/paths.json").catch(()=>[]),
+      load("./data/quests_meta.json").catch(()=>[])
+    ]);
+
+    const path = Array.isArray(paths) ? paths.find(p=>p.id==="mc-learning-path") : null;
+
+    // palette → css vars
+    const palette = path?.palette ?? { blue:"#1f9cf0", grey:"#2a2f36", gold:"#d4af37", black:"#0a0c10" };
+    Object.entries(palette).forEach(([k,v]) => document.documentElement.style.setProperty(`--${k}`, v));
+
+    // modules directory
+    const moduleDefs = new Map(
+      (path?.modules ?? []).map(m => [m.id, { title: m.title || m.id, color: m.color || "grey", order: m.order ?? 999 }])
+    );
+
+    // normalize quests
+    const quests = Array.isArray(questsRaw) ? questsRaw : Object.values(questsRaw);
+    const normalized = quests.map(q => {
+      const modId = q.module || "setup";
+      const def = moduleDefs.get(modId) || { title: modId, color: "grey", order: 999 };
+      return { ...q, module: modId, moduleTitle: def.title, color: def.color, order: def.order, xp: q.xp ?? 0, time: q.time || "" };
+    });
+
+    // ---------- filters ----------
+    const moduleOrder = (path?.modules ?? []).slice().sort((a,b)=>(a.order??999)-(b.order??999)).map(m=>m.id);
+    const filtersEl = document.querySelector("#filters");
+    const filterState = new Set(moduleOrder.length ? moduleOrder : normalized.map(q=>q.module));
+
+    function renderFilters(){
+      const items = (path?.modules ?? []).length
+        ? path.modules.slice().sort((a,b)=>(a.order??999)-(b.order??999))
+        : [...new Set(normalized.map(q=>({id:q.module, title:q.moduleTitle, color:q.color, order:q.order})))];
+
+      const modSums = computeModuleXP(normalized);
+
+      filtersEl.innerHTML = items.map(m => {
+        const active = filterState.has(m.id);
+        const colorClass = (m.color ?? "grey");
+        return `<button class="filter ${colorClass}" data-id="${m.id}" data-active="${active}">
+                  ${m.title || m.id}
+                  <span class="xpmini">${(modSums[m.id]?.earned||0)} / ${(modSums[m.id]?.total||0)}</span>
+                </button>`;
+      }).join("");
+
+      [...filtersEl.querySelectorAll(".filter")].forEach(btn=>{
+        btn.onclick = () => {
+          const id = btn.dataset.id;
+          if(filterState.has(id)) filterState.delete(id); else filterState.add(id);
+          renderFilters(); renderGrid(); updateXPBar(normalized);
+        };
+      });
+    }
+
+    // ---------- grid ----------
+    const grid = document.querySelector("#grid");
+
+    function renderGrid(){
+      const p = getProgress();
+      const sortByModule = (a,b)=>{
+        const ao = moduleOrder.indexOf(a.module); const bo = moduleOrder.indexOf(b.module);
+        const A = ao<0?999:ao, B = bo<0?999:bo;
+        return A===B ? (a.title||"").localeCompare(b.title||"") : A-B;
+      };
+
+      const list = normalized.filter(q => filterState.has(q.module)).sort(sortByModule);
+
+      grid.innerHTML = list.map(q=>{
+        const done = !!p[q.id];
+        const short = (q.summary || q.deliverable || "").toString().slice(0,120);
+        const colorClass = q.color || "grey";
+        return `
+          <article class="card" data-id="${q.id}">
+            <div class="meta">
+              <span class="tag ${colorClass}">${q.moduleTitle || q.module}</span>
+              <span class="small">XP ${q.xp}</span>
+              ${q.time ? `<span class="small">• ${q.time}</span>` : ""}
+            </div>
+            <h3>${q.title}</h3>
+            ${short ? `<p class="small">${short}</p>` : ""}
+            <div class="actions">
+              <label class="check">
+                <input type="checkbox" ${done ? "checked" : ""} />
+                <span>${done ? "Completed" : "Mark complete"}</span>
+              </label>
+              <a class="btn" href="quest.html?id=${encodeURIComponent(q.id)}">Open</a>
+            </div>
+          </article>
+        `;
+      }).join("");
+
+      // wire checkboxes
+      [...grid.querySelectorAll(".card")].forEach(card=>{
+        const id = card.dataset.id;
+        const cb = card.querySelector('input[type="checkbox"]');
+        const label = card.querySelector('.check span');
+        cb.onchange = () => {
+          const p = getProgress(); p[id] = !p[id]; setProgress(p);
+          label.textContent = p[id] ? "Completed" : "Mark complete";
+          renderFilters();            // refresh per-module XP badges
+          updateXPBar(normalized);    // refresh top XP bar
+          BillQuip.on(p[id] ? 'questComplete' : 'previewReady');
+        };
+      });
+    }
+
+    renderFilters(); renderGrid(); updateXPBar(normalized);
+    BillQuip.on('previewReady');
+  </script>
 </body>
+</html>

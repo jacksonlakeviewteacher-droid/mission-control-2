@@ -7,54 +7,101 @@
 </head>
 <body>
   <div class="container">
-    <a class="btn" href="./quests.html">← Back to quests</a>
+
+    <header class="header">
+      <div>
+        <div class="title">Quest</div>
+        <nav class="crumbs">
+          <a href="./index.html">Home</a><span class="sep">›</span>
+          <a href="./quests.html">Quests</a><span class="sep">›</span>
+          <span id="crumbQuest">Loading…</span>
+        </nav>
+      </div>
+      <div style="min-width:280px">
+        <div class="xprow"><span>Total XP</span><span id="xpLabel">0 / 0</span></div>
+        <div class="xpbar"><i id="xpFill"></i></div>
+      </div>
+    </header>
+
     <div id="view" style="margin-top:12px;"></div>
   </div>
 
   <script type="module">
     import "./js/quip.js"; BillQuip.init();
 
+    const progressKey="mc_progress_v1";
+    function getProgress(){ try{ return JSON.parse(localStorage.getItem(progressKey)||"{}"); }catch{ return {}; } }
+    function setProgress(v){ localStorage.setItem(progressKey, JSON.stringify(v)); }
+    function updateXPBar(list){
+      const p = getProgress();
+      const total = list.reduce((s,q)=> s + (q.xp||0), 0);
+      const earned = list.reduce((s,q)=> s + (p[q.id] ? (q.xp||0) : 0), 0);
+      const pct = total ? Math.min(100, Math.round(earned*100/total)) : 0;
+      document.querySelector("#xpLabel").textContent = `${earned} / ${total}`;
+      document.querySelector("#xpFill").style.width = pct + "%";
+    }
+
     async function load(url){ const r=await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(url); return r.json(); }
 
-    // Load data
     const [paths, questsRaw] = await Promise.all([
       load("./data/paths.json").catch(()=>[]),
       load("./data/quests_meta.json").catch(()=>[])
     ]);
-    const path = Array.isArray(paths) ? paths.find(p=>p.id==="mc-learning-path") : null;
 
-    // Apply palette
+    const path = Array.isArray(paths) ? paths.find(p=>p.id==="mc-learning-path") : null;
     const palette = path?.palette ?? { blue:"#1f9cf0", grey:"#2a2f36", gold:"#d4af37", black:"#0a0c10" };
     Object.entries(palette).forEach(([k,v]) => document.documentElement.style.setProperty(`--${k}`, v));
 
-    // Get quest by id
+    const list = Array.isArray(questsRaw) ? questsRaw : Object.values(questsRaw);
+    updateXPBar(list);
+
     const params = new URLSearchParams(location.search);
     const id = params.get("id");
-    const list = Array.isArray(questsRaw) ? questsRaw : Object.values(questsRaw);
-    const q = list.find(x => x.id === id);
-
+    const q = list.find(x => x.id===id);
     const modMap = new Map((path?.modules ?? []).map(m => [m.id, m]));
     const module = q ? (modMap.get(q.module||"setup") || { title:q.module||"setup", color:"grey" }) : null;
 
     const view = document.querySelector("#view");
+    const crumbQuest = document.querySelector("#crumbQuest");
+
     if(!q){
-      view.innerHTML = `<p class="small">Quest not found.</p>`;
+      crumbQuest.textContent = "Not found";
+      view.innerHTML = `<div class="card"><p class="small">Quest not found.</p><p><a class="btn" href="./quests.html">Back to quests</a></p></div>`;
     } else {
-      const steps = (q.steps||[]).map(s=>`<li>${s}</li>`).join("");
+      crumbQuest.textContent = q.title;
+      const steps = (q.steps||[]).map((s,i)=>`<li>${s}</li>`).join("");
       const links = (q.links||[]).map(l=>`<li><a class="btn" href="${l.href}">${l.label||l.href}</a></li>`).join("");
+      const p = getProgress(); const done = !!p[q.id];
+
       view.innerHTML = `
-        <div class="card">
+        <article class="card" data-id="${q.id}">
           <div class="meta">
             <span class="tag ${module.color||'grey'}">${module.title}</span>
             <span class="small">XP ${q.xp||0}</span>
             ${q.time ? `<span class="small">• ${q.time}</span>` : ""}
           </div>
-          <h1 style="margin:.2rem 0 0.5rem;font-size:22px">${q.title}</h1>
+          <h1 style="margin:.2rem 0 .6rem;font-size:22px">${q.title}</h1>
           ${q.summary ? `<p>${q.summary}</p>` : (q.deliverable ? `<p>${q.deliverable}</p>` : "")}
           ${steps ? `<h3>Steps</h3><ol>${steps}</ol>` : ""}
           ${links ? `<h3>Links</h3><ul style="list-style:none;padding:0;display:flex;gap:8px;flex-wrap:wrap">${links}</ul>` : ""}
-        </div>
+          <div class="actions">
+            <label class="check">
+              <input id="doneBox" type="checkbox" ${done ? "checked" : ""}/>
+              <span>${done ? "Completed" : "Mark complete"}</span>
+            </label>
+            <a class="btn" href="./quests.html">Back</a>
+          </div>
+        </article>
       `;
+
+      const cb = document.querySelector("#doneBox");
+      const label = view.querySelector(".check span");
+      cb.onchange = () => {
+        const p = getProgress(); p[q.id] = !p[q.id]; setProgress(p);
+        label.textContent = p[q.id] ? "Completed" : "Mark complete";
+        updateXPBar(list);
+        BillQuip.on(p[q.id] ? 'questComplete' : 'previewReady');
+      };
     }
 
     BillQuip.on('previewReady');
