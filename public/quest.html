@@ -41,6 +41,17 @@
       document.querySelector("#xpFill").style.width = pct + "%";
     }
 
+    function resetProgress(list){
+      if (!confirm("Reset local progress? This only clears your browser’s saved checkboxes.")) return false;
+      localStorage.removeItem(progressKey);
+      updateXPBar(list);
+      const cb = document.querySelector("#doneBox");
+      const label = document.querySelector(".check span");
+      if (cb) { cb.checked = false; if (label) label.textContent = "Mark complete"; }
+      try { BillQuip.say("Progress wiped. The void applauds."); } catch {}
+      return true;
+    }
+
     async function load(url){ const r=await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(url); return r.json(); }
 
     const [paths, questsRaw] = await Promise.all([
@@ -84,11 +95,12 @@
           ${q.summary ? `<p>${q.summary}</p>` : (q.deliverable ? `<p>${q.deliverable}</p>` : "")}
           ${steps ? `<h3>Steps</h3><ol>${steps}</ol>` : ""}
           ${links ? `<h3>Links</h3><ul style="list-style:none;padding:0;display:flex;gap:8px;flex-wrap:wrap">${links}</ul>` : ""}
-          <div class="actions">
-            <label class="check">
+          <div class="actions" style="gap:8px">
+            <label class="check" style="flex:1">
               <input id="doneBox" type="checkbox" ${done ? "checked" : ""}/>
               <span>${done ? "Completed" : "Mark complete"}</span>
             </label>
+            <button class="reset" id="resetBtn" type="button">Reset</button>
             <a class="btn" href="./quests.html">Back</a>
           </div>
         </article>
@@ -102,6 +114,8 @@
         updateXPBar(list);
         BillQuip.on(p[q.id] ? 'questComplete' : 'previewReady');
       };
+
+      document.querySelector("#resetBtn").onclick = () => resetProgress(list);
     }
 
     BillQuip.on('previewReady');

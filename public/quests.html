@@ -17,13 +17,20 @@
           <span>Learning Path</span>
         </nav>
       </div>
-      <div style="min-width:280px">
-        <div class="xprow"><span>Total XP</span><span id="xpLabel">0 / 0</span></div>
-        <div class="xpbar"><i id="xpFill"></i></div>
+      <div style="min-width:280px; display:flex; gap:10px; align-items:center">
+        <div style="flex:1">
+          <div class="xprow"><span>Total XP</span><span id="xpLabel">0 / 0</span></div>
+          <div class="xpbar"><i id="xpFill"></i></div>
+        </div>
+        <button id="resetBtn" class="reset" type="button" title="Clear local progress">Reset</button>
       </div>
     </header>
 
-    <nav id="filters" class="filters" aria-label="Module filters"></nav>
+    <div class="filtersbar">
+      <nav id="filters" class="filters" aria-label="Module filters"></nav>
+      <label class="only"><input type="checkbox" id="onlyIncomplete" /> Show only incomplete</label>
+    </div>
+
     <section id="grid" class="grid" aria-live="polite"></section>
   </div>
 
@@ -31,12 +38,16 @@
     import "./js/quip.js";  // Bill overlay
     BillQuip.init();
 
+    // ---------- helpers ----------
     async function load(url){ const r = await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(url); return r.json(); }
 
-    // ---------- helpers ----------
     const progressKey = "mc_progress_v1";
+    const PREF_ONLY_INCOMPLETE = "mc_only_incomplete_v1";
+
     function getProgress(){ try{ return JSON.parse(localStorage.getItem(progressKey)||"{}"); }catch{ return {}; } }
     function setProgress(v){ localStorage.setItem(progressKey, JSON.stringify(v)); }
+    function getOnlyIncomplete(){ return localStorage.getItem(PREF_ONLY_INCOMPLETE) === "1"; }
+    function setOnlyIncomplete(v){ localStorage.setItem(PREF_ONLY_INCOMPLETE, v ? "1" : "0"); }
 
     function updateXPBar(list){
       const p = getProgress();
@@ -57,7 +68,15 @@
         sums[mod].total += xp;
         if (p[q.id]) sums[mod].earned += xp;
       }
-      return sums; // { moduleId: {earned, total}, ... }
+      return sums; // { moduleId: {earned, total} }
+    }
+
+    function resetProgress(){
+      if (!confirm("Reset local progress? This only clears your browser’s saved checkboxes.")) return false;
+      localStorage.removeItem(progressKey);
+      renderFilters(); renderGrid(); updateXPBar(normalized);
+      try { BillQuip.say("Fresh start! Chaos re-seeded."); } catch {}
+      return true;
     }
 
     // ---------- load data ----------
@@ -85,7 +104,7 @@
       return { ...q, module: modId, moduleTitle: def.title, color: def.color, order: def.order, xp: q.xp ?? 0, time: q.time || "" };
     });
 
-    // ---------- filters ----------
+    // ---------- filters + state ----------
     const moduleOrder = (path?.modules ?? []).slice().sort((a,b)=>(a.order??999)-(b.order??999)).map(m=>m.id);
     const filtersEl = document.querySelector("#filters");
     const filterState = new Set(moduleOrder.length ? moduleOrder : normalized.map(q=>q.module));
@@ -120,13 +139,18 @@
 
     function renderGrid(){
       const p = getProgress();
+      const only = getOnlyIncomplete();
+
       const sortByModule = (a,b)=>{
         const ao = moduleOrder.indexOf(a.module); const bo = moduleOrder.indexOf(b.module);
         const A = ao<0?999:ao, B = bo<0?999:bo;
         return A===B ? (a.title||"").localeCompare(b.title||"") : A-B;
       };
 
-      const list = normalized.filter(q => filterState.has(q.module)).sort(sortByModule);
+      const list = normalized
+        .filter(q => filterState.has(q.module))
+        .filter(q => !only || !p[q.id])
+        .sort(sortByModule);
 
       grid.innerHTML = list.map(q=>{
         const done = !!p[q.id];
@@ -166,6 +190,13 @@
         };
       });
     }
+
+    // ---------- init ----------
+    const onlyBox = document.querySelector("#onlyIncomplete");
+    onlyBox.checked = getOnlyIncomplete();
+    onlyBox.onchange = () => { setOnlyIncomplete(onlyBox.checked); renderGrid(); };
+
+    document.querySelector("#resetBtn").onclick = resetProgress;
 
     renderFilters(); renderGrid(); updateXPBar(normalized);
     BillQuip.on('previewReady');
