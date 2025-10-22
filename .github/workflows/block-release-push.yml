@@ -1,0 +1,13 @@
+name: Block direct pushes to release
+
+on:
+  push:
+    branches: [ release ]
+
+jobs:
+  block:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo "?? Direct pushes to 'release' are blocked. Use feature ? main (preview-only)."
+          exit 1
