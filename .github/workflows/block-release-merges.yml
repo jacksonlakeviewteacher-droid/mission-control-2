@@ -1,0 +1,15 @@
+name: Block merges to release
+
+on:
+  pull_request:
+    branches: [ release ]
+
+jobs:
+  block:
+    name: Prevent merge to release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Stop PRs to release
+        run: |
+          echo "?? Production is frozen. Previews only. Merge to 'main' for previews; do not target 'release'."
+          exit 1
