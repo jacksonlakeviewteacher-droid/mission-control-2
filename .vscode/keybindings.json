@@ -1,0 +1,38 @@
+[
+  {
+    "key": "ctrl+alt+r",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Full Rebuild (Manifests + Data)",
+    "when": "workspaceFolderCount > 0"
+  },
+  {
+    "key": "ctrl+alt+m",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Build: assets manifests",
+    "when": "workspaceFolderCount > 0"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Rebuild Data JSONs",
+    "when": "workspaceFolderCount > 0"
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Rebuild Data + Commit (No Push)",
+    "when": "workspaceFolderCount > 0"
+  },
+  {
+    "key": "ctrl+alt+p",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Rebuild Data + Commit & Push",
+    "when": "workspaceFolderCount > 0"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "workbench.action.tasks.runTask",
+    "args": "Safe: New Feature Branch",
+    "when": "workspaceFolderCount > 0"
+  }
+]

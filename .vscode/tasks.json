@@ -19,7 +19,6 @@
       },
       "problemMatcher": []
     },
-
     {
       "label": "Rebuild Data JSONs",
       "type": "shell",
@@ -36,7 +35,6 @@
       },
       "problemMatcher": []
     },
-
     {
       "label": "Rebuild Data + Commit (No Push)",
       "type": "shell",
@@ -48,6 +46,7 @@
         "-NoPush",
         "-Message", "${input:commitMessage}"
       ],
+      "group": "build",
       "presentation": {
         "reveal": "always",
         "panel": "shared",
@@ -55,7 +54,6 @@
       },
       "problemMatcher": []
     },
-
     {
       "label": "Rebuild Data + Commit & Push",
       "type": "shell",
@@ -66,6 +64,7 @@
         "-AutoCommit",
         "-Message", "${input:commitMessage}"
       ],
+      "group": "build",
       "presentation": {
         "reveal": "always",
         "panel": "shared",
@@ -73,7 +72,6 @@
       },
       "problemMatcher": []
     },
-
     {
       "label": "Safe: New Feature Branch",
       "type": "shell",
@@ -82,6 +80,7 @@
         "-ExecutionPolicy", "Bypass",
         "-File", "${workspaceFolder}\\.vscode\\git-branch-helper.ps1"
       ],
+      "group": "none",
       "presentation": {
         "reveal": "always",
         "panel": "shared",
@@ -89,7 +88,6 @@
       },
       "problemMatcher": []
     },
-
     {
       "label": "Full Rebuild (Manifests + Data)",
       "dependsOn": [
@@ -106,7 +104,6 @@
       "problemMatcher": []
     }
   ],
-
   "inputs": [
     {
       "id": "commitMessage",
@@ -116,3 +113,4 @@
     }
   ]
 }
+
