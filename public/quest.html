@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Quest — Mission Control</title>
+  <link rel="stylesheet" href="./css/mission.css"/>
+</head>
+<body>
+  <div class="container">
+    <a class="btn" href="./quests.html">← Back to quests</a>
+    <div id="view" style="margin-top:12px;"></div>
+  </div>
+
+  <script type="module">
+    import "./js/quip.js"; BillQuip.init();
+
+    async function load(url){ const r=await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(url); return r.json(); }
+
+    // Load data
+    const [paths, questsRaw] = await Promise.all([
+      load("./data/paths.json").catch(()=>[]),
+      load("./data/quests_meta.json").catch(()=>[])
+    ]);
+    const path = Array.isArray(paths) ? paths.find(p=>p.id==="mc-learning-path") : null;
+
+    // Apply palette
+    const palette = path?.palette ?? { blue:"#1f9cf0", grey:"#2a2f36", gold:"#d4af37", black:"#0a0c10" };
+    Object.entries(palette).forEach(([k,v]) => document.documentElement.style.setProperty(`--${k}`, v));
+
+    // Get quest by id
+    const params = new URLSearchParams(location.search);
+    const id = params.get("id");
+    const list = Array.isArray(questsRaw) ? questsRaw : Object.values(questsRaw);
+    const q = list.find(x => x.id === id);
+
+    const modMap = new Map((path?.modules ?? []).map(m => [m.id, m]));
+    const module = q ? (modMap.get(q.module||"setup") || { title:q.module||"setup", color:"grey" }) : null;
+
+    const view = document.querySelector("#view");
+    if(!q){
+      view.innerHTML = `<p class="small">Quest not found.</p>`;
+    } else {
+      const steps = (q.steps||[]).map(s=>`<li>${s}</li>`).join("");
+      const links = (q.links||[]).map(l=>`<li><a class="btn" href="${l.href}">${l.label||l.href}</a></li>`).join("");
+      view.innerHTML = `
+        <div class="card">
+          <div class="meta">
+            <span class="tag ${module.color||'grey'}">${module.title}</span>
+            <span class="small">XP ${q.xp||0}</span>
+            ${q.time ? `<span class="small">• ${q.time}</span>` : ""}
+          </div>
+          <h1 style="margin:.2rem 0 0.5rem;font-size:22px">${q.title}</h1>
+          ${q.summary ? `<p>${q.summary}</p>` : (q.deliverable ? `<p>${q.deliverable}</p>` : "")}
+          ${steps ? `<h3>Steps</h3><ol>${steps}</ol>` : ""}
+          ${links ? `<h3>Links</h3><ul style="list-style:none;padding:0;display:flex;gap:8px;flex-wrap:wrap">${links}</ul>` : ""}
+        </div>
+      `;
+    }
+
+    BillQuip.on('previewReady');
+  </script>
+</body>
+</html>
