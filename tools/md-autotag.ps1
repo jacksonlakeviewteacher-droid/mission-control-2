@@ -10,7 +10,7 @@ $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 Set-Location (Resolve-Path "$root\..")
 
 # ---------- helper ----------
-function Detect-Lang([string]$block) {
+function Get-FenceLanguage([string]$block) {
     $s = $block.Trim()
     if ($s -match '^\s*(flowchart|graph\s+(TD|LR)|sequenceDiagram|classDiagram)') { return 'mermaid' }
     elseif ($s -match '^\s*[\{\[]' -and $s -match '":\s*' -and $s -notmatch '<\w+') { return 'json' }
@@ -24,7 +24,7 @@ function Detect-Lang([string]$block) {
     else { return 'bash' }
 }
 
-function Fix-BlankLines([string]$text) {
+function Repair-BlankLines([string]$text) {
     # Blank line before fence
     $text = [regex]::Replace(
         $text,
@@ -54,13 +54,13 @@ foreach ($f in $files) {
         '```(\s*)(\r?\n)(.*?)(\r?\n)```',
         { param($m)
             $code = $m.Groups[3].Value
-            $lang = Detect-Lang $code
+            $lang = Get-FenceLanguage $code
             return ('```' + $lang + $m.Groups[2].Value + $code + $m.Groups[4].Value + '```')
         },
         [System.Text.RegularExpressions.RegexOptions]::Singleline)
 
     # Fix blank lines
-    $raw = Fix-BlankLines $raw
+    $raw = Repair-BlankLines $raw
 
     if ($raw -ne $original) {
         $report += [pscustomobject]@{ File = $f.FullName; Changed = $true }
