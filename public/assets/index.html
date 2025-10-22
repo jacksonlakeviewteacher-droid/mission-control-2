@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Assets — Mission Control</title>
+  <link rel="stylesheet" href="../css/mission.css"/>
+  <style>
+    .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;margin-top:20px}
+    .thumb{
+      background:var(--paper);border:1px solid var(--grey);border-radius:12px;padding:8px;text-align:center;
+      box-shadow:0 0 12px rgba(212,175,55,.25);transition:transform .2s,box-shadow .2s
+    }
+    .thumb:hover{transform:translateY(-2px);box-shadow:0 0 18px rgba(212,175,55,.45)}
+    .thumb img{max-width:100%;border-radius:8px;background:#0a0c10}
+    .thumb p{margin:6px 0 2px;font-size:12px;color:var(--muted);word-break:break-all}
+    .sigil{
+      width:32px;height:32px;margin:0 auto 4px;border-radius:50%;background:radial-gradient(circle at 50% 45%, var(--gold) 0%, transparent 70%);
+      mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><polygon points="32,2 62,62 2,62" fill="white"/><circle cx="32" cy="38" r="8" fill="black"/></svg>') center/contain no-repeat;
+      -webkit-mask:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><polygon points="32,2 62,62 2,62" fill="white"/><circle cx="32" cy="38" r="8" fill="black"/></svg>') center/contain no-repeat;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <div class="title">Asset Browser</div>
+        <nav class="crumbs">
+          <a href="../index.html">Home</a><span class="sep">›</span>
+          <a href="../workshop.html">Workshop</a><span class="sep">›</span>
+          <span>Assets</span>
+        </nav>
+      </div>
+      <div style="min-width:280px">
+        <div class="xprow"><span>Total XP</span><span id="xpLabel">0 / 0</span></div>
+        <div class="xpbar"><i id="xpFill"></i></div>
+      </div>
+    </header>
+
+    <div id="gallery" class="gallery" aria-live="polite"></div>
+  </div>
+
+  <script type="module">
+    import "../js/quip.js"; BillQuip.init();
+
+    async function load(url){ const r=await fetch(url,{cache:"no-store"}); if(!r.ok) throw new Error(url); return r.json(); }
+
+    const [paths, index] = await Promise.all([
+      load("../data/paths.json").catch(()=>[]),
+      load("../data/asset_index.json").catch(()=>[])
+    ]);
+
+    const path = Array.isArray(paths) ? paths.find(p=>p.id==="mc-learning-path") : null;
+    const palette = path?.palette ?? { blue:"#1f9cf0", grey:"#2a2f36", gold:"#d4af37", black:"#0a0c10" };
+    Object.entries(palette).forEach(([k,v]) => document.documentElement.style.setProperty(`--${k}`, v));
+
+    const container = document.querySelector("#gallery");
+    const assets = Array.isArray(index) ? index : Object.values(index);
+    if (!assets.length) {
+      container.innerHTML = `<p class="small">No assets found. Check <code>public/data/asset_index.json</code>.</p>`;
+    } else {
+      container.innerHTML = assets.map(a=>{
+        const name = a.name || a.id || "asset";
+        const src = a.path || a.url || a.src || "";
+        const safeSrc = src.startsWith("http") ? src : ("../" + src.replace(/^\.?\//,""));
+        return `
+          <div class="thumb">
+            <div class="sigil"></div>
+            ${safeSrc ? `<img src="${safeSrc}" alt="${name}" loading="lazy"/>` : ""}
+            <p>${name}</p>
+          </div>
+        `;
+      }).join("");
+    }
+
+    // XP bar sync
+    const questsRaw = await load("../data/quests_meta.json").catch(()=>[]);
+    const list = Array.isArray(questsRaw)?questsRaw:Object.values(questsRaw);
+    const progressKey="mc_progress_v1";
+    function getProgress(){try{return JSON.parse(localStorage.getItem(progressKey)||"{}");}catch{return{}};}
+    const p=getProgress();
+    const total=list.reduce((s,q)=>s+(q.xp||0),0);
+    const earned=list.reduce((s,q)=>s+(p[q.id]?(q.xp||0):0),0);
+    const pct=total?Math.min(100,Math.round(earned*100/total)):0;
+    document.querySelector("#xpLabel").textContent=`${earned} / ${total}`;
+    document.querySelector("#xpFill").style.width=pct+"%";
+    BillQuip.on('previewReady');
+  </script>
+</body>
+</html>
